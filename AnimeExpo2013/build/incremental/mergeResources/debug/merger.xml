@@ -93,6 +93,8 @@
                 </string>
                 <string name="title_activity_event_pop" >EventPop
                 </string>
+                <string name="title_activity_panel_list" >PanelList
+                </string>
             </file>
             <file
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\values\styles.xml"
@@ -149,6 +151,21 @@
             <file
                 name="pop_event"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\layout\pop_event.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="panel_list_row"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\layout\panel_list_row.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="panel_list"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\menu\panel_list.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="panel_list"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\layout\panel_list.xml"
                 qualifiers=""
                 type="layout" />
         </source>

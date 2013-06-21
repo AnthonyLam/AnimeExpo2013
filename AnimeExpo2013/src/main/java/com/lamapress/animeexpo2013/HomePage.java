@@ -206,18 +206,28 @@ public class HomePage extends FragmentActivity implements ActionBar.TabListener 
             View view = inflater.inflate(R.layout.fragment_event_view,container,false);
 
             Expo_Events expos[] = new Expo_Events[]{
-                    new Expo_Events(R.drawable.axstockphoto,"Panels"),
-                    new Expo_Events(R.drawable.axstockphoto,"Guest of Honor"),
-                    new Expo_Events(R.drawable.axstockphoto,"Films"),
-                    new Expo_Events(R.drawable.axstockphoto,"Ticketed Event"),
-                    new Expo_Events(R.drawable.axstockphoto,"Workshop"),
-                    new Expo_Events(R.drawable.axstockphoto,"Premiere")
+                    new Expo_Events(R.drawable.axstockphoto,"Panels",
+                            ""), // Item 0
+                    new Expo_Events(R.drawable.axstockphoto,"Guest of Honor",
+                            "Meet industry professionals"),                     // Item 1
+                    new Expo_Events(R.drawable.axstockphoto,"Films",
+                            "Relax and watch your favorite anime"),             // Item 2
+                    new Expo_Events(R.drawable.axstockphoto,"Ticketed Event",
+                            "Prepurchased ticket required"),                    // Item 3
+                    new Expo_Events(R.drawable.axstockphoto,"Workshop",
+                            "Learn something new"),                             // Item 4
+                    new Expo_Events(R.drawable.axstockphoto,"Premiere",
+                            "Brand new anime to watch"),                        // Item 5
+                    new Expo_Events(R.drawable.axstockphoto,"Non-Ticketed Event",
+                            "Various AX hosted events"),                        // Item 6
+                    new Expo_Events(R.drawable.axstockphoto,"Mature Content",
+                            "18+ Only")                                         // Item 7
+
             };
 
             EventAdapter adapter = new EventAdapter(getActivity(),R.layout.event_list_row,expos);
             listView = (ListView)view.findViewById(R.id.eventTypes);
             listView.setAdapter(adapter);
-
 
             return view;
         }

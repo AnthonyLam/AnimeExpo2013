@@ -12,6 +12,7 @@
     <string name="schedule">schedule</string>
     <string name="title_activity_event__pop">Event_Pop</string>
     <string name="title_activity_event_pop">EventPop</string>
+    <string name="title_activity_panel_list">PanelList</string>
 
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

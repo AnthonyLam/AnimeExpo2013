@@ -21,8 +21,22 @@
 
         <TextView
                 android:id="@+id/event_type_panel"
-                android:layout_centerInParent="true"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="Panel"/>
+                android:text="debugPanel"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:phoneNumber="true"
+                android:textStyle="bold"
+                android:typeface="serif"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/panel_info"
+            android:layout_below="@+id/event_type_panel"
+            android:layout_centerHorizontal="true"
+            android:typeface="normal"
+            android:textStyle="italic"/>
 </RelativeLayout>

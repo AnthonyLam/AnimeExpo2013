@@ -18,19 +18,42 @@ public class EventPop extends Activity {
 
         TextView text = (TextView)findViewById(R.id.testID);
         switch(location){
+            // Panels
             case 0:{
                 text.setText("event1");
                 break;
 
             }
+            // Guest of honor
             case 1:{
 
                 text.setText("Event2");
                 break;
             }
+            // Films
             case 2:{
 
                 text.setText("Event3");
+                break;
+            }
+            // Ticketed Event
+            case 3:{
+                break;
+            }
+            // Workshop
+            case 4:{
+                break;
+            }
+            // Premiere
+            case 5:{
+                break;
+            }
+            // Non-Ticketed Event
+            case 6:{
+
+            }
+            // Mature Content 18+ Only
+            case 7:{
                 break;
             }
             default:{

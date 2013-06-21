@@ -40,6 +40,7 @@ public class EventAdapter extends ArrayAdapter<Expo_Events> {
             holder = new EventHolder();
             holder.imgIcon = (ImageView)row.findViewById(R.id.event_image);
             holder.txtTitle = (TextView)row.findViewById(R.id.event_type_panel);
+            holder.txtInfo = (TextView)row.findViewById(R.id.panel_info);
 
             row.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -59,6 +60,7 @@ public class EventAdapter extends ArrayAdapter<Expo_Events> {
         Expo_Events events = data[position];
         holder.txtTitle.setText(events.event_type);
         holder.imgIcon.setImageResource(events.icon);
+        holder.txtInfo.setText(events.panel_info);
 
        return row;
     }
@@ -66,6 +68,7 @@ public class EventAdapter extends ArrayAdapter<Expo_Events> {
     static class EventHolder{
         ImageView imgIcon;
         TextView txtTitle;
+        TextView txtInfo;
     }
 }
 
