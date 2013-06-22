@@ -73,10 +73,10 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="true">
+            <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/res/values/strings.xml">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="11" column="12" selection-start="465" selection-end="465" vertical-scroll-proportion="0.22315036" vertical-offset="0" max-vertical-offset="838">
+                  <state line="11" column="12" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
                     <folding />
                   </state>
                 </provider>
@@ -106,56 +106,10 @@
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="panels.xml" pinned="false" current="false" current-in-tab="false">
+            <file leaf-file-name="panels.xml" pinned="false" current="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/assets/panels.xml">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="20" column="8" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-    <window id="4">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="Panels.java" pinned="false" current="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/Panels.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="57" column="0" selection-start="1478" selection-end="1478" vertical-scroll-proportion="0.7159904" vertical-offset="369" max-vertical-offset="2295">
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                      <element signature="e#1233#1241#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-    <window id="3">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="EventAdapter.java" pinned="false" current="true" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventAdapter.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="28" column="12" selection-start="762" selection-end="762" vertical-scroll-proportion="0.11564626" vertical-offset="238" max-vertical-offset="1190">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Expo_Events.java" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/Expo_Events.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="5" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+                  <state line="20" column="8" selection-start="582" selection-end="582" vertical-scroll-proportion="0.40572792" vertical-offset="0" max-vertical-offset="838">
                     <folding />
                   </state>
                 </provider>
@@ -196,10 +150,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventPop.java" pinned="false" current="false" current-in-tab="true">
+      <file leaf-file-name="EventPop.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventPop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="8" selection-start="1904" selection-end="1904" vertical-scroll-proportion="0.7905759" vertical-offset="890" max-vertical-offset="1802">
+            <state line="78" column="52" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.0" vertical-offset="889" max-vertical-offset="1802">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -210,7 +164,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="17" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+            <state line="13" column="40" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="629">
               <folding>
                 <element signature="e#943#977#0" expanded="true" />
               </folding>
@@ -223,6 +177,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="11" column="0" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Panels.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/Panels.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="125" column="8" selection-start="3862" selection-end="3862" vertical-scroll-proportion="0.91099477" vertical-offset="1603" max-vertical-offset="2312">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1284#1292#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -712,7 +678,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -868,7 +834,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/Expo_Events.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+        <state line="5" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.09637188" vertical-offset="0" max-vertical-offset="882">
           <folding />
         </state>
       </provider>
@@ -876,13 +842,6 @@
     <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/res/drawable-hdpi/event_bg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="12" selection-start="762" selection-end="762" vertical-scroll-proportion="0.11564626" vertical-offset="238" max-vertical-offset="1190">
           <folding />
         </state>
       </provider>
@@ -904,22 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="17" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding>
-            <element signature="e#943#977#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/assets/panels.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="8" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="220" column="80" selection-start="8446" selection-end="8446" vertical-scroll-proportion="0.0" vertical-offset="2824" max-vertical-offset="3706">
@@ -933,6 +876,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="20" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.8287982" vertical-offset="238" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="12" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/assets/panels.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="8" selection-start="582" selection-end="582" vertical-scroll-proportion="0.40572792" vertical-offset="0" max-vertical-offset="838">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="40" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="629">
+          <folding>
+            <element signature="e#943#977#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="4" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
@@ -942,7 +915,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventPop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="8" selection-start="1904" selection-end="1904" vertical-scroll-proportion="0.7905759" vertical-offset="890" max-vertical-offset="1802">
+        <state line="78" column="52" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="1802">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -951,18 +924,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/Panels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1478" selection-end="1478" vertical-scroll-proportion="0.7159904" vertical-offset="369" max-vertical-offset="2295">
+        <state line="125" column="8" selection-start="3862" selection-end="3862" vertical-scroll-proportion="0.91099477" vertical-offset="1603" max-vertical-offset="2312">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1233#1241#0" expanded="true" />
+            <element signature="e#1284#1292#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="12" selection-start="465" selection-end="465" vertical-scroll-proportion="0.22315036" vertical-offset="0" max-vertical-offset="838">
-          <folding />
         </state>
       </provider>
     </entry>

@@ -18,6 +18,9 @@ import java.util.List;
 /**
  * Created by Anthony on 6/21/13.
  */
+// Sample implementation of this class,
+//      obtains the 2nd element of the list of panels and outputs the current title.
+// listPanel.get(1).title;
 public class Panels {
 
     public int day;
@@ -43,8 +46,6 @@ public class Panels {
 
         XmlPullParser parsing = factory.newPullParser();
 
-        //File file = new File(fileName);
-        //FileInputStream fis = new FileInputStream(file);
         String text = "";
         List<Panels> panelEvents = new ArrayList<Panels>();
         Panels panelEvent = null;
@@ -59,14 +60,14 @@ public class Panels {
             switch(eventType){
                 case XmlPullParser.START_TAG: {
                     if(tagname.equalsIgnoreCase("panel")){
-                        panelEvent = new Panels();
+                        panelEvent = new Panels(); // Create new object of Panels
                     }
 
                     break;
                 }
 
                 case XmlPullParser.TEXT: {
-                    text = parsing.getText();
+                    text = parsing.getText(); // Get the current value
                     break;
 
                 }
@@ -111,17 +112,17 @@ public class Panels {
 
         if(hourBegin > 12){
 
-            this.timeBegin = (hourBegin - 12) + ":" + minuteBegin + " PM";
+            panelEvent.timeBegin = (hourBegin - 12) + ":" + minuteBegin + " PM";
         }
         else{
-            this.timeBegin = (hourBegin) + ":" + minuteBegin + " AM";
+            panelEvent.timeBegin = (hourBegin) + ":" + minuteBegin + " AM";
         }
 
         if(hourEnd > 12){
-            this.timeEnd = (hourEnd -12) +":" + minuteEnd + " PM";
+            panelEvent.timeEnd = (hourEnd -12) +":" + minuteEnd + " PM";
         }
         else{
-            this.timeEnd = (hourEnd) + ":" + minuteEnd + " AM";
+            panelEvent.timeEnd = (hourEnd) + ":" + minuteEnd + " AM";
         }
 
         return panelEvents;

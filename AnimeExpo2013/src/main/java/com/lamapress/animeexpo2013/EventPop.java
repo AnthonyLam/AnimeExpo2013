@@ -76,7 +76,7 @@ public class EventPop extends Activity {
 
         try{
             listPanel = panHandle.panel(getAssets().open(file));
-            text.setText(listPanel.get(1).title); // DEBUG
+            text.setText(listPanel.get(0).timeBegin);
         }
         catch(XmlPullParserException e){
             e.printStackTrace();
