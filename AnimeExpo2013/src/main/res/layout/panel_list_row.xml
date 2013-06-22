@@ -16,7 +16,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Large Text"
-                android:id="@+id/textView"
+                android:id="@+id/panel_type"
                 android:layout_gravity="left|center_vertical"
                 android:linksClickable="false"/>
 
@@ -28,16 +28,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="New Text"
-                    android:id="@+id/textView2"
+                    android:id="@+id/panel_location"
                     android:layout_gravity="center_horizontal|top"/>
 
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="New Text"
-                    android:id="@+id/textView3"
+                    android:id="@+id/panel_time"
                     android:layout_gravity="center_horizontal|top"
                     android:layout_marginLeft="10dp"/>
+
         </LinearLayout>
 
     </LinearLayout>
