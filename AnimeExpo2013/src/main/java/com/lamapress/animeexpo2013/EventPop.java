@@ -5,10 +5,12 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.widget.TextView;
+import android.content.res.AssetManager;
 
 import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
+import java.io.InputStream;
 
 public class EventPop extends Activity {
 
@@ -27,7 +29,7 @@ public class EventPop extends Activity {
         switch(location){
             // Panels
             case 0:{
-                //file = "/assets/panels.xml";
+                file = "panels.xml";
                 break;
 
             }
@@ -72,13 +74,16 @@ public class EventPop extends Activity {
         }
 
         try{
-            inNell = pNell.panel(file);
+            inNell = pNell.panel(getAssets().open(file));
+            text.setText(inNell[1].title); // DEBUG
         }
         catch(XmlPullParserException e){
             e.printStackTrace();
+            text.setText("Hi, my creator seems to have done something wrong. He probably won't fix it");
         }
         catch(IOException e){
             e.printStackTrace();
+            text.setText("IOException");
         }
 
     }

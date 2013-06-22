@@ -34,7 +34,7 @@ public class Panels {
         super();
     }
 
-    public Panels[] panel (String fileName)
+    public Panels[] panel (InputStream fileName)
         throws XmlPullParserException,IOException {
 
         XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
@@ -42,13 +42,13 @@ public class Panels {
 
         XmlPullParser parsing = factory.newPullParser();
 
-        File file = new File(fileName);
-        FileInputStream fis = new FileInputStream(file);
-        int index = -1;
+        //File file = new File(fileName);
+        //FileInputStream fis = new FileInputStream(file);
+        int index = 0;
         Panels inPanel[] = new Panels[index]; // OUTPUT - Array of objects
         String text = "";
 
-        parsing.setInput(new InputStreamReader(fis));
+        parsing.setInput(fileName,"utf-8");
 
         int eventType = parsing.getEventType();
         while(eventType != XmlPullParser.END_DOCUMENT){
