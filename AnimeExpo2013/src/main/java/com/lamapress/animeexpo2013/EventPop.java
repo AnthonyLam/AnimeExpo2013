@@ -1,16 +1,14 @@
 package com.lamapress.animeexpo2013;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.app.Activity;
 import android.view.Menu;
 import android.widget.TextView;
-import android.content.res.AssetManager;
 
 import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
 
 public class EventPop extends Activity {
@@ -37,34 +35,39 @@ public class EventPop extends Activity {
             // Guest of honor
             case 1:{
 
-                text.setText("Event2");
+                file = "guest_of_honor.xml";
                 break;
             }
             // Films
             case 2:{
 
-                text.setText("Event3");
+                file = "films.xml";
                 break;
             }
             // Ticketed Event
             case 3:{
+                file = "ticketed_event.xml";
                 break;
             }
             // Workshop
             case 4:{
+                file = "workshop.xml";
                 break;
             }
             // Premiere
             case 5:{
+                file = "premiere.xml";
                 break;
             }
             // Non-Ticketed Event
             case 6:{
+                file = "non_ticketed_event.xml";
                 break;
 
             }
             // Mature Content 18+ Only
             case 7:{
+                file = "mature_content.xml";
                 break;
             }
             default:{

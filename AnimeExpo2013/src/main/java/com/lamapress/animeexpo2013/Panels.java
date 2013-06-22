@@ -1,26 +1,17 @@
 package com.lamapress.animeexpo2013;
 
-import android.content.res.AssetManager;
-
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Anthony on 6/21/13.
- */
 // Sample implementation of this class,
 //      obtains the 2nd element of the list of panels and outputs the current title.
-// listPanel.get(1).title;
+//          listPanel.get(1).title;
 public class Panels {
 
     public int day;
@@ -127,7 +118,7 @@ public class Panels {
                     break;
                 }
             }
-            eventType = parsing.next(); // Prevents infinite loops
+            eventType = parsing.next(); // Iterate to next item in the list
         }
 
 

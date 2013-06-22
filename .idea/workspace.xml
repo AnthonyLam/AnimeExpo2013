@@ -11,14 +11,9 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44c4f4bc-6f5e-41bc-8cd3-a4bdece286e6" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\build\res\all\debug\layout\panel_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\java\com\lamapress\animeexpo2013\PanelList.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\layout\panel_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\values\events.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\xmls\panels.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/AnimeExpo2013.iml" afterPath="$PROJECT_DIR$/AnimeExpo2013/AnimeExpo2013.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="44c4f4bc-6f5e-41bc-8cd3-a4bdece286e6" name="Default" comment="Added XML references to switch&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventPop.java" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventPop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/Panels.java" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/Panels.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AnimeExpo2013.iws" />
@@ -118,7 +113,7 @@
             <file leaf-file-name="panels.xml" pinned="false" current="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/assets/panels.xml">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="20" column="8" selection-start="582" selection-end="582" vertical-scroll-proportion="0.38548753" vertical-offset="0" max-vertical-offset="882">
+                  <state line="9" column="31" selection-start="292" selection-end="292" vertical-scroll-proportion="0.1734694" vertical-offset="0" max-vertical-offset="882">
                     <folding />
                   </state>
                 </provider>
@@ -156,7 +151,7 @@
       <file leaf-file-name="EventPop.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventPop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="52" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.0" vertical-offset="889" max-vertical-offset="1802">
+            <state line="10" column="26" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
               <folding />
             </state>
           </provider>
@@ -183,10 +178,10 @@
       <file leaf-file-name="Panels.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/Panels.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="0" selection-start="3320" selection-end="3320" vertical-scroll-proportion="0.38568935" vertical-offset="1513" max-vertical-offset="2431">
+            <state line="13" column="11" selection-start="410" selection-end="410" vertical-scroll-proportion="0.37907377" vertical-offset="0" max-vertical-offset="2278">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1284#1292#0" expanded="true" />
+                <element signature="e#1093#1101#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -700,6 +695,11 @@
       <updated>1371599827764</updated>
       <workItem from="1371599837909" duration="2140000" />
     </task>
+    <task id="LOCAL-00001" summary="Android Studio VCS Test&#10;">
+      <created>1371937842210</created>
+      <updated>1371937842210</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -710,13 +710,13 @@
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34030837" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45703125" sideWeight="0.19955157" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25215518" sideWeight="0.28651685" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33480176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32268724" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -725,7 +725,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.65969163" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34875846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -805,9 +805,9 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added XML references to switch&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -819,19 +819,13 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Android Studio VCS Test&#10;" />
+    <MESSAGE value="Added XML references to switch&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/res/layout/page_home.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="10" selection-start="264" selection-end="264" vertical-scroll-proportion="0.099183194" vertical-offset="0" max-vertical-offset="857" />
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.14705883" vertical-offset="0" max-vertical-offset="578">
@@ -921,26 +915,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventPop.java">
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/assets/panels.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="52" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="1802">
+        <state line="9" column="31" selection-start="292" selection-end="292" vertical-scroll-proportion="0.1734694" vertical-offset="0" max-vertical-offset="882">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/assets/panels.xml">
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/assets/non_ticketed_event.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="8" selection-start="582" selection-end="582" vertical-scroll-proportion="0.38548753" vertical-offset="0" max-vertical-offset="882">
+        <state line="3" column="19" selection-start="79" selection-end="79" vertical-scroll-proportion="0.08900524" vertical-offset="0" max-vertical-offset="573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventPop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="26" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/Panels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="0" selection-start="3320" selection-end="3320" vertical-scroll-proportion="0.38568935" vertical-offset="1513" max-vertical-offset="2431">
+        <state line="13" column="11" selection-start="410" selection-end="410" vertical-scroll-proportion="0.37907377" vertical-offset="0" max-vertical-offset="2278">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1284#1292#0" expanded="true" />
+            <element signature="e#1093#1101#0" expanded="true" />
           </folding>
         </state>
       </provider>
