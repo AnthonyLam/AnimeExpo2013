@@ -11,6 +11,7 @@ import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 
 public class EventPop extends Activity {
 
@@ -22,8 +23,8 @@ public class EventPop extends Activity {
         Intent intent = getIntent();
         int location = intent.getIntExtra("Position",0);
         String file = "";
-        Panels pNell = new Panels();
-        Panels inNell[];
+        List<Panels> listPanel;
+        Panels panHandle = new Panels();
 
         TextView text = (TextView)findViewById(R.id.testID);
         switch(location){
@@ -74,8 +75,8 @@ public class EventPop extends Activity {
         }
 
         try{
-            inNell = pNell.panel(getAssets().open(file));
-            text.setText(inNell[1].title); // DEBUG
+            listPanel = panHandle.panel(getAssets().open(file));
+            text.setText(listPanel.get(1).title); // DEBUG
         }
         catch(XmlPullParserException e){
             e.printStackTrace();

@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.StringReader;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -34,7 +35,7 @@ public class Panels {
         super();
     }
 
-    public Panels[] panel (InputStream fileName)
+    public List<Panels> panel (InputStream fileName)
         throws XmlPullParserException,IOException {
 
         XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
@@ -44,9 +45,9 @@ public class Panels {
 
         //File file = new File(fileName);
         //FileInputStream fis = new FileInputStream(file);
-        int index = 0;
-        Panels inPanel[] = new Panels[index]; // OUTPUT - Array of objects
         String text = "";
+        List<Panels> panelEvents = new ArrayList<Panels>();
+        Panels panelEvent = null;
 
         parsing.setInput(fileName,"utf-8");
 
@@ -58,7 +59,7 @@ public class Panels {
             switch(eventType){
                 case XmlPullParser.START_TAG: {
                     if(tagname.equalsIgnoreCase("panel")){
-                        index++;
+                        panelEvent = new Panels();
                     }
 
                     break;
@@ -66,33 +67,38 @@ public class Panels {
 
                 case XmlPullParser.TEXT: {
                     text = parsing.getText();
+                    break;
 
                 }
 
                 case XmlPullParser.END_TAG: {
-                    if(tagname.equalsIgnoreCase("day")){
-                        this.day =Integer.parseInt(text);
+                    if(tagname.equalsIgnoreCase("panel")){
+                        panelEvents.add(panelEvent);
+                    }
+                    else if(tagname.equalsIgnoreCase("day")){
+                        panelEvent.day =Integer.parseInt(text);
                     }
                     else if(tagname.equalsIgnoreCase("title")){
-                        this.title = text;
+                        panelEvent.title = text;
                     }
                     else if(tagname.equalsIgnoreCase("hourbegin")){
-                        this.hourBegin = Integer.parseInt(text);
+                        panelEvent.hourBegin = Integer.parseInt(text);
                     }
                     else if(tagname.equalsIgnoreCase("minutebegin")){
-                        this.minuteBegin = Integer.parseInt(text);
+                        panelEvent.minuteBegin = Integer.parseInt(text);
                     }
                     else if(tagname.equalsIgnoreCase("hourend")){
-                        this.hourEnd = Integer.parseInt(text);
+                        panelEvent.hourEnd = Integer.parseInt(text);
 
                     }
                     else if(tagname.equalsIgnoreCase("minutened")){
-                        this.minuteEnd = Integer.parseInt(text);
+                        panelEvent.minuteEnd = Integer.parseInt(text);
                     }
                     else if(tagname.equalsIgnoreCase("location")){
-                        this.location = text;
+                        panelEvent.location = text;
                     }
 
+                    break;
 
                 }
 
@@ -100,7 +106,7 @@ public class Panels {
                     break;
                 }
             }
-
+            eventType = parsing.next(); // Prevents infinite loops
         }
 
         if(hourBegin > 12){
@@ -118,6 +124,6 @@ public class Panels {
             this.timeEnd = (hourEnd) + ":" + minuteEnd + " AM";
         }
 
-        return inPanel;
+        return panelEvents;
     }
 }
