@@ -97,6 +97,26 @@ public class Panels {
                     }
                     else if(tagname.equalsIgnoreCase("location")){
                         panelEvent.location = text;
+
+                        // Generate time string for output to USERS
+                        if(hourBegin > 12){
+
+                            panelEvent.timeBegin = (panelEvent.hourBegin - 12) +
+                                    ":" + panelEvent.minuteBegin + " PM";
+                        }
+                        else{
+                            panelEvent.timeBegin = (panelEvent.hourBegin) +
+                                    ":" + panelEvent.minuteBegin + " AM";
+                        }
+
+                        if(hourEnd > 12){
+                            panelEvent.timeEnd = (panelEvent.hourEnd -12) +
+                                    ":" + panelEvent.minuteEnd + " PM";
+                        }
+                        else{
+                            panelEvent.timeEnd = (panelEvent.hourEnd) +
+                                    ":" + panelEvent.minuteEnd + " AM";
+                        }
                     }
 
                     break;
@@ -110,20 +130,7 @@ public class Panels {
             eventType = parsing.next(); // Prevents infinite loops
         }
 
-        if(hourBegin > 12){
 
-            panelEvent.timeBegin = (hourBegin - 12) + ":" + minuteBegin + " PM";
-        }
-        else{
-            panelEvent.timeBegin = (hourBegin) + ":" + minuteBegin + " AM";
-        }
-
-        if(hourEnd > 12){
-            panelEvent.timeEnd = (hourEnd -12) +":" + minuteEnd + " PM";
-        }
-        else{
-            panelEvent.timeEnd = (hourEnd) + ":" + minuteEnd + " AM";
-        }
 
         return panelEvents;
     }
