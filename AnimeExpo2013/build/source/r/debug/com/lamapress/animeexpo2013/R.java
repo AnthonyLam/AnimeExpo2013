@@ -20,20 +20,19 @@ public final class R {
         public static final int ic_launcher=0x7f020002;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000d;
+        public static final int action_settings=0x7f08000c;
         public static final int eventTypes=0x7f080004;
         public static final int event_image=0x7f080001;
         public static final int event_thumbnail=0x7f080000;
         public static final int event_type_panel=0x7f080002;
         public static final int mainList=0x7f080006;
         public static final int pager=0x7f080007;
-        public static final int panelContent=0x7f080008;
         public static final int panel_info=0x7f080003;
+        public static final int panel_location=0x7f080009;
+        public static final int panel_time=0x7f08000a;
+        public static final int panel_type=0x7f080008;
         public static final int section_label=0x7f080005;
-        public static final int testID=0x7f08000c;
-        public static final int textView=0x7f080009;
-        public static final int textView2=0x7f08000a;
-        public static final int textView3=0x7f08000b;
+        public static final int testID=0x7f08000b;
     }
     public static final class layout {
         public static final int event_list_row=0x7f030000;
@@ -41,10 +40,9 @@ public final class R {
         public static final int fragment_home_page_dummy=0x7f030002;
         public static final int fragment_schedule_view=0x7f030003;
         public static final int page_home=0x7f030004;
-        public static final int panel_list=0x7f030005;
-        public static final int panel_list_row=0x7f030006;
-        public static final int pop_event=0x7f030007;
-        public static final int popup_events=0x7f030008;
+        public static final int panel_list_row=0x7f030005;
+        public static final int pop_event=0x7f030006;
+        public static final int popup_events=0x7f030007;
     }
     public static final class menu {
         public static final int event_pop=0x7f070000;

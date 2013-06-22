@@ -5,6 +5,6 @@ package com.lamapress.animeexpo2013;
  */
 public class EventParser {
     public static String parsetype(int position){
-        
+       return "";
     }
 }

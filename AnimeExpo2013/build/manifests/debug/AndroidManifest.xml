@@ -12,8 +12,6 @@
         </activity>
         <activity android:label="@string/title_activity_event_pop" android:name="com.lamapress.animeexpo2013.EventPop">
         </activity>
-        <activity android:label="@string/title_activity_panel_list" android:name="com.lamapress.animeexpo2013.PanelList">
-        </activity>
     </application>
 
 </manifest>

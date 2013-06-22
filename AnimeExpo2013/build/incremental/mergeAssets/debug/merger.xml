@@ -2,7 +2,11 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets" />
+        <source path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets" >
+            <file
+                name="panels.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\panels.xml" />
+        </source>
     </dataSet>
     <dataSet config="debug" >
         <source path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\debug\assets" />

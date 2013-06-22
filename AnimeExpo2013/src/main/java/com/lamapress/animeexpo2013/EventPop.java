@@ -6,6 +6,10 @@ import android.app.Activity;
 import android.view.Menu;
 import android.widget.TextView;
 
+import org.xmlpull.v1.XmlPullParserException;
+
+import java.io.IOException;
+
 public class EventPop extends Activity {
 
     @Override
@@ -15,12 +19,15 @@ public class EventPop extends Activity {
 
         Intent intent = getIntent();
         int location = intent.getIntExtra("Position",0);
+        String file = "";
+        Panels pNell = new Panels();
+        Panels inNell[];
 
         TextView text = (TextView)findViewById(R.id.testID);
         switch(location){
             // Panels
             case 0:{
-                text.setText("event1");
+                //file = "/assets/panels.xml";
                 break;
 
             }
@@ -50,6 +57,7 @@ public class EventPop extends Activity {
             }
             // Non-Ticketed Event
             case 6:{
+                break;
 
             }
             // Mature Content 18+ Only
@@ -62,6 +70,17 @@ public class EventPop extends Activity {
                 break;
             }
         }
+
+        try{
+            inNell = pNell.panel(file);
+        }
+        catch(XmlPullParserException e){
+            e.printStackTrace();
+        }
+        catch(IOException e){
+            e.printStackTrace();
+        }
+
     }
 
 
