@@ -10,9 +10,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-/**
- * Created by Anthony on 6/19/13.
- */
 public class EventAdapter extends ArrayAdapter<Expo_Events> {
     Context context;
     int layoutResourceId;
