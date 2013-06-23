@@ -1,29 +1,24 @@
 package com.lamapress.animeexpo2013;
 
-import java.nio.BufferUnderflowException;
-import java.util.Locale;
-
 import android.app.ActionBar;
 import android.app.FragmentTransaction;
-import android.app.ListFragment;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.app.NavUtils;
 import android.support.v4.view.ViewPager;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapView;
+
+import java.util.Locale;
 
 public class HomePage extends FragmentActivity implements ActionBar.TabListener {
 
@@ -131,6 +126,7 @@ public class HomePage extends FragmentActivity implements ActionBar.TabListener 
                     break;
                 }
                 case 2:{
+                    fragment = new ExpoMapFragment();
                     break;
                 }
                 default:
@@ -232,4 +228,50 @@ public class HomePage extends FragmentActivity implements ActionBar.TabListener 
             return view;
         }
     }
+
+    public class ExpoMapFragment extends Fragment {
+
+        public MapView mView;
+        GoogleMap mMap;
+
+        public ExpoMapFragment(){
+
+        }
+
+
+        public View onCreateView(LayoutInflater inflater,ViewGroup container,Bundle savedInstanceState){
+            View v = inflater.inflate(R.layout.fragment_map_view,null);
+            mView = (MapView)v.findViewById(R.id.map);
+            mView.onCreate(savedInstanceState);
+            mMap = mView.getMap();
+            mMap.setMyLocationEnabled(true);
+
+            return v;
+        }
+
+        @Override
+        public void onResume(){
+            super.onResume();
+            mView.onResume();
+        }
+
+        @Override
+        public void onStop(){
+            super.onStop();
+        }
+
+        // Releases Activity to free up memory after quitting the tab
+        @Override
+        public void onDestroy(){
+            super.onDestroy();
+            mView.onDestroy();
+        }
+
+        @Override
+        public void onPause(){
+            super.onPause();
+        }
+
+    }
+
 }

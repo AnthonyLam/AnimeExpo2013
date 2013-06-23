@@ -10,5 +10,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_event_pop">EventPop</string>
     <string name="title_activity_panel_list">PanelList</string>
+    <string name="title_activity_expo_map">ExpoMap</string>
 
 </resources>

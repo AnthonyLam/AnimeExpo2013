@@ -5,14 +5,11 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:0.4'
     }
-
 }
-apply plugin: 'android'
-
+apply plugin: 'android-library'
 
 dependencies {
-    compile files('libs/android-support-v4.jar')
-    compile project(':GooglePlayServices')
+    compile files('libs/google-play-services.jar')
 }
 
 android {

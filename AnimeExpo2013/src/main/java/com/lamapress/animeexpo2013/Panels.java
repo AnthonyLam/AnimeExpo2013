@@ -83,7 +83,7 @@ public class Panels {
                         panelEvent.hourEnd = Integer.parseInt(text);
 
                     }
-                    else if(tagname.equalsIgnoreCase("minutened")){
+                    else if(tagname.equalsIgnoreCase("minuteend")){
                         panelEvent.minuteEnd = Integer.parseInt(text);
                     }
                     else if(tagname.equalsIgnoreCase("location")){
