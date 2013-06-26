@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/add_to_schedule"
+          android:title = "Add to Schedule"
+          android:titleCondensed="Add"
+          />
+    <item android:id="@+id/view_on_map"
+          android:title = "View on Map"
+          android:titleCondensed = "View"
+          />
+</menu>

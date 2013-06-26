@@ -109,7 +109,7 @@ public class HomePage extends FragmentActivity implements ActionBar.TabListener 
             // getItem is called to instantiate the fragment for the given page.
             // Return a DummySectionFragment (defined as a static inner class
             // below) with the page number as its lone argument.
-            Fragment fragment = new Fragment();
+            Fragment fragment;
             switch(position){
                 case 0:{
                     fragment = new EventViewFragment();

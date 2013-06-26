@@ -6,13 +6,17 @@ import org.xmlpull.v1.XmlPullParserFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
+import java.util.Locale;
 
 // Sample implementation of this class,
 //      obtains the 2nd element of the list of panels and outputs the current title.
 //          listPanel.get(1).title;
-public class Panels {
+public class Panels implements Comparable<Panels>{
+    public static final String DATE_FORMAT = "h:mm aa";
 
     public int day;
     public String title;
@@ -22,15 +26,20 @@ public class Panels {
     public int minuteEnd;
     public String location;
 
-    public String timeBegin;
-    public String timeEnd;
+    Calendar begin;
+    Calendar end;
+    public String beginTEMP;
+    public String endTEMP;
 
     public Panels(){
         super();
+        begin = Calendar.getInstance();
+        end = Calendar.getInstance();
     }
 
     public List<Panels> panel (InputStream fileName)
         throws XmlPullParserException,IOException {
+
 
         XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
         factory.setNamespaceAware(true);
@@ -40,6 +49,7 @@ public class Panels {
         String text = "";
         List<Panels> panelEvents = new ArrayList<Panels>();
         Panels panelEvent = null;
+
 
         parsing.setInput(fileName,"utf-8");
 
@@ -89,44 +99,12 @@ public class Panels {
                     else if(tagname.equalsIgnoreCase("location")){
                         panelEvent.location = text;
 
-                        // Generate time string for output to USERS
-                        if(hourBegin > 12){
-
-                            panelEvent.timeBegin = (panelEvent.hourBegin - 12) +
-                                    ":" + panelEvent.minuteBegin + " PM";
-                        }
-                        else if(hourBegin == 12){
-                            panelEvent.timeBegin = (panelEvent.hourBegin) +
-                                    ":" + panelEvent.minuteBegin + " PM";
-                        }
-                        else if(hourBegin == 24){
-                            panelEvent.timeBegin = (panelEvent.hourBegin - 12) +
-                                    ":" + panelEvent.minuteBegin + " AM";
-                        }
-                        else{
-                            panelEvent.timeBegin = (panelEvent.hourBegin) +
-                                    ":" + panelEvent.minuteBegin + " AM";
-                        }
-
-                        if(hourEnd > 12){
-                            panelEvent.timeEnd = (panelEvent.hourEnd -12) +
-                                    ":" + panelEvent.minuteEnd + " PM";
-                        }
-                        else if(hourEnd == 12){
-                            panelEvent.timeEnd = (panelEvent.hourEnd) +
-                                    ":" + panelEvent.minuteEnd + " PM";
-                        }
-                        else if(hourEnd == 24){
-                            panelEvent.timeEnd = (panelEvent.hourEnd - 12) +
-                                    ":" + panelEvent.minuteEnd + " AM";
-                        }
-                        else{
-                            panelEvent.timeEnd = (panelEvent.hourEnd) +
-                                    ":" + panelEvent.minuteEnd + " AM";
-                        }
+                        panelEvent.begin.set(2013,Calendar.JULY,3+panelEvent.day,panelEvent.hourBegin,panelEvent.minuteBegin,0);
+                        panelEvent.end.set(2013,Calendar.JULY,3+panelEvent.day,panelEvent.hourEnd,panelEvent.minuteEnd,0);
                     }
 
                     break;
+
 
                 }
 
@@ -140,5 +118,37 @@ public class Panels {
 
 
         return panelEvents;
+    }
+
+    public int compareTo(Panels compareOne){
+
+        if(getBegin() == null || compareOne.getBegin() == null){
+            return 0;
+        }
+        Calendar compare = ((Panels)compareOne).getBegin();
+        return getBegin().compareTo(compare);
+    }
+
+    public String formatTime(Calendar time){
+        if(time == null){
+            return "";
+        }
+        SimpleDateFormat sdf = new SimpleDateFormat(DATE_FORMAT, Locale.US);
+        return sdf.format(time.getTime());
+    }
+
+    public Calendar getBegin(){
+        return begin;
+    }
+
+    public Calendar getEnd(){
+        return end;
+    }
+
+    //TODO: Implement a to string with the parser NEEDS A PARSE FORMAT
+    public Calendar fromString(String time){
+        Calendar cal = Calendar.getInstance();
+        SimpleDateFormat sdf = new SimpleDateFormat("");
+        return cal;
     }
 }

@@ -4,15 +4,23 @@ import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.ContextMenu;
 import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
+import java.util.Collections;
 import java.util.List;
 
 public class EventPop extends Activity {
+
+    List<Panels> listPanel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,8 +31,8 @@ public class EventPop extends Activity {
         int location = intent.getIntExtra("Position", 0);
         String file = "";
         String actionBarTitle = "";
-        List<Panels> listPanel;
         Panels panHandle = new Panels();
+        SqlMaker sqlService = new SqlMaker(this);
 
         ListView Listview;
 
@@ -97,9 +105,13 @@ public class EventPop extends Activity {
             listPanel = null;
         }
 
+        Collections.sort(listPanel);
         actionBarSetup(actionBarTitle);
         PanelAdapter adapter = new PanelAdapter(this,R.layout.panel_list_row,listPanel);
         Listview = (ListView)findViewById(R.id.popup_events);
+
+        registerForContextMenu(Listview);
+
         Listview.setAdapter(adapter);
 
     }
@@ -114,5 +126,36 @@ public class EventPop extends Activity {
         getMenuInflater().inflate(R.menu.event_pop, menu);
         return true;
     }
-    
+
+    @Override
+    public void onPause(){
+        super.onPause();
+    }
+
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo){
+        super.onCreateContextMenu(menu,v,menuInfo);
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.event_pop_context,menu);
+    }
+
+    @Override
+    public boolean onContextItemSelected(MenuItem item){
+        AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo)item.getMenuInfo();
+        switch(item.getItemId()){
+            case R.id.add_to_schedule:
+                AddToSchedule(info.position);
+                return true;
+            case R.id.view_on_map:
+                return true;
+            default:
+                return super.onContextItemSelected(item);
+        }
+    }
+
+    public void AddToSchedule(int position){
+        SqlMaker sql = new SqlMaker(this);
+        sql.addContent(listPanel.get(position));
+
+    }
 }
