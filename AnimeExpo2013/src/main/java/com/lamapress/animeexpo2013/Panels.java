@@ -95,6 +95,14 @@ public class Panels {
                             panelEvent.timeBegin = (panelEvent.hourBegin - 12) +
                                     ":" + panelEvent.minuteBegin + " PM";
                         }
+                        else if(hourBegin == 12){
+                            panelEvent.timeBegin = (panelEvent.hourBegin) +
+                                    ":" + panelEvent.minuteBegin + " PM";
+                        }
+                        else if(hourBegin == 24){
+                            panelEvent.timeBegin = (panelEvent.hourBegin - 12) +
+                                    ":" + panelEvent.minuteBegin + " AM";
+                        }
                         else{
                             panelEvent.timeBegin = (panelEvent.hourBegin) +
                                     ":" + panelEvent.minuteBegin + " AM";
@@ -103,6 +111,14 @@ public class Panels {
                         if(hourEnd > 12){
                             panelEvent.timeEnd = (panelEvent.hourEnd -12) +
                                     ":" + panelEvent.minuteEnd + " PM";
+                        }
+                        else if(hourEnd == 12){
+                            panelEvent.timeEnd = (panelEvent.hourEnd) +
+                                    ":" + panelEvent.minuteEnd + " PM";
+                        }
+                        else if(hourEnd == 24){
+                            panelEvent.timeEnd = (panelEvent.hourEnd - 12) +
+                                    ":" + panelEvent.minuteEnd + " AM";
                         }
                         else{
                             panelEvent.timeEnd = (panelEvent.hourEnd) +

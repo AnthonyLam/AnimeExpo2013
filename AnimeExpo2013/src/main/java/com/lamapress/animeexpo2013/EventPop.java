@@ -74,6 +74,11 @@ public class EventPop extends Activity {
                 file = "mature_content.xml";
                 break;
             }
+            case 8:
+            {
+                file = "miscellaneous.xml";
+                break;
+            }
             default:{
 
                 break;

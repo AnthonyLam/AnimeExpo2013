@@ -12,11 +12,6 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
-import android.widget.TextView;
-
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.MapView;
 
 import java.util.Locale;
 
@@ -115,14 +110,13 @@ public class HomePage extends FragmentActivity implements ActionBar.TabListener 
             // Return a DummySectionFragment (defined as a static inner class
             // below) with the page number as its lone argument.
             Fragment fragment = new Fragment();
-            Bundle args = new Bundle();
             switch(position){
                 case 0:{
-                   fragment = new ScheduleFragment();
+                    fragment = new EventViewFragment();
                     break;
                 }
                 case 1:{
-                    fragment = new EventViewFragment();
+                    fragment = new ScheduleFragment();
                     break;
                 }
                 case 2:{
@@ -146,9 +140,9 @@ public class HomePage extends FragmentActivity implements ActionBar.TabListener 
             Locale l = Locale.getDefault();
             switch (position) {
                 case 0:
-                    return getString(R.string.schedule).toUpperCase(l);
-                case 1:
                     return getString(R.string.events).toUpperCase(l);
+                case 1:
+                    return getString(R.string.schedule).toUpperCase(l);
                 case 2:
                     return getString(R.string.map).toUpperCase(l);
             }
@@ -165,7 +159,6 @@ public class HomePage extends FragmentActivity implements ActionBar.TabListener 
          * The fragment argument representing the section number for this
          * fragment.
          */
-        public static final String ARG_SECTION_NUMBER = "section_number";
 
         public DummySectionFragment() {
 
@@ -174,104 +167,12 @@ public class HomePage extends FragmentActivity implements ActionBar.TabListener 
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_home_page_dummy, container, false);
-            TextView dummyTextView = (TextView) rootView.findViewById(R.id.section_label);
             return rootView;
         }
     }
 
-    public static class ScheduleFragment extends Fragment{
-        public ScheduleFragment(){
-
-        }
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-            View listView = inflater.inflate(R.layout.fragment_schedule_view,container,false);
-            ListView mainList = (ListView) listView.findViewById(R.id.mainList);
-            return listView;
-        }
-    }
-
-    public static class EventViewFragment extends Fragment {
-        public EventViewFragment(){
-
-        }
-        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
-            ListView listView;
-            View view = inflater.inflate(R.layout.fragment_event_view,container,false);
-
-            Expo_Events expos[] = new Expo_Events[]{
-                    new Expo_Events(R.drawable.axstockphoto,"Panels",
-                            ""), // Item 0
-                    new Expo_Events(R.drawable.axstockphoto,"Guest of Honor",
-                            "Meet industry professionals"),                     // Item 1
-                    new Expo_Events(R.drawable.axstockphoto,"Films",
-                            "Relax and watch your favorite anime"),             // Item 2
-                    new Expo_Events(R.drawable.axstockphoto,"Ticketed Event",
-                            "Prepurchased ticket required"),                    // Item 3
-                    new Expo_Events(R.drawable.axstockphoto,"Workshop",
-                            "Learn something new"),                             // Item 4
-                    new Expo_Events(R.drawable.axstockphoto,"Premiere",
-                            "Brand new anime to watch"),                        // Item 5
-                    new Expo_Events(R.drawable.axstockphoto,"Non-Ticketed Event",
-                            "Various AX hosted events"),                        // Item 6
-                    new Expo_Events(R.drawable.axstockphoto,"Mature Content",
-                            "18+ Only")                                         // Item 7
-
-            };
-
-            EventAdapter adapter = new EventAdapter(getActivity(),R.layout.event_list_row,expos);
-            listView = (ListView)view.findViewById(R.id.eventTypes);
-            listView.setAdapter(adapter);
-
-            return view;
-        }
-    }
-
-    public class ExpoMapFragment extends Fragment {
-
-        public MapView mView;
-        GoogleMap mMap;
-
-        public ExpoMapFragment(){
-
-        }
 
 
-        public View onCreateView(LayoutInflater inflater,ViewGroup container,Bundle savedInstanceState){
-            View v = inflater.inflate(R.layout.fragment_map_view,null);
-            mView = (MapView)v.findViewById(R.id.map);
-            mView.onCreate(savedInstanceState);
-            mMap = mView.getMap();
-            mMap.setMyLocationEnabled(true);
-
-            return v;
-        }
-
-        @Override
-        public void onResume(){
-            super.onResume();
-            mView.onResume();
-        }
-
-        @Override
-        public void onStop(){
-            super.onStop();
-        }
-
-        // Releases Activity to free up memory after quitting the tab
-        @Override
-        public void onDestroy(){
-            super.onDestroy();
-            mView.onDestroy();
-        }
-
-        @Override
-        public void onPause(){
-            super.onPause();
-        }
 
     }
 
-}
