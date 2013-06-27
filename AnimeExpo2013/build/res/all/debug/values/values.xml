@@ -38,6 +38,9 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
+    <string name="MapHall">H</string>
+    <string name="MapOne">1</string>
+    <string name="MapTwo">2</string>
     <string name="action_settings">Settings</string>
     <string name="app_name">AX 2013</string>
     <string name="auth_client_availability_notification_title">Install/Update/Enable Google Play services</string>

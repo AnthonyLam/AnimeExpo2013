@@ -177,9 +177,9 @@ containing a value of this type.
         public static final int ic_menu_moreoverflow_normal_holo_light=0x7f02001b;
     }
     public static final class id {
-        public static final int TestId=0x7f050013;
-        public static final int action_settings=0x7f050014;
-        public static final int add_to_schedule=0x7f050015;
+        public static final int TestId=0x7f050015;
+        public static final int action_settings=0x7f050016;
+        public static final int add_to_schedule=0x7f050017;
         public static final int eventTypes=0x7f050009;
         public static final int event_image=0x7f050006;
         public static final int event_thumbnail=0x7f050005;
@@ -188,18 +188,20 @@ containing a value of this type.
         public static final int map=0x7f05000b;
         public static final int none=0x7f050000;
         public static final int normal=0x7f050001;
-        public static final int pager=0x7f05000d;
-        public static final int panel_day=0x7f050010;
+        public static final int pager=0x7f050010;
         public static final int panel_info=0x7f050008;
-        public static final int panel_location=0x7f05000f;
-        public static final int panel_time=0x7f050011;
-        public static final int panel_title=0x7f05000e;
-        public static final int popup_events=0x7f050012;
+        public static final int panel_location=0x7f050012;
+        public static final int panel_time=0x7f050013;
+        public static final int panel_title=0x7f050011;
+        public static final int popup_events=0x7f050014;
         public static final int satellite=0x7f050002;
-        public static final int schedule_list=0x7f05000c;
+        public static final int schedule_list=0x7f05000f;
         public static final int section_label=0x7f05000a;
+        public static final int show_hall=0x7f05000c;
+        public static final int show_level_one=0x7f05000d;
+        public static final int show_level_two=0x7f05000e;
         public static final int terrain=0x7f050003;
-        public static final int view_on_map=0x7f050016;
+        public static final int view_on_map=0x7f050018;
     }
     public static final class layout {
         public static final int event_list_row=0x7f030000;
@@ -219,37 +221,40 @@ containing a value of this type.
         public static final int panel_list=0x7f090003;
     }
     public static final class string {
-        public static final int action_settings=0x7f070000;
-        public static final int app_name=0x7f070001;
-        public static final int auth_client_availability_notification_title=0x7f070002;
-        public static final int auth_client_play_services_err_notification_msg=0x7f070003;
-        public static final int auth_client_requested_by_msg=0x7f070004;
-        public static final int common_google_play_services_enable_button=0x7f070005;
-        public static final int common_google_play_services_enable_text=0x7f070006;
-        public static final int common_google_play_services_enable_title=0x7f070007;
-        public static final int common_google_play_services_install_button=0x7f070008;
-        public static final int common_google_play_services_install_text_phone=0x7f070009;
-        public static final int common_google_play_services_install_text_tablet=0x7f07000a;
-        public static final int common_google_play_services_install_title=0x7f07000b;
-        public static final int common_google_play_services_unknown_issue=0x7f07000c;
-        public static final int common_google_play_services_unsupported_text=0x7f07000d;
-        public static final int common_google_play_services_unsupported_title=0x7f07000e;
-        public static final int common_google_play_services_update_button=0x7f07000f;
-        public static final int common_google_play_services_update_text=0x7f070010;
-        public static final int common_google_play_services_update_title=0x7f070011;
-        public static final int common_signin_button_text=0x7f070012;
-        public static final int common_signin_button_text_long=0x7f070013;
-        public static final int events=0x7f070014;
-        public static final int hello_world=0x7f070015;
-        public static final int location_client_ulr_inactive_age_under_13=0x7f070016;
-        public static final int location_client_ulr_inactive_age_unknown=0x7f070017;
-        public static final int location_client_ulr_inactive_unknown_restriction=0x7f070018;
-        public static final int map=0x7f070019;
-        public static final int schedule=0x7f07001a;
-        public static final int title_activity_event__pop=0x7f07001b;
-        public static final int title_activity_event_pop=0x7f07001c;
-        public static final int title_activity_expo_map=0x7f07001d;
-        public static final int title_activity_panel_list=0x7f07001e;
+        public static final int MapHall=0x7f070000;
+        public static final int MapOne=0x7f070001;
+        public static final int MapTwo=0x7f070002;
+        public static final int action_settings=0x7f070003;
+        public static final int app_name=0x7f070004;
+        public static final int auth_client_availability_notification_title=0x7f070005;
+        public static final int auth_client_play_services_err_notification_msg=0x7f070006;
+        public static final int auth_client_requested_by_msg=0x7f070007;
+        public static final int common_google_play_services_enable_button=0x7f070008;
+        public static final int common_google_play_services_enable_text=0x7f070009;
+        public static final int common_google_play_services_enable_title=0x7f07000a;
+        public static final int common_google_play_services_install_button=0x7f07000b;
+        public static final int common_google_play_services_install_text_phone=0x7f07000c;
+        public static final int common_google_play_services_install_text_tablet=0x7f07000d;
+        public static final int common_google_play_services_install_title=0x7f07000e;
+        public static final int common_google_play_services_unknown_issue=0x7f07000f;
+        public static final int common_google_play_services_unsupported_text=0x7f070010;
+        public static final int common_google_play_services_unsupported_title=0x7f070011;
+        public static final int common_google_play_services_update_button=0x7f070012;
+        public static final int common_google_play_services_update_text=0x7f070013;
+        public static final int common_google_play_services_update_title=0x7f070014;
+        public static final int common_signin_button_text=0x7f070015;
+        public static final int common_signin_button_text_long=0x7f070016;
+        public static final int events=0x7f070017;
+        public static final int hello_world=0x7f070018;
+        public static final int location_client_ulr_inactive_age_under_13=0x7f070019;
+        public static final int location_client_ulr_inactive_age_unknown=0x7f07001a;
+        public static final int location_client_ulr_inactive_unknown_restriction=0x7f07001b;
+        public static final int map=0x7f07001c;
+        public static final int schedule=0x7f07001d;
+        public static final int title_activity_event__pop=0x7f07001e;
+        public static final int title_activity_event_pop=0x7f07001f;
+        public static final int title_activity_expo_map=0x7f070020;
+        public static final int title_activity_panel_list=0x7f070021;
     }
     public static final class style {
         /** 

@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">AX 2013</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_legal">About</string>
     <string name="schedule">schedule</string>
     <string name="events">events</string>
     <string name="map">map</string>
@@ -12,4 +12,7 @@
     <string name="title_activity_panel_list">PanelList</string>
     <string name="title_activity_expo_map">ExpoMap</string>
 
+    <string name="MapOne">1</string>
+    <string name="MapTwo">2</string>
+    <string name="MapHall">H</string>
 </resources>

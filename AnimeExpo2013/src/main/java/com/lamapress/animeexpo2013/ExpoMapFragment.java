@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
@@ -20,13 +21,16 @@ import com.google.android.gms.maps.model.TileOverlayOptions;
 
 public class ExpoMapFragment extends Fragment {
 
+    public static int NUM_OVERLAY = 3;
     public MapView mView;
     GoogleMap mMap;
     //GroundOverlay goo;
-    MapOverlay overlay;
-    TileOverlay tileOverlay;
+    MapOverlay[] overlay;
+    TileOverlay[] tileOverlay;
     public LatLng ne;
     public LatLng sw;
+
+
 
     public ExpoMapFragment(){
 
@@ -37,11 +41,23 @@ public class ExpoMapFragment extends Fragment {
 
 
         View v = inflater.inflate(R.layout.fragment_map_view,null);
+        overlay = new MapOverlay[NUM_OVERLAY];
+        tileOverlay = new TileOverlay[NUM_OVERLAY];
 
-        mView = (MapView)v.findViewById(R.id.map);
+        try{
+
+            mView = (MapView)v.findViewById(R.id.map);
+        }
+        catch(NullPointerException e){
+            e.getCause();
+        }
         mView.onCreate(savedInstanceState);
         mMap = mView.getMap();
         mMap.setMyLocationEnabled(true);
+
+        Button hallButton = (Button)v.findViewById(R.id.show_hall);
+        Button oneButton = (Button)v.findViewById(R.id.show_level_one);
+        Button twoButton = (Button)v.findViewById(R.id.show_level_two);
 
         // Boundary definitions
         ne = new LatLng(34.041689,-118.269481);
@@ -60,9 +76,10 @@ public class ExpoMapFragment extends Fragment {
         }
 
         // Generate TileOverlays
-        overlay = new MapOverlay(getActivity().getAssets());
-        tileOverlay = mMap.addTileOverlay(new TileOverlayOptions().tileProvider(overlay));
-
+        for(int numOv = 0;numOv < NUM_OVERLAY;numOv++){
+            overlay[numOv] = new MapOverlay(getActivity().getAssets(),0);
+            tileOverlay[numOv] = mMap.addTileOverlay(new TileOverlayOptions().tileProvider(overlay[numOv]));
+        }
 
         //Moves the camera to center on the convention center
         CameraPosition cameraPos = new CameraPosition.Builder()
@@ -72,21 +89,49 @@ public class ExpoMapFragment extends Fragment {
                 .build();
         mMap.moveCamera(CameraUpdateFactory.newCameraPosition(cameraPos));
 
+        hallButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                tileOverlay[0].setVisible(true);
+                tileOverlay[1].setVisible(false);
+                tileOverlay[2].setVisible(false);
+            }
+        });
+
+        oneButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                tileOverlay[0].setVisible(false);
+                tileOverlay[1].setVisible(true);
+                tileOverlay[2].setVisible(false);
+            }
+        });
+
+        twoButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view){
+                tileOverlay[0].setVisible(false);
+                tileOverlay[1].setVisible(false);
+                tileOverlay[2].setVisible(true);
+            }
+        });
+
         return v;
     }
 
     @Override
     public void onResume(){
         mView.onResume();
-        tileOverlay = mMap.addTileOverlay(new TileOverlayOptions().tileProvider(overlay));
         super.onResume();
         //goo = overlay.setGround(mMap);
     }
 
     @Override
     public void onStop(){
-        tileOverlay.remove();
-        tileOverlay = null;
+        for(int i = 0;i<NUM_OVERLAY;i++){
+            tileOverlay[i].clearTileCache();
+            tileOverlay[i] = null;
+        }
         mMap.setMyLocationEnabled(false);
         super.onStop();
         //goo.remove();
@@ -104,11 +149,12 @@ public class ExpoMapFragment extends Fragment {
     @Override
     public void onPause(){
         //goo.remove();
-        tileOverlay.clearTileCache();
+        for(int i = 0;i<NUM_OVERLAY;i++){
+            tileOverlay[i].clearTileCache();
+        }
         mMap.setMyLocationEnabled(false);
         super.onPause();
     }
-
 
 
 }
