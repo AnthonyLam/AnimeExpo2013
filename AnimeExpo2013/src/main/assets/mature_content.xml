@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+    <panel>
+        <day>1</day>
+        <title>Industry Guest: Toshio Maeda [18+ ID Req]</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>45</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>The Now and Future of Bishoujo Games [18+ ID Req]</title>
+        <hourbegin>21</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>22</hourend>
+        <minuteend>15</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>FAKKU Presents: Hentai Worth Watching [18+ ID Req]</title>
+        <hourbegin>22</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>23</hourend>
+        <minuteend>45</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+</events>
