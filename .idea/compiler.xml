@@ -2,6 +2,10 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Javac" />
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/AnimeExpo2013/build/res/all/debug/menu/panel_list.xml" />
+      <file url="file://$PROJECT_DIR$/AnimeExpo2013/build/res/all/debug/menu/event_pop.xml" />
+    </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
       <entry name="!?*.java" />

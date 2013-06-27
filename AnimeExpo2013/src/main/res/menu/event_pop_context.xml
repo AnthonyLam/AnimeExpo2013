@@ -5,8 +5,13 @@
           android:title = "Add to Schedule"
           android:titleCondensed="Add"
           />
+    <item android:id="@+id/remove_from_schedule"
+          android:title ="Remove from Schedule"
+          android:titleCondensed="Remove"
+            />
     <item android:id="@+id/view_on_map"
           android:title = "View on Map"
           android:titleCondensed = "View"
           />
+
 </menu>

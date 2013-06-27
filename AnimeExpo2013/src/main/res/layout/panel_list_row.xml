@@ -23,7 +23,7 @@
                 android:layout_column="0"
                 android:maxLines="3"
                 android:minLines="2"
-                android:textStyle="bold"/>
+                android:textStyle="bold|italic"/>
 
         <LinearLayout
                 android:layout_width="fill_parent"

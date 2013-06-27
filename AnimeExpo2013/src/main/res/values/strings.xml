@@ -5,14 +5,18 @@
     <string name="action_legal">About</string>
     <string name="schedule">schedule</string>
     <string name="events">events</string>
-    <string name="map">map</string>
+    <string name="info">Info</string>
     <string name="title_activity_event__pop">Event_Pop</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_event_pop">EventPop</string>
     <string name="title_activity_panel_list">PanelList</string>
     <string name="title_activity_expo_map">ExpoMap</string>
-
     <string name="MapOne">1</string>
     <string name="MapTwo">2</string>
     <string name="MapHall">H</string>
+    <string name="title_activity_expo_info">ExpoInfo</string>
+    <string name="action_settings">Settings</string>
+    <string name="exhibitors">Exhibitors</string>
+    <string name="map">Map</string>
+    <String name="hour">Hours</String>
 </resources>

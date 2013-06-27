@@ -15,7 +15,8 @@ import android.view.ViewGroup;
 
 import java.util.Locale;
 
-public class HomePage extends FragmentActivity implements ActionBar.TabListener {
+public class HomePage extends FragmentActivity
+        implements ActionBar.TabListener,ViewPager.OnPageChangeListener {
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -84,6 +85,7 @@ public class HomePage extends FragmentActivity implements ActionBar.TabListener 
         // When the given tab is selected, switch to the corresponding page in
         // the ViewPager.
         mViewPager.setCurrentItem(tab.getPosition());
+
     }
 
     @Override
@@ -98,7 +100,7 @@ public class HomePage extends FragmentActivity implements ActionBar.TabListener 
      * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
      * one of the sections/tabs/pages.
      */
-    public class SectionsPagerAdapter extends FragmentPagerAdapter {
+    public class SectionsPagerAdapter extends FragmentPagerAdapter{
 
         public SectionsPagerAdapter(FragmentManager fm) {
             super(fm);
@@ -120,7 +122,7 @@ public class HomePage extends FragmentActivity implements ActionBar.TabListener 
                     break;
                 }
                 case 2:{
-                    fragment = new ExpoMapFragment();
+                    fragment = new ExpoInfo();
                     break;
                 }
                 default:
@@ -144,10 +146,12 @@ public class HomePage extends FragmentActivity implements ActionBar.TabListener 
                 case 1:
                     return getString(R.string.schedule).toUpperCase(l);
                 case 2:
-                    return getString(R.string.map).toUpperCase(l);
+                    return getString(R.string.info).toUpperCase(l);
             }
             return null;
         }
+
+
     }
 
     /**
@@ -171,7 +175,20 @@ public class HomePage extends FragmentActivity implements ActionBar.TabListener 
         }
     }
 
+    @Override
+    public void onPageScrolled(int position,float positionoffset, int positionOffsetPixels){
 
+    }
+
+    @Override
+    public void onPageScrollStateChanged(int state){
+
+    }
+    @Override
+    public void onPageSelected(int position){
+
+
+    }
 
 
     }

@@ -3,6 +3,7 @@ package com.lamapress.animeexpo2013;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
+import android.database.CursorIndexOutOfBoundsException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -63,6 +64,34 @@ public class SqlMaker extends SQLiteOpenHelper {
         db.close();
     }
 
+
+
+    public void removeContent(String column, String item){
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        db.delete(TABLE_SCHEDULE,column + "=\'" + item + '\'',null);
+    }
+
+    public boolean findContent(String column,String search){
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor;
+        int id;
+        String findQuery = "SELECT " + COLUMN_ID +  " FROM " + TABLE_SCHEDULE + " WHERE "
+                + column + " =  \'" + search + "\'";
+        try{
+            cursor = db.rawQuery(findQuery,null);
+            cursor.moveToFirst();
+            id = Integer.parseInt(cursor.getString(0));
+        }
+        catch(CursorIndexOutOfBoundsException e)
+        {
+            e.printStackTrace();
+            return false;
+        }
+
+        return id >= 0;
+    }
+
     public List<Panels> getContent(){
         List<Panels> panelsList = new ArrayList<Panels>();
         String selectQuery = "SELECT * FROM " + TABLE_SCHEDULE;
@@ -83,4 +112,5 @@ public class SqlMaker extends SQLiteOpenHelper {
         }
     return panelsList;
     }
+
 }

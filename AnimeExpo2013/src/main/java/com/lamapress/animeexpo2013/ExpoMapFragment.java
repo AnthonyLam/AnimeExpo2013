@@ -1,11 +1,9 @@
 package com.lamapress.animeexpo2013;
 
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -19,72 +17,71 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.TileOverlay;
 import com.google.android.gms.maps.model.TileOverlayOptions;
 
-public class ExpoMapFragment extends Fragment {
+public class ExpoMapFragment extends Activity {
 
     public static int NUM_OVERLAY = 3;
     public MapView mView;
     GoogleMap mMap;
     //GroundOverlay goo;
-    MapOverlay[] overlay;
-    TileOverlay[] tileOverlay;
+    MapOverlay[] overlay = new MapOverlay[NUM_OVERLAY];
+    TileOverlay[] tileOverlay = new TileOverlay[NUM_OVERLAY];
     public LatLng ne;
     public LatLng sw;
 
 
 
     public ExpoMapFragment(){
+        // Generate TileOverlays
 
     }
 
 
-    public View onCreateView(LayoutInflater inflater,ViewGroup container,Bundle savedInstanceState){
+    public void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.fragment_map_view);
 
-
-        View v = inflater.inflate(R.layout.fragment_map_view,null);
-        overlay = new MapOverlay[NUM_OVERLAY];
-        tileOverlay = new TileOverlay[NUM_OVERLAY];
+        //View v = inflater.inflate(R.layout.fragment_map_view,null);
 
         try{
 
-            mView = (MapView)v.findViewById(R.id.map);
+            mView = (MapView)findViewById(R.id.map);
         }
         catch(NullPointerException e){
             e.getCause();
+        }
+
+        try{
+            MapsInitializer.initialize(this);
+        }
+        catch(GooglePlayServicesNotAvailableException e)
+        {
+            Toast.makeText(this, "Not Available", Toast.LENGTH_SHORT).show();
+            e.printStackTrace();
         }
         mView.onCreate(savedInstanceState);
         mMap = mView.getMap();
         mMap.setMyLocationEnabled(true);
 
-        Button hallButton = (Button)v.findViewById(R.id.show_hall);
-        Button oneButton = (Button)v.findViewById(R.id.show_level_one);
-        Button twoButton = (Button)v.findViewById(R.id.show_level_two);
+        Button hallButton = (Button)findViewById(R.id.show_hall);
+        Button oneButton = (Button)findViewById(R.id.show_level_one);
+        Button twoButton = (Button)findViewById(R.id.show_level_two);
 
         // Boundary definitions
         ne = new LatLng(34.041689,-118.269481);
         sw = new LatLng( 34.039205,-118.271738);
-        //LatLngBounds camera = new LatLngBounds(new LatLng(  34.037505,-118.273154), new LatLng( 34.043808,-118.266756));
-        //overlay.setBitMapRange(ne,sw,0);
 
         // Sets the Exhibit Hall overlay for LACC
-        try{
-            MapsInitializer.initialize(this.getActivity());
-        }
-        catch(GooglePlayServicesNotAvailableException e)
-        {
-            Toast.makeText(this.getActivity(), "Not Available", Toast.LENGTH_SHORT).show();
-            e.printStackTrace();
-        }
 
-        // Generate TileOverlays
+
         for(int numOv = 0;numOv < NUM_OVERLAY;numOv++){
-            overlay[numOv] = new MapOverlay(getActivity().getAssets(),0);
+            overlay[numOv] = new MapOverlay(this.getAssets(),numOv);
             tileOverlay[numOv] = mMap.addTileOverlay(new TileOverlayOptions().tileProvider(overlay[numOv]));
         }
 
         //Moves the camera to center on the convention center
         CameraPosition cameraPos = new CameraPosition.Builder()
                 .target(ne)
-                .zoom(17)
+                .zoom(18)
                 .bearing(270)
                 .build();
         mMap.moveCamera(CameraUpdateFactory.newCameraPosition(cameraPos));
@@ -116,7 +113,7 @@ public class ExpoMapFragment extends Fragment {
             }
         });
 
-        return v;
+        //return v;
     }
 
     @Override
@@ -128,11 +125,10 @@ public class ExpoMapFragment extends Fragment {
 
     @Override
     public void onStop(){
-        for(int i = 0;i<NUM_OVERLAY;i++){
-            tileOverlay[i].clearTileCache();
-            tileOverlay[i] = null;
+        if(mMap.isMyLocationEnabled() && mMap != null)
+        {
+            mMap.setMyLocationEnabled(false);
         }
-        mMap.setMyLocationEnabled(false);
         super.onStop();
         //goo.remove();
     }
@@ -149,9 +145,6 @@ public class ExpoMapFragment extends Fragment {
     @Override
     public void onPause(){
         //goo.remove();
-        for(int i = 0;i<NUM_OVERLAY;i++){
-            tileOverlay[i].clearTileCache();
-        }
         mMap.setMyLocationEnabled(false);
         super.onPause();
     }

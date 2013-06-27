@@ -22,6 +22,10 @@ public class EventPop extends Activity {
 
     List<Panels> listPanel;
 
+    public  EventPop(){
+
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +36,6 @@ public class EventPop extends Activity {
         String file = "";
         String actionBarTitle = "";
         Panels panHandle = new Panels();
-        SqlMaker sqlService = new SqlMaker(this);
 
         ListView Listview;
 
@@ -135,8 +138,21 @@ public class EventPop extends Activity {
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo){
         super.onCreateContextMenu(menu,v,menuInfo);
+
+        Boolean enabled;
+        SqlMaker sql = new SqlMaker(this);
+        AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo)menuInfo;
+
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.event_pop_context,menu);
+
+        enabled = sql.findContent("title",listPanel.get(info.position).title);
+
+        MenuItem myMenuItem = menu.findItem(R.id.remove_from_schedule);
+        myMenuItem.setVisible(enabled);
+        myMenuItem = menu.findItem(R.id.add_to_schedule);
+        myMenuItem.setVisible(!enabled);
+
     }
 
     @Override
@@ -148,6 +164,9 @@ public class EventPop extends Activity {
                 return true;
             case R.id.view_on_map:
                 return true;
+            case R.id.remove_from_schedule:
+                RemoveFromSchedule(info.position);
+                return true;
             default:
                 return super.onContextItemSelected(item);
         }
@@ -156,6 +175,11 @@ public class EventPop extends Activity {
     public void AddToSchedule(int position){
         SqlMaker sql = new SqlMaker(this);
         sql.addContent(listPanel.get(position));
+    }
+
+    public void RemoveFromSchedule(int position){
+        SqlMaker sql = new SqlMaker(this);
+        sql.removeContent(listPanel.get(position).title,"title");
 
     }
 }
