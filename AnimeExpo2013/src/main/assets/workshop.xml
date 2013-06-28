@@ -18,4 +18,112 @@
         <minuteend>15</minuteend>
         <location>LP1</location>
     </panel>
+    <panel>
+        <day>1</day>
+        <title>How to Be Your Character Without Really Trying</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>00</minuteend>
+        <location>WS 1 : 515</location>
+    </panel>
+	<panel>
+		<day>1</day>
+		<title>Learn to Sew Your Own Cosplay</title>
+		<hourbegin>12</hourbegin>
+		<minutebegin>15</minutebegin>
+		<hourend>14</hourend>
+		<minuteend>15</minuteend>
+		<location>WS 1 : 515</location>
+	</panel>
+	<panel>
+		<day>1</day>
+		<title>How to Wear Skimpy Costumes and Still be Modest</title>
+		<hourbegin>14</hourbegin>
+		<minutebegin>30</minutebegin>
+		<hourend>15</hourend>
+		<minuteend>30</minuteend>
+		<location>WS 1 : 515</location>
+	</panel>
+	<panel>
+		<day>1</day>
+		<title>Makeup MacGuyver: Taking Drug Store Makeup Further</title>
+		<hourbegin>15</hourbegin>
+		<minutebegin>45</minutebegin>
+		<hourend>16</hourend>
+		<minuteend>45</minuteend>
+		<location>WS 1 : 515</location>
+	</panel>
+	<panel>
+		<day>1</day>
+		<title>Body Painting and You</title>
+		<hourbegin>17</hourbegin>
+		<minutebegin>00</minutebegin>
+		<hourend>18</hourend>
+		<minuteend>00</minuteend>
+		<location>WS 1 : 515</location>
+	</panel>
+	<panel>
+		<day>1</day>
+		<title>Choosing Fabrics for Cosplay!</title>
+		<hourbegin>18</hourbegin>
+		<minutebegin>15</minutebegin>
+		<hourend>19</hourend>
+		<minuteend>15</minuteend>
+		<location>WS 1 : 515</location>
+	</panel>
+	<panel>
+		<day>1</day>
+		<title>ParaPara Dancing 101</title>
+		<hourbegin>19</hourbegin>
+		<minutebegin>30</minutebegin>
+		<hourend>21</hourend>
+		<minuteend>30</minuteend>
+		<location>WS 1 : 515</location>
+	</panel>
+	<panel>
+		<day>1</day>
+		<title>Origami</title>
+		<hourbegin>12</hourbegin>
+		<minutebegin>15</minutebegin>
+		<hourend>13</hourend>
+		<minuteend>45</minuteend>
+		<location>WS 2 : 501</location>
+	</panel>
+	<panel>
+		<day>1</day>
+		<title>Taiko Drumming</title>
+		<hourbegin>14</hourbegin>
+		<minutebegin>00</minutebegin>
+		<hourend>16</hourend>
+		<minuteend>15</minuteend>
+		<location>WS 2 : 501</location>
+	</panel>
+	<panel>
+		<day>1</day>
+		<title>Bang Zoom! Presents: Inside of the Voice Actor's Studio</title>
+		<hourbegin>16</hourbegin>
+		<minutebegin>45</minutebegin>
+		<hourend>17</hourend>
+		<minuteend>45</minuteend>
+		<location>WS 2 : 501</location>
+	</panel>
+    <panel>
+        <day>1</day>
+		<title>Emazing Lights Panel #1</title>
+		<hourbegin>13</hourbegin>
+		<minutebegin>00</minutebegin>
+		<hourend>15</hourend>
+		<minuteend>00</minuteend>
+		<location>Hybrid Dance : Concourse</location>
+    </panel>
+    <panel>
+        <day>1</day>
+		<title>Shuffling 101</title>
+		<hourbegin>15</hourbegin>
+		<minutebegin>00</minutebegin>
+		<hourend>16</hourend>
+		<minuteend>30</minuteend>
+		<location>Hybrid Dance : Concourse</location>
+    </panel>
 </events>

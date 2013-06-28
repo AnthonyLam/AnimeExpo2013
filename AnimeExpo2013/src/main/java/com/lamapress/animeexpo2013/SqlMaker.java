@@ -96,7 +96,7 @@ public class SqlMaker extends SQLiteOpenHelper {
         List<Panels> panelsList = new ArrayList<Panels>();
         String selectQuery = "SELECT * FROM " + TABLE_SCHEDULE;
 
-        SQLiteDatabase db = this.getWritableDatabase();
+        SQLiteDatabase db = getWritableDatabase();
         Cursor cursor = db.rawQuery(selectQuery,null);
 
         if(cursor.moveToFirst()){

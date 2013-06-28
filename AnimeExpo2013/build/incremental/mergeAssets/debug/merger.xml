@@ -7,6 +7,9 @@
     <dataSet config="main" >
         <source path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets" >
             <file
+                name="AMV.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\AMV.xml" />
+            <file
                 name="films.xml"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\films.xml" />
             <file
@@ -856,6 +859,21 @@
                 name="maps/ax_map/tilemapresource.xml"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\tilemapresource.xml" />
             <file
+                name="maps/mapone/15/5618/19682.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\15\5618\19682.png" />
+            <file
+                name="maps/mapone/15/5618/19683.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\15\5618\19683.png" />
+            <file
+                name="maps/mapone/16/11237/39364.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\16\11237\39364.png" />
+            <file
+                name="maps/mapone/16/11237/39365.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\16\11237\39365.png" />
+            <file
+                name="maps/mapone/16/11237/39366.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\16\11237\39366.png" />
+            <file
                 name="maps/mapone/17/22474/78729.png"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\17\22474\78729.png" />
             <file
@@ -1183,6 +1201,21 @@
                 name="maps/mapone/tilemapresource.xml"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\tilemapresource.xml" />
             <file
+                name="maps/maptwo/15/5618/19682.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\15\5618\19682.png" />
+            <file
+                name="maps/maptwo/15/5618/19683.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\15\5618\19683.png" />
+            <file
+                name="maps/maptwo/16/11237/39364.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\16\11237\39364.png" />
+            <file
+                name="maps/maptwo/16/11237/39365.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\16\11237\39365.png" />
+            <file
+                name="maps/maptwo/16/11237/39366.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\16\11237\39366.png" />
+            <file
                 name="maps/maptwo/17/22474/78729.png"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\17\22474\78729.png" />
             <file
@@ -1464,6 +1497,12 @@
             <file
                 name="maps/maptwo/tilemapresource.xml"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\tilemapresource.xml" />
+            <file
+                name="markers/levelOne.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\markers\levelOne.xml" />
+            <file
+                name="markers/levelTwo.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\markers\levelTwo.xml" />
             <file
                 name="mature_content.xml"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\mature_content.xml" />

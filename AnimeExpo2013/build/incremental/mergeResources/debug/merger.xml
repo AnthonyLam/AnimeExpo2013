@@ -3735,6 +3735,11 @@
                 qualifiers=""
                 type="layout" />
             <file
+                name="hours_view_activity"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\layout\hours_view_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="page_home"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\layout\page_home.xml"
                 qualifiers=""
@@ -3775,6 +3780,11 @@
                 qualifiers=""
                 type="menu" />
             <file
+                name="hours_view"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\menu\hours_view.xml"
+                qualifiers=""
+                type="menu" />
+            <file
                 name="panel_list"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\menu\panel_list.xml"
                 qualifiers=""
@@ -3811,6 +3821,8 @@
                 <string name="title_activity_panel_list" >PanelList
                 </string>
                 <string name="title_activity_expo_map" >ExpoMap
+                </string>
+                <string name="title_activity_hours_view" >HoursView
                 </string>
                 <string name="action_legal" >About
                 </string>

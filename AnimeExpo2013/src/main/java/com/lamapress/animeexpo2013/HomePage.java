@@ -13,10 +13,11 @@ import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.util.List;
 import java.util.Locale;
 
 public class HomePage extends FragmentActivity
-        implements ActionBar.TabListener,ViewPager.OnPageChangeListener {
+        implements ActionBar.TabListener {
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -174,22 +175,6 @@ public class HomePage extends FragmentActivity
             return rootView;
         }
     }
-
-    @Override
-    public void onPageScrolled(int position,float positionoffset, int positionOffsetPixels){
-
-    }
-
-    @Override
-    public void onPageScrollStateChanged(int state){
-
-    }
-    @Override
-    public void onPageSelected(int position){
-
-
-    }
-
 
     }
 

@@ -2,11 +2,38 @@
 <events>
     <panel>
         <day>1</day>
-        <title>huke, Good Smile Company, Ultra Super Pictures and Max Factory</title>
+        <title>GOH: huke, Good Smile Company, Ultra Super Pictures and Max Factory</title>
         <hourbegin>18</hourbegin>
         <minutebegin>30</minutebegin>
         <hourend>19</hourend>
-        <minuteend>15</minuteend>
+        <minuteend>30</minuteend>
         <location>LP1 : Petree Hall</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>GOH: Kaya</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>00</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>GOH: Johnny Yong Bosch</title>
+        <hourbegin></hourbegin>
+        <minutebegin></minutebegin>
+        <hourend></hourend>
+        <minuteend></minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+		<panel>
+        <day>1</day>
+        <title>GOH: Kazuhiro Furuhashi</title>
+        <hourbegin></hourbegin>
+        <minutebegin></minutebegin>
+        <hourend></hourend>
+        <minuteend></minuteend>
+        <location>LP3 : 515A</location>
     </panel>
 </events>

@@ -214,17 +214,19 @@ containing a value of this type.
         public static final int fragment_home_page_dummy=0x7f030003;
         public static final int fragment_map_view=0x7f030004;
         public static final int fragment_schedule_view=0x7f030005;
-        public static final int page_home=0x7f030006;
-        public static final int panel_list_row=0x7f030007;
-        public static final int pop_event=0x7f030008;
-        public static final int popup_events=0x7f030009;
+        public static final int hours_view_activity=0x7f030006;
+        public static final int page_home=0x7f030007;
+        public static final int panel_list_row=0x7f030008;
+        public static final int pop_event=0x7f030009;
+        public static final int popup_events=0x7f03000a;
     }
     public static final class menu {
         public static final int event_pop=0x7f090000;
         public static final int event_pop_context=0x7f090001;
         public static final int expo_info=0x7f090002;
         public static final int home_page=0x7f090003;
-        public static final int panel_list=0x7f090004;
+        public static final int hours_view=0x7f090004;
+        public static final int panel_list=0x7f090005;
     }
     public static final class string {
         public static final int MapHall=0x7f070000;
@@ -264,7 +266,8 @@ containing a value of this type.
         public static final int title_activity_event_pop=0x7f070022;
         public static final int title_activity_expo_info=0x7f070023;
         public static final int title_activity_expo_map=0x7f070024;
-        public static final int title_activity_panel_list=0x7f070025;
+        public static final int title_activity_hours_view=0x7f070025;
+        public static final int title_activity_panel_list=0x7f070026;
     }
     public static final class style {
         /** 

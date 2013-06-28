@@ -89,15 +89,17 @@ int layout fragment_expo_info 0x7f030002
 int layout fragment_home_page_dummy 0x7f030003
 int layout fragment_map_view 0x7f030004
 int layout fragment_schedule_view 0x7f030005
-int layout page_home 0x7f030006
-int layout panel_list_row 0x7f030007
-int layout pop_event 0x7f030008
-int layout popup_events 0x7f030009
+int layout hours_view_activity 0x7f030006
+int layout page_home 0x7f030007
+int layout panel_list_row 0x7f030008
+int layout pop_event 0x7f030009
+int layout popup_events 0x7f03000a
 int menu event_pop 0x7f090000
 int menu event_pop_context 0x7f090001
 int menu expo_info 0x7f090002
 int menu home_page 0x7f090003
-int menu panel_list 0x7f090004
+int menu hours_view 0x7f090004
+int menu panel_list 0x7f090005
 int string MapHall 0x7f070000
 int string MapOne 0x7f070001
 int string MapTwo 0x7f070002
@@ -135,7 +137,8 @@ int string title_activity_event__pop 0x7f070021
 int string title_activity_event_pop 0x7f070022
 int string title_activity_expo_info 0x7f070023
 int string title_activity_expo_map 0x7f070024
-int string title_activity_panel_list 0x7f070025
+int string title_activity_hours_view 0x7f070025
+int string title_activity_panel_list 0x7f070026
 int style AppBaseTheme 0x7f080000
 int style AppTheme 0x7f080001
 int[] styleable MapAttrs { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d }

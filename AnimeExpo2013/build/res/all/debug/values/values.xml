@@ -75,6 +75,7 @@
     <string name="title_activity_event_pop">EventPop</string>
     <string name="title_activity_expo_info">ExpoInfo</string>
     <string name="title_activity_expo_map">ExpoMap</string>
+    <string name="title_activity_hours_view">HoursView</string>
     <string name="title_activity_panel_list">PanelList</string>
 
     <style name="AppBaseTheme" parent="android:Theme.Light">

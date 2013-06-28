@@ -34,7 +34,10 @@ public  class EventViewFragment extends Fragment {
                         "Various AX hosted events"),                        // Item 6
                 new Expo_Events(R.drawable.axstockphoto,"Mature Content",
                         "18+ Only"),                                         // Item 7
-                new Expo_Events(R.drawable.axstockphoto,"Miscellaneous","No Category")
+                new Expo_Events(R.drawable.axstockphoto,"Anime Music Videos",
+                        ""),
+                new Expo_Events(R.drawable.axstockphoto,"Miscellaneous",     // Item 8
+                        "No Category")
 
         };
 

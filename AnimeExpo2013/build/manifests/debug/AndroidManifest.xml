@@ -17,6 +17,8 @@
 
         <activity android:label="Map" android:name="com.lamapress.animeexpo2013.ExpoMapFragment">
         </activity>
+        <activity android:label="@string/title_activity_hours_view" android:name="com.lamapress.animeexpo2013.HoursView">
+        </activity>
     </application>
 
     <uses-permission android:name="com.lamapress.animeexpo2013.permission.MAPS_RECEIVE"/>

@@ -95,6 +95,7 @@ public class ScheduleFragment extends Fragment{
     @Override
     public void onResume(){
         super.onResume();
+        refreshView();
     }
 
     public void refreshView(){

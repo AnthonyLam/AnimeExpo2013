@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level>
+    <marker>
+        <latitude>34.039598</latitude>
+        <longitude>-118.269404</longitude>
+        <text>Lounge 21</text>
+    </marker>
+    <marker>
+        <latitude>34.039806</latitude>
+        <longitude>-118.269478</longitude>
+        <text>COPIC</text>
+    </marker>
+    <marker>
+        <latitude>34.040597</latitude>
+        <longitude>-118.269778</longitude>
+        <text>AX Live</text>
+    </marker>
+    <marker>
+        <latitude>34.042</latitude>
+        <longitude>-118.268662</longitude>
+        <text>AX Maid Cafe</text>
+    </marker>
+    <marker>
+        <latitude>34.043068</latitude>
+        <longitude>-118.268853</longitude>
+        <text>Cool Japan</text>
+    </marker>
+     <marker>
+        <latitude>34.042650</latitude>
+        <longitude>-118.269414</longitude>
+        <text>Cosplay Repair</text>
+    </marker>
+    <marker>
+        <latitude>34.042461</latitude>
+        <longitude>-118.269232</longitude>
+        <text>LP2 : 502AB</text>
+    </marker>
+    <marker>
+        <latitude>34.043209</latitude>
+        <longitude>-118.268742</longitude>
+        <text>LP3 : 515A</text>
+    </marker>
+    <marker>
+        <latitude>34.042256</latitude>
+        <longitude>-118.268638</longitude>
+        <text>LP4 : 411</text>
+    </marker>
+    <marker>
+        <latitude>34.043343</latitude>
+        <longitude>-118.268658</longitude>
+        <text>WS1 : 515</text>
+    </marker>
+    <marker>
+        <latitude>34.042656</latitude>
+        <longitude>-118.269116</longitude>
+        <text>WS2 : 501</text>
+    </marker>
+    <marker>
+        <latitude>34.041094</latitude>
+        <longitude>-118.269177</longitude>
+        <text>Video 1 : 403</text>
+    </marker>
+    <marker>
+        <latitude>34.041393</latitude>
+        <longitude>-118.268951</longitude>
+        <text>Video 2 : 404</text>
+    </marker>
+    <marker>
+        <latitude>34.041505</latitude>
+        <longitude>-118.268882</longitude>
+        <text>Video 3 : 406</text>
+    </marker>
+    <marker>
+        <latitude>34.041728</latitude>
+        <longitude>-118.268727</longitude>
+        <text>Video 4 : 408</text>
+    </marker>
+    <marker>
+        <latitude>34.043046</latitude>
+        <longitude>-118.268863</longitude>
+        <text>AMV Room : 511</text>
+    </marker>
+
+</level>

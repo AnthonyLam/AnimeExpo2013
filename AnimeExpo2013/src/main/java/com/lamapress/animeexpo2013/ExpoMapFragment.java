@@ -14,8 +14,16 @@ import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.TileOverlay;
 import com.google.android.gms.maps.model.TileOverlayOptions;
+
+import org.xmlpull.v1.XmlPullParserException;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ExpoMapFragment extends Activity {
 
@@ -27,7 +35,10 @@ public class ExpoMapFragment extends Activity {
     TileOverlay[] tileOverlay = new TileOverlay[NUM_OVERLAY];
     public LatLng ne;
     public LatLng sw;
-
+    List<Marker> markers = new ArrayList<Marker>();
+    List<Marker> levelOneMarker;
+    List<Marker> levelTwoMarker;
+    MarkerHolder holder;
 
 
     public ExpoMapFragment(){
@@ -86,12 +97,31 @@ public class ExpoMapFragment extends Activity {
                 .build();
         mMap.moveCamera(CameraUpdateFactory.newCameraPosition(cameraPos));
 
+        holder = new MarkerHolder();
+
+
+                try{
+                    levelOneMarker = holder.loadMarker(getAssets().open("markers/levelOne.xml"),mMap);
+                    levelTwoMarker = holder.loadMarker(getAssets().open("markers/levelTwo.xml"),mMap);
+                }
+                catch(IOException e){
+                    levelOneMarker = null;
+                    levelTwoMarker = null;
+                }
+                catch(XmlPullParserException e){
+                    levelOneMarker = null;
+                    levelTwoMarker = null;
+
+                }
+
         hallButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 tileOverlay[0].setVisible(true);
                 tileOverlay[1].setVisible(false);
                 tileOverlay[2].setVisible(false);
+                markerVisibility(levelOneMarker,false);
+                markerVisibility(levelTwoMarker,false);
             }
         });
 
@@ -101,6 +131,8 @@ public class ExpoMapFragment extends Activity {
                 tileOverlay[0].setVisible(false);
                 tileOverlay[1].setVisible(true);
                 tileOverlay[2].setVisible(false);
+                markerVisibility(levelOneMarker,true);
+                markerVisibility(levelTwoMarker,false);
             }
         });
 
@@ -110,6 +142,8 @@ public class ExpoMapFragment extends Activity {
                 tileOverlay[0].setVisible(false);
                 tileOverlay[1].setVisible(false);
                 tileOverlay[2].setVisible(true);
+                markerVisibility(levelOneMarker,false);
+                markerVisibility(levelTwoMarker,true);
             }
         });
 
@@ -149,5 +183,14 @@ public class ExpoMapFragment extends Activity {
         super.onPause();
     }
 
+    private void markerVisibility(List<Marker> markers,boolean visible){
+        for(Marker marker : markers){
+            marker.setVisible(visible);
+        }
+    }
 
+
+    public void cameraToMarker(){
+
+    }
 }
