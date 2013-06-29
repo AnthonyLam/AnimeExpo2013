@@ -69,27 +69,22 @@ public class EventPop extends Activity {
                 file = "workshop.xml";
                 break;
             }
-            // Premiere
-            case 5:{
-                file = "premiere.xml";
-                break;
-            }
             // Non-Ticketed Event
-            case 6:{
+            case 5:{
                 file = "non_ticketed_event.xml";
                 break;
 
             }
             // Mature Content 18+ Only
-            case 7:{
+            case 6:{
                 file = "mature_content.xml";
                 break;
             }
-            case 8:{
+            case 7:{
                 file="AMV.xml";
                 break;
             }
-            case 9:
+            case 8:
             {
                 file = "miscellaneous.xml";
                 break;
@@ -102,6 +97,7 @@ public class EventPop extends Activity {
 
         try{
             listPanel = panHandle.panel(getAssets().open(file));
+            Collections.sort(listPanel);
         }
         catch(XmlPullParserException e){
             e.printStackTrace();
@@ -112,7 +108,6 @@ public class EventPop extends Activity {
             listPanel = null;
         }
 
-        Collections.sort(listPanel);
         actionBarSetup(actionBarTitle);
         PanelAdapter adapter = new PanelAdapter(this,R.layout.panel_list_row,listPanel);
         Listview = (ListView)findViewById(R.id.popup_events);
@@ -167,6 +162,9 @@ public class EventPop extends Activity {
                 AddToSchedule(info.position);
                 return true;
             case R.id.view_on_map:
+                Intent intent = new Intent(this,ExpoMapFragment.class);
+                intent.putExtra("location",listPanel.get(info.position).location);
+                this.startActivity(intent);
                 return true;
             case R.id.remove_from_schedule:
                 RemoveFromSchedule(info.position);
@@ -183,7 +181,6 @@ public class EventPop extends Activity {
 
     public void RemoveFromSchedule(int position){
         SqlMaker sql = new SqlMaker(this);
-        sql.removeContent(listPanel.get(position).title,"title");
-
+        sql.removeContent("title",listPanel.get(position).title);
     }
 }

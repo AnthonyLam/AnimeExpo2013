@@ -18,4 +18,13 @@
         <minuteend>45</minuteend>
         <location>Main Events : Hall B</location>
     </panel>
+    <panel>
+        <day>2</day>
+        <title>Dungeon Master: The Interactive Adventure</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>15</minuteend>
+        <location>LP4 : 411</location>
+    </panel>
 </events>

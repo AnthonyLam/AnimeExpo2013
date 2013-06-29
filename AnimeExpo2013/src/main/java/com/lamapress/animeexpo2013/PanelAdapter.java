@@ -57,7 +57,7 @@ public class PanelAdapter extends ArrayAdapter<Panels> {
         Panels panel = data.get(position);
         holder.panel_location.setText(panel.location);
         holder.panel_title.setText(panel.title);
-        holder.panel_time.setText("Day " + panel.day + " FROM "+ panel.formatTime(panel.begin) + " - " +panel.formatTime(panel.end));
+        holder.panel_time.setText("Day " + panel.day + " "+ panel.formatTime(panel.begin) + " - " +panel.formatTime(panel.end));
         holder.panel_location.setBackgroundColor(COLORS[panel.day]);
         holder.panel_time.setBackgroundColor(COLORS[panel.day]);
         holder.panel_title.setBackgroundColor(COLORS[panel.day]);

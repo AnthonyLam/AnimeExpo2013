@@ -8,6 +8,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 /**
@@ -56,8 +57,8 @@ public class SqlMaker extends SQLiteOpenHelper {
             ContentValues values = new ContentValues();
             values.put(COLUMN_TITLE, id.title);
             values.put(COLUMN_DAY,id.day);
-            values.put(COLUMN_TIME_BEGIN,id.begin.toString());
-            values.put(COLUMN_TIME_END,id.end.toString());
+            values.put(COLUMN_TIME_BEGIN,Long.toString(id.begin.getTimeInMillis()));
+            values.put(COLUMN_TIME_END,Long.toString(id.end.getTimeInMillis()));
             values.put(COLUMN_LOCATION,id.location);
 
             db.insert(TABLE_SCHEDULE,null,values);
@@ -68,7 +69,6 @@ public class SqlMaker extends SQLiteOpenHelper {
 
     public void removeContent(String column, String item){
         SQLiteDatabase db = this.getWritableDatabase();
-
         db.delete(TABLE_SCHEDULE,column + "=\'" + item + '\'',null);
     }
 
@@ -104,8 +104,8 @@ public class SqlMaker extends SQLiteOpenHelper {
                 Panels panel = new Panels();
                 panel.title = cursor.getString(1);
                 panel.day = Integer.parseInt(cursor.getString(2));
-                panel.beginTEMP = cursor.getString(3);
-                panel.endTEMP = cursor.getString(4);
+                panel.begin.setTimeInMillis(Long.parseLong(cursor.getString(3)));
+                panel.end.setTimeInMillis(Long.parseLong(cursor.getString(4)));
                 panel.location = cursor.getString(5);
                 panelsList.add(panel);
             } while(cursor.moveToNext());

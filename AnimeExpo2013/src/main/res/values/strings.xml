@@ -22,5 +22,6 @@
     <String name="hour">Hours</String>
 
     <string name="title_activity_hours_view">HoursView</string>
+    <string name="title_activity_about">AboutActivity</string>
 
 </resources>

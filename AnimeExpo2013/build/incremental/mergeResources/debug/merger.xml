@@ -3685,9 +3685,69 @@
                 qualifiers="hdpi"
                 type="drawable" />
             <file
+                name="ic_amv"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-hdpi\ic_amv.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_films"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-hdpi\ic_films.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_guest"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-hdpi\ic_guest.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-hdpi\ic_launcher.png"
                 qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_misc"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-hdpi\ic_misc.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_nonticket"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-hdpi\ic_nonticket.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_panel"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-hdpi\ic_panel.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_sadpanda"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-hdpi\ic_sadpanda.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_ticketed"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-hdpi\ic_ticketed.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_workshop"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-hdpi\ic_workshop.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_amv"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-mdpi\ic_amv.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_films"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-mdpi\ic_films.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_guest"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-mdpi\ic_guest.png"
+                qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
@@ -3695,15 +3755,140 @@
                 qualifiers="mdpi"
                 type="drawable" />
             <file
+                name="ic_misc"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-mdpi\ic_misc.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_nonticket"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-mdpi\ic_nonticket.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_panel"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-mdpi\ic_panel.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_sadpanda"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-mdpi\ic_sadpanda.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_ticketed"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-mdpi\ic_ticketed.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_workshop"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-mdpi\ic_workshop.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_amv"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xhdpi\ic_amv.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_films"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xhdpi\ic_films.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_guest"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xhdpi\ic_guest.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xhdpi\ic_launcher.png"
                 qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_misc"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xhdpi\ic_misc.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_nonticket"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xhdpi\ic_nonticket.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_panel"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xhdpi\ic_panel.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_sadpanda"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xhdpi\ic_sadpanda.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_ticketed"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xhdpi\ic_ticketed.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_workshop"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xhdpi\ic_workshop.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_amv"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xxhdpi\ic_amv.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_films"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xxhdpi\ic_films.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_guest"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xxhdpi\ic_guest.png"
+                qualifiers="xxhdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xxhdpi\ic_launcher.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
+            <file
+                name="ic_misc"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xxhdpi\ic_misc.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_nonticket"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xxhdpi\ic_nonticket.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_panel"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xxhdpi\ic_panel.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_sadpanda"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xxhdpi\ic_sadpanda.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_ticketed"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xxhdpi\ic_ticketed.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_workshop"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\drawable-xxhdpi\ic_workshop.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="about_activity"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\layout\about_activity.xml"
+                qualifiers=""
+                type="layout" />
             <file
                 name="event_list_row"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\layout\event_list_row.xml"
@@ -3833,6 +4018,8 @@
                 <string name="exhibitors" >Exhibitors
                 </string>
                 <string name="map" >Map
+                </string>
+                <string name="title_activity_about" >AboutActivity
                 </string>
                 <string name="hello_world" >Hello world!
                 </string>

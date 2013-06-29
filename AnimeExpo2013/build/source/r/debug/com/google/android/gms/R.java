@@ -62,7 +62,7 @@ public final class R {
 		public static final int common_signin_btn_text_normal_light = 0x7f020016;
 		public static final int common_signin_btn_text_pressed_dark = 0x7f020017;
 		public static final int common_signin_btn_text_pressed_light = 0x7f020018;
-		public static final int ic_launcher = 0x7f02001a;
+		public static final int ic_launcher = 0x7f02001d;
 	}
 	public static final class id {
 		public static final int hybrid = 0x7f050004;

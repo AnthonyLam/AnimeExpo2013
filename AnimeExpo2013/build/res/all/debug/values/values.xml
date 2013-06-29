@@ -71,6 +71,7 @@
     <string name="location_client_ulr_inactive_unknown_restriction" translatable="false">        UnknownRestriction</string>
     <string name="map">Map</string>
     <string name="schedule">schedule</string>
+    <string name="title_activity_about">AboutActivity</string>
     <string name="title_activity_event__pop">Event_Pop</string>
     <string name="title_activity_event_pop">EventPop</string>
     <string name="title_activity_expo_info">ExpoInfo</string>

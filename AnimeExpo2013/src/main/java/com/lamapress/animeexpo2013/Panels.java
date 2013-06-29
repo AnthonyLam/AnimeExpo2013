@@ -28,8 +28,6 @@ public class Panels implements Comparable<Panels>{
 
     Calendar begin;
     Calendar end;
-    public String beginTEMP;
-    public String endTEMP;
 
     public Panels(){
         super();

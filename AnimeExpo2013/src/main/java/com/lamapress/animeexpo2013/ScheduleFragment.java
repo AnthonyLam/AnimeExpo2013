@@ -1,5 +1,7 @@
 package com.lamapress.animeexpo2013;
 
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.ContextMenu;
@@ -42,6 +44,7 @@ public class ScheduleFragment extends Fragment{
         return viewInflated;
     }
 
+
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo){
         super.onCreateContextMenu(menu,v,menuInfo);
@@ -71,6 +74,9 @@ public class ScheduleFragment extends Fragment{
                 adapter.notifyDataSetChanged();
                 return true;
             case R.id.view_on_map:
+                Intent intent = new Intent(getActivity(),ExpoMapFragment.class);
+                intent.putExtra("location",listPanel.get(info.position).location);
+                this.startActivity(intent);
                 return true;
             case R.id.remove_from_schedule:
                 RemoveFromSchedule(info.position);
@@ -105,4 +111,5 @@ public class ScheduleFragment extends Fragment{
         adapter.addAll(listPanel);
         adapter.notifyDataSetChanged();
     }
+
 }

@@ -2,6 +2,7 @@ package com.lamapress.animeexpo2013;
 
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -33,8 +34,7 @@ public class ExpoMapFragment extends Activity {
     //GroundOverlay goo;
     MapOverlay[] overlay = new MapOverlay[NUM_OVERLAY];
     TileOverlay[] tileOverlay = new TileOverlay[NUM_OVERLAY];
-    public LatLng ne;
-    public LatLng sw;
+    public LatLng cameraLocation;
     List<Marker> markers = new ArrayList<Marker>();
     List<Marker> levelOneMarker;
     List<Marker> levelTwoMarker;
@@ -52,50 +52,42 @@ public class ExpoMapFragment extends Activity {
         setContentView(R.layout.fragment_map_view);
 
         //View v = inflater.inflate(R.layout.fragment_map_view,null);
+        Intent action = getIntent();
+        String focus = action.getStringExtra("location");
 
-        try{
-
-            mView = (MapView)findViewById(R.id.map);
-        }
-        catch(NullPointerException e){
-            e.getCause();
-        }
-
-        try{
-            MapsInitializer.initialize(this);
-        }
-        catch(GooglePlayServicesNotAvailableException e)
-        {
-            Toast.makeText(this, "Not Available", Toast.LENGTH_SHORT).show();
-            e.printStackTrace();
-        }
-        mView.onCreate(savedInstanceState);
-        mMap = mView.getMap();
-        mMap.setMyLocationEnabled(true);
+        // DEBUG: Used to show intent data
+        //Toast.makeText(this,focus,Toast.LENGTH_LONG).show();
 
         Button hallButton = (Button)findViewById(R.id.show_hall);
         Button oneButton = (Button)findViewById(R.id.show_level_one);
         Button twoButton = (Button)findViewById(R.id.show_level_two);
 
-        // Boundary definitions
-        ne = new LatLng(34.041689,-118.269481);
-        sw = new LatLng( 34.039205,-118.271738);
+        try{
+
+            mView = (MapView)findViewById(R.id.map);
+            MapsInitializer.initialize(this);
+        }
+        catch(NullPointerException e){
+            e.getCause();
+        }
+        catch(GooglePlayServicesNotAvailableException e){
+
+            Toast.makeText(this, "Not Available", Toast.LENGTH_SHORT).show();
+            e.printStackTrace();
+        }
+
+        mView.onCreate(savedInstanceState);
+        mMap = mView.getMap();
+        mMap.setMyLocationEnabled(true);
+
 
         // Sets the Exhibit Hall overlay for LACC
-
-
         for(int numOv = 0;numOv < NUM_OVERLAY;numOv++){
             overlay[numOv] = new MapOverlay(this.getAssets(),numOv);
             tileOverlay[numOv] = mMap.addTileOverlay(new TileOverlayOptions().tileProvider(overlay[numOv]));
         }
 
-        //Moves the camera to center on the convention center
-        CameraPosition cameraPos = new CameraPosition.Builder()
-                .target(ne)
-                .zoom(18)
-                .bearing(270)
-                .build();
-        mMap.moveCamera(CameraUpdateFactory.newCameraPosition(cameraPos));
+
 
         holder = new MarkerHolder();
 
@@ -113,6 +105,14 @@ public class ExpoMapFragment extends Activity {
                     levelTwoMarker = null;
 
                 }
+        //Moves the camera to center on the convention center
+        cameraLocation = cameraToMarker(focus);
+        CameraPosition cameraPos = new CameraPosition.Builder()
+                .target(cameraLocation)
+                .zoom(20)
+                .bearing(270)
+                .build();
+        mMap.moveCamera(CameraUpdateFactory.newCameraPosition(cameraPos));
 
         hallButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -190,7 +190,28 @@ public class ExpoMapFragment extends Activity {
     }
 
 
-    public void cameraToMarker(){
-
+    public LatLng cameraToMarker(String search){
+        search = search.replaceAll("\\s+","");
+        for(Marker marker : levelOneMarker ){
+            if(marker.getTitle().replaceAll("\\s","").equals(search)){
+                tileOverlay[1].setVisible(true);
+                tileOverlay[2].setVisible(false);
+                markerVisibility(levelOneMarker,true);
+                markerVisibility(levelTwoMarker,false);
+                marker.showInfoWindow();
+                return marker.getPosition();
+            }
+        }
+        for(Marker marker : levelTwoMarker){
+            if(marker.getTitle().replaceAll("\\s","").equals(search)){
+                tileOverlay[1].setVisible(false);
+                tileOverlay[2].setVisible(true);
+                markerVisibility(levelOneMarker,false);
+                markerVisibility(levelTwoMarker,true);
+                marker.showInfoWindow();
+                return marker.getPosition();
+            }
+        }
+        return new LatLng( 34.040459,-118.270609);
     }
 }

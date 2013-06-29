@@ -18,25 +18,23 @@ public  class EventViewFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_event_view,container,false);
 
         Expo_Events expos[] = new Expo_Events[]{
-                new Expo_Events(R.drawable.axstockphoto,"Panels",
+                new Expo_Events(R.drawable.ic_panel,"Panels",
                         ""), // Item 0
-                new Expo_Events(R.drawable.axstockphoto,"Guest of Honor",
+                new Expo_Events(R.drawable.ic_guest,"Guest of Honor",
                         "Meet industry professionals"),                     // Item 1
-                new Expo_Events(R.drawable.axstockphoto,"Films",
+                new Expo_Events(R.drawable.ic_films,"Films",
                         "Relax and watch your favorite anime"),             // Item 2
-                new Expo_Events(R.drawable.axstockphoto,"Ticketed Event",
+                new Expo_Events(R.drawable.ic_ticketed,"Ticketed Event",
                         "Prepurchased ticket required"),                    // Item 3
-                new Expo_Events(R.drawable.axstockphoto,"Workshop",
+                new Expo_Events(R.drawable.ic_workshop,"Workshop",
                         "Learn something new"),                             // Item 4
-                new Expo_Events(R.drawable.axstockphoto,"Premiere",
-                        "Brand new anime to watch"),                        // Item 5
-                new Expo_Events(R.drawable.axstockphoto,"Non-Ticketed Event",
-                        "Various AX hosted events"),                        // Item 6
-                new Expo_Events(R.drawable.axstockphoto,"Mature Content",
-                        "18+ Only"),                                         // Item 7
-                new Expo_Events(R.drawable.axstockphoto,"Anime Music Videos",
+                new Expo_Events(R.drawable.ic_nonticket,"Non-Ticketed Event",
+                        "Various AX hosted events"),                        // Item 5
+                new Expo_Events(R.drawable.ic_sadpanda,"Mature Content",
+                        "18+ Only"),                                         // Item 6
+                new Expo_Events(R.drawable.ic_amv,"Anime Music Videos",
                         ""),
-                new Expo_Events(R.drawable.axstockphoto,"Miscellaneous",     // Item 8
+                new Expo_Events(R.drawable.ic_misc,"Miscellaneous",     // Item 7
                         "No Category")
 
         };

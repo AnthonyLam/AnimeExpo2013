@@ -30,6 +30,7 @@ public class ExpoInfo extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(),ExpoMapFragment.class);
+                intent.putExtra("location","Registration");
                 getActivity().startActivity(intent);
             }
         });

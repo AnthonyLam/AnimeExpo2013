@@ -65,11 +65,92 @@
 	</panel>
 	<panel>
 		<day>1</day>
-		<title>Captain Savvy's Singalong Crew [18+ ID Req]</title>
+		<title>Captain Savvy'&apos;s Singalong Crew [18+ ID Req]</title>
 		<hourbegin>21</hourbegin>
 		<minutebegin>30</minutebegin>
 		<hourend>23</hourend>
 		<minuteend>45</minuteend>
 		<location>WS 2 : 501</location>
 	</panel>
+    <panel>
+        <day>2</day>
+        <title>Last Comic Standing [18+ ID Req]</title>
+        <hourbegin>20</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>24</hourend>
+        <minuteend>00</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Super Art Fight: UNLEASHED! [18+ ID Req]</title>
+        <hourbegin>22</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>24</hourend>
+        <minuteend>00</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>FAKKU Q/A [18+ ID Req]</title>
+        <hourbegin>20</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>21</hourend>
+        <minuteend>30</minuteend>
+        <location>LP3 : 515A</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Super Epic Fun Time Love Love Dating Game Show : Extreme Edition [18+ ID Req]</title>
+        <hourbegin>21</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>24</hourend>
+        <minuteend>00</minuteend>
+        <location>LP3 : 515A</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Comics and Comics [18+ ID Req]</title>
+        <hourbegin>20</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>22</hourend>
+        <minuteend>30</minuteend>
+        <location>LP4 : 411</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Naughty Figures [18+ ID Req]</title>
+        <hourbegin>22</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>24</hourend>
+        <minuteend>00</minuteend>
+        <location>LP4 : 411</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Otaku Parliamentary Debate: Round Two [18+ ID Req]</title>
+        <hourbegin>21</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>23</hourend>
+        <minuteend>45</minuteend>
+        <location>WS1 : 515</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>JAST USA Visual Novel Panel [ 18+ ID Req]</title>
+        <hourbegin>22</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>23</hourend>
+        <minuteend>45</minuteend>
+        <location>WS2 : 501</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Comedy on the Edge [18+ ID Req]</title>
+        <hourbegin>22</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>24</hourend>
+        <minuteend>00</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
 </events>
