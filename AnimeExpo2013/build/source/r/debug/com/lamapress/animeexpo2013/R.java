@@ -185,9 +185,8 @@ containing a value of this type.
         public static final int ic_workshop=0x7f020023;
     }
     public static final class id {
-        public static final int TestId=0x7f05001b;
-        public static final int action_settings=0x7f05001c;
-        public static final int add_to_schedule=0x7f05001d;
+        public static final int action_settings=0x7f05001b;
+        public static final int add_to_schedule=0x7f05001c;
         public static final int eventTypes=0x7f05000b;
         public static final int event_image=0x7f050008;
         public static final int event_thumbnail=0x7f050007;
@@ -206,7 +205,7 @@ containing a value of this type.
         public static final int panel_time=0x7f050019;
         public static final int panel_title=0x7f050017;
         public static final int popup_events=0x7f05001a;
-        public static final int remove_from_schedule=0x7f05001e;
+        public static final int remove_from_schedule=0x7f05001d;
         public static final int satellite=0x7f050002;
         public static final int schedule_list=0x7f050015;
         public static final int scheduler=0x7f050014;
@@ -216,7 +215,7 @@ containing a value of this type.
         public static final int show_level_one=0x7f050012;
         public static final int show_level_two=0x7f050013;
         public static final int terrain=0x7f050003;
-        public static final int view_on_map=0x7f05001f;
+        public static final int view_on_map=0x7f05001e;
     }
     public static final class layout {
         public static final int about_activity=0x7f030000;
@@ -230,7 +229,6 @@ containing a value of this type.
         public static final int page_home=0x7f030008;
         public static final int panel_list_row=0x7f030009;
         public static final int pop_event=0x7f03000a;
-        public static final int popup_events=0x7f03000b;
     }
     public static final class menu {
         public static final int event_pop=0x7f090000;

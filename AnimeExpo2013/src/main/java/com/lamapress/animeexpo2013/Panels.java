@@ -1,5 +1,7 @@
 package com.lamapress.animeexpo2013;
 
+import android.content.Context;
+
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -35,7 +37,7 @@ public class Panels implements Comparable<Panels>{
         end = Calendar.getInstance();
     }
 
-    public List<Panels> panel (InputStream fileName)
+    public List<Panels> panel (Context context,String fileName, int day)
         throws XmlPullParserException,IOException {
 
 
@@ -48,8 +50,9 @@ public class Panels implements Comparable<Panels>{
         List<Panels> panelEvents = new ArrayList<Panels>();
         Panels panelEvent = null;
 
-
-        parsing.setInput(fileName,"utf-8");
+        InputStream fileLocation = context.getAssets()
+                .open("XML/Day" + Integer.toString(day) + "/" + fileName + ".xml");
+        parsing.setInput(fileLocation,"utf-8");
 
         int eventType = parsing.getEventType();
         while(eventType != XmlPullParser.END_DOCUMENT){

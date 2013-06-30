@@ -62,9 +62,8 @@ int drawable ic_panel 0x7f020020
 int drawable ic_sadpanda 0x7f020021
 int drawable ic_ticketed 0x7f020022
 int drawable ic_workshop 0x7f020023
-int id TestId 0x7f05001b
-int id action_settings 0x7f05001c
-int id add_to_schedule 0x7f05001d
+int id action_settings 0x7f05001b
+int id add_to_schedule 0x7f05001c
 int id eventTypes 0x7f05000b
 int id event_image 0x7f050008
 int id event_thumbnail 0x7f050007
@@ -83,7 +82,7 @@ int id panel_location 0x7f050018
 int id panel_time 0x7f050019
 int id panel_title 0x7f050017
 int id popup_events 0x7f05001a
-int id remove_from_schedule 0x7f05001e
+int id remove_from_schedule 0x7f05001d
 int id satellite 0x7f050002
 int id schedule_list 0x7f050015
 int id scheduler 0x7f050014
@@ -93,7 +92,7 @@ int id show_hall 0x7f050011
 int id show_level_one 0x7f050012
 int id show_level_two 0x7f050013
 int id terrain 0x7f050003
-int id view_on_map 0x7f05001f
+int id view_on_map 0x7f05001e
 int layout about_activity 0x7f030000
 int layout event_list_row 0x7f030001
 int layout fragment_event_view 0x7f030002
@@ -105,7 +104,6 @@ int layout hours_view_activity 0x7f030007
 int layout page_home 0x7f030008
 int layout panel_list_row 0x7f030009
 int layout pop_event 0x7f03000a
-int layout popup_events 0x7f03000b
 int menu event_pop 0x7f090000
 int menu event_pop_context 0x7f090001
 int menu expo_info 0x7f090002

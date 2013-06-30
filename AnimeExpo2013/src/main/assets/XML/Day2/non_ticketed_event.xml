@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+    <panel>
+        <day>2</day>
+        <title>Japan Film Society Film Fest Awards!</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>30</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Liz Lisa Doll Tralala Liz Lisa Fasion Show with Star Marie</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>00</minuteend>
+        <location>Hybrid Dance : Concourse</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Shinjuku Ball Featuring DJ Mistymind and Nana</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>00</minuteend>
+        <location>Hybrid Dance : Concourse</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>AX Dance Featuring: Heal, Dead Kruiser, RAM RIDER, Ameya</title>
+        <hourbegin>20</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>2</hourend>
+        <minuteend>00</minuteend>
+        <location>Hybrid Dance : Concourse</location>
+    </panel>
+</events>

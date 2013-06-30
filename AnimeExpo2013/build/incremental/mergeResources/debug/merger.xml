@@ -3935,11 +3935,6 @@
                 qualifiers=""
                 type="layout" />
             <file
-                name="popup_events"
-                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\layout\popup_events.xml"
-                qualifiers=""
-                type="layout" />
-            <file
                 name="pop_event"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\layout\pop_event.xml"
                 qualifiers=""

@@ -7,15 +7,6 @@
     <dataSet config="main" >
         <source path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets" >
             <file
-                name="AMV.xml"
-                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\AMV.xml" />
-            <file
-                name="films.xml"
-                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\films.xml" />
-            <file
-                name="guest_of_honor.xml"
-                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\guest_of_honor.xml" />
-            <file
                 name="maps/ax_map/17/22474/78730.png"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\17\22474\78730.png" />
             <file
@@ -1504,26 +1495,125 @@
                 name="markers/levelTwo.xml"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\markers\levelTwo.xml" />
             <file
-                name="mature_content.xml"
-                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\mature_content.xml" />
+                name="XML/Day1/AMV.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\AMV.xml" />
             <file
-                name="miscellaneous.xml"
-                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\miscellaneous.xml" />
+                name="XML/Day1/films.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\films.xml" />
             <file
-                name="non_ticketed_event.xml"
-                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\non_ticketed_event.xml" />
+                name="XML/Day1/guest_of_honor.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\guest_of_honor.xml" />
             <file
-                name="panels.xml"
-                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\panels.xml" />
+                name="XML/Day1/mature_content.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\mature_content.xml" />
             <file
-                name="premiere.xml"
-                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\premiere.xml" />
+                name="XML/Day1/miscellaneous.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\miscellaneous.xml" />
             <file
-                name="ticketed_event.xml"
-                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\ticketed_event.xml" />
+                name="XML/Day1/non_ticketed_event.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\non_ticketed_event.xml" />
             <file
-                name="workshop.xml"
-                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\workshop.xml" />
+                name="XML/Day1/panels.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\panels.xml" />
+            <file
+                name="XML/Day1/premiere.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\premiere.xml" />
+            <file
+                name="XML/Day1/ticketed_event.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\ticketed_event.xml" />
+            <file
+                name="XML/Day1/workshop.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\workshop.xml" />
+            <file
+                name="XML/Day2/AMV.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\AMV.xml" />
+            <file
+                name="XML/Day2/films.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\films.xml" />
+            <file
+                name="XML/Day2/guest_of_honor.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\guest_of_honor.xml" />
+            <file
+                name="XML/Day2/mature_content.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\mature_content.xml" />
+            <file
+                name="XML/Day2/miscellaneous.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\miscellaneous.xml" />
+            <file
+                name="XML/Day2/non_ticketed_event.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\non_ticketed_event.xml" />
+            <file
+                name="XML/Day2/panels.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\panels.xml" />
+            <file
+                name="XML/Day2/premiere.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\premiere.xml" />
+            <file
+                name="XML/Day2/ticketed_event.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\ticketed_event.xml" />
+            <file
+                name="XML/Day2/workshop.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\workshop.xml" />
+            <file
+                name="XML/Day3/AMV.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\AMV.xml" />
+            <file
+                name="XML/Day3/films.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\films.xml" />
+            <file
+                name="XML/Day3/guest_of_honor.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\guest_of_honor.xml" />
+            <file
+                name="XML/Day3/mature_content.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\mature_content.xml" />
+            <file
+                name="XML/Day3/miscellaneous.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\miscellaneous.xml" />
+            <file
+                name="XML/Day3/non_ticketed_event.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\non_ticketed_event.xml" />
+            <file
+                name="XML/Day3/panels.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\panels.xml" />
+            <file
+                name="XML/Day3/premiere.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\premiere.xml" />
+            <file
+                name="XML/Day3/ticketed_event.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\ticketed_event.xml" />
+            <file
+                name="XML/Day3/workshop.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\workshop.xml" />
+            <file
+                name="XML/Day4/AMV.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\AMV.xml" />
+            <file
+                name="XML/Day4/films.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\films.xml" />
+            <file
+                name="XML/Day4/guest_of_honor.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\guest_of_honor.xml" />
+            <file
+                name="XML/Day4/mature_content.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\mature_content.xml" />
+            <file
+                name="XML/Day4/miscellaneous.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\miscellaneous.xml" />
+            <file
+                name="XML/Day4/non_ticketed_event.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\non_ticketed_event.xml" />
+            <file
+                name="XML/Day4/panels.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\panels.xml" />
+            <file
+                name="XML/Day4/premiere.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\premiere.xml" />
+            <file
+                name="XML/Day4/ticketed_event.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\ticketed_event.xml" />
+            <file
+                name="XML/Day4/workshop.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\workshop.xml" />
         </source>
     </dataSet>
     <dataSet config="debug" >

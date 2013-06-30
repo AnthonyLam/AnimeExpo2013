@@ -10,6 +10,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import org.xmlpull.v1.XmlPullParserException;
@@ -18,10 +19,15 @@ import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
 
-public class EventPop extends Activity {
+public class EventPop extends Activity implements
+            ActionBar.OnNavigationListener{
 
+    private final String[] actions = new String[] {"All","Day 1", "Day 2", "Day 3", "Day 4"};
     List<Panels> listPanel;
-
+    private Panels panHandle = new Panels();
+    private String file = "";
+    private PanelAdapter adapter;
+    /** Create an array adapter to populate dropdownlist */
     public  EventPop(){
 
     }
@@ -33,16 +39,21 @@ public class EventPop extends Activity {
 
         Intent intent = getIntent();
         int location = intent.getIntExtra("Position", 0);
-        String file = "";
         String actionBarTitle = "";
-        Panels panHandle = new Panels();
+        final ActionBar actionBar = getActionBar();
+
+        // ActionBar spinner setup
+        ArrayAdapter<String> dropdowndapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, actions);
+        actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
+        actionBar.setListNavigationCallbacks(dropdowndapter,this);
+
 
         ListView Listview;
 
         switch(location){
             // Panels
             case 0:{
-                file = "panels.xml";
+                file = "panels";
                 actionBarTitle = "Panels";
                 break;
 
@@ -50,43 +61,43 @@ public class EventPop extends Activity {
             // Guest of honor
             case 1:{
                 actionBarTitle = "Guests Of Honor";
-                file = "guest_of_honor.xml";
+                file = "guest_of_honor";
                 break;
             }
             // Films
             case 2:{
                 actionBarTitle = "Films/Screenings";
-                file = "films.xml";
+                file = "films";
                 break;
             }
             // Ticketed Event
             case 3:{
-                file = "ticketed_event.xml";
+                file = "ticketed_event";
                 break;
             }
             // Workshop
             case 4:{
-                file = "workshop.xml";
+                file = "workshop";
                 break;
             }
             // Non-Ticketed Event
             case 5:{
-                file = "non_ticketed_event.xml";
+                file = "non_ticketed_event";
                 break;
 
             }
             // Mature Content 18+ Only
             case 6:{
-                file = "mature_content.xml";
+                file = "mature_content";
                 break;
             }
             case 7:{
-                file="AMV.xml";
+                file="AMV";
                 break;
             }
             case 8:
             {
-                file = "miscellaneous.xml";
+                file = "miscellaneous";
                 break;
             }
             default:{
@@ -96,8 +107,12 @@ public class EventPop extends Activity {
         }
 
         try{
-            listPanel = panHandle.panel(getAssets().open(file));
-            Collections.sort(listPanel);
+                    listPanel = panHandle.panel(this,file,1);
+                    listPanel.addAll(panHandle.panel(this,file,2));
+                    listPanel.addAll(panHandle.panel(this,file,3));
+                    listPanel.addAll(panHandle.panel(this,file,4));
+                    Collections.sort(listPanel);
+
         }
         catch(XmlPullParserException e){
             e.printStackTrace();
@@ -109,7 +124,7 @@ public class EventPop extends Activity {
         }
 
         actionBarSetup(actionBarTitle);
-        PanelAdapter adapter = new PanelAdapter(this,R.layout.panel_list_row,listPanel);
+        adapter = new PanelAdapter(this,R.layout.panel_list_row,listPanel);
         Listview = (ListView)findViewById(R.id.popup_events);
 
         registerForContextMenu(Listview);
@@ -182,5 +197,25 @@ public class EventPop extends Activity {
     public void RemoveFromSchedule(int position){
         SqlMaker sql = new SqlMaker(this);
         sql.removeContent("title",listPanel.get(position).title);
+    }
+
+    @Override
+    public boolean onNavigationItemSelected(int position,long id){
+        listPanel = null;
+        try{
+            if(position != 0){
+                listPanel = (panHandle.panel(this,file,position));
+                adapter.clear();
+                adapter.addAll(listPanel);
+                adapter.notifyDataSetChanged();
+            }
+        }
+        catch(IOException e){
+            e.printStackTrace();
+        }
+        catch(XmlPullParserException e){
+            e.printStackTrace();
+        }
+        return true;
     }
 }

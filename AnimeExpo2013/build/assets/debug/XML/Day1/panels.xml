@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+    <panel>
+        <day>1</day>
+        <title>FUNimation.com Panel</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>45</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+    <panel>
+        <day>1</day>
+        <title>The One Piece Podcast Channel</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>30</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Mega64: Panel for Real Americans</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>30</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>FUNimation Sneak Peek Panel</title>
+        <hourbegin>15</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>45</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Aniplex of America Industry Panel</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>15</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Robotech Industry Panel</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>00</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Shonen Jump: Creating the World'&apos;s Most Popular Manga</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>15</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>NIS America: Anime, dood!</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>30</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>The Abridged Series Panel</title>
+        <hourbegin>15</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>45</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>DAISUKI</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>19</hourend>
+        <minuteend>15</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>JapanAmerica Presents: Anime vs Hollywood</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>00</minuteend>
+        <location>LP3 : 515A</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Present and Future of Anime Streaming in NA</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>15</minuteend>
+        <location>LP3 : 515A</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>FUNimation Inside the Industry Panel</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>30</minuteend>
+        <location>LP3 : 515A</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Anime News Network Panel</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>45</minuteend>
+        <location>LP3 : 515A</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Sentai Filmworks Industry Panel</title>
+        <hourbegin>16</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>17</hourend>
+        <minuteend>00</minuteend>
+        <location>LP3 : 515A</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>VIZ Presents: Inside the Anime Industry</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>19</hourend>
+        <minuteend>30</minuteend>
+        <location>LP3 : 515A</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Uncle Yo'&apos;s Otaku Stand-Up Comedy [13+]</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>45</minuteend>
+        <location>LP3 : 515A</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>How to Survive Your First Convention</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>00</minuteend>
+        <location>LP4 : 411</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Translating Anime and Manga</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>15</minuteend>
+        <location>LP4 : 411</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Anime Clubs Unite: Anime Club Summit Meeting</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>30</minuteend>
+        <location>LP4 : 411</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Vertical Manga 2013</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>45</minuteend>
+        <location>LP4 : 411</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>The Cutting Edge of Manga/Anime Studies</title>
+        <hourbegin>16</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>17</hourend>
+        <minuteend>00</minuteend>
+        <location>LP4 : 411</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Digital Manga Inc Presents: Manga Without Borders</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>15</minuteend>
+        <location>LP4 : 411</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>FUNimation Presents: Akira: Past and Future</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>19</hourend>
+        <minuteend>30</minuteend>
+        <location>LP4 : 411</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Comic Book Live: Manga Style!</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>21</hourend>
+        <minuteend>00</minuteend>
+        <location>LP4 : 411</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Random Encounters with Video Game Musicals</title>
+        <hourbegin>21</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>22</hourend>
+        <minuteend>30</minuteend>
+        <location>LP4 : 411</location>
+    </panel>
+	<panel>
+		<day>1</day>
+		<title>Vanguard Princess Fighting Game</title>
+		<hourbegin>11</hourbegin>
+		<minutebegin>00</minutebegin>
+		<hourend>12</hourend>
+		<minuteend>00</minuteend>
+		<location>WS 2 : 501</location>
+	</panel>
+	<panel>
+		<day>1</day>
+		<title>GAIA Online Experience</title>
+		<hourbegin>18</hourbegin>
+		<minutebegin>00</minutebegin>
+		<hourend>20</hourend>
+		<minuteend>00</minuteend>
+		<location>WS 2 : 501</location>
+	</panel>
+	<panel>
+		<day>1</day>
+		<title>Ultimate Geek Showdown</title>
+		<hourbegin>20</hourbegin>
+		<minutebegin>15</minutebegin>
+		<hourend>21</hourend>
+		<minuteend>15</minuteend>
+		<location>WS 2 : 501</location>
+	</panel>
+    
+</events>
