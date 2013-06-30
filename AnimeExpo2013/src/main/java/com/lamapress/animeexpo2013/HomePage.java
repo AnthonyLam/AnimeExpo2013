@@ -11,12 +11,15 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-import java.util.List;
+import com.lamapress.animeexpo2013.EventShower.EventViewFragment;
+import com.lamapress.animeexpo2013.ExpoInformation.AboutActivity;
+import com.lamapress.animeexpo2013.ExpoInformation.ExpoInfo;
+import com.lamapress.animeexpo2013.PanelsList.ScheduleFragment;
+
 import java.util.Locale;
 
 public class HomePage extends FragmentActivity

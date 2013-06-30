@@ -36,4 +36,13 @@
         <minuteend>15</minuteend>
         <location>LP3 : 515A</location>
     </panel>
+    <panel>
+		<day>1</day>
+		<title>KYLE TV: Kyle Hebert Uncensored</title>
+		<hourbegin>24</hourbegin>
+		<minutebegin>00</minutebegin>
+		<hourend>1</hourend>
+		<minuteend>00</minuteend>
+		<location>Lounge 21 : 151</location>
+	</panel>
 </events>

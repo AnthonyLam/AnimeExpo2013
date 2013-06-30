@@ -1,4 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <event>	
-   
+    <panel>
+        <day>3</day>
+        <title>AMV Competition Encore and Awards</title>
+        <hourbegin>9</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 1 : 403</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Anime News Network.com&apos;s ANNcast LIVE!</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>30</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Dance Dance Revolution (DDR 3rd mix) Project</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>00</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>We Got the Beat!</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>15</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>"What&apos;s Wrong with my AMV" Entering an AMV Contest</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>45</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Now That&apos;s COMEDY</title>
+        <hourbegin>16</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>17</hourend>
+        <minuteend>15</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>The AMV Gameshow</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>19</hourend>
+        <minuteend>15</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>AMV Mortal Combat 2.0</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>45</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>"Top 20 Trailers of all Time" Countdown</title>
+        <hourbegin>21</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>22</hourend>
+        <minuteend>15</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>AMV Hell 6.66</title>
+        <hourbegin>22</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>24</hourend>
+        <minuteend>00</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
 </event>

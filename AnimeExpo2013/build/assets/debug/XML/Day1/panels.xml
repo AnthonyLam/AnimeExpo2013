@@ -56,7 +56,7 @@
     </panel>
 	<panel>
         <day>1</day>
-        <title>Shonen Jump: Creating the World'&apos;s Most Popular Manga</title>
+        <title>Shonen Jump: Creating the World&apos;s Most Popular Manga</title>
         <hourbegin>13</hourbegin>
         <minutebegin>15</minutebegin>
         <hourend>14</hourend>
@@ -146,7 +146,7 @@
     </panel>
 	<panel>
         <day>1</day>
-        <title>Uncle Yo'&apos;s Otaku Stand-Up Comedy [13+]</title>
+        <title>Uncle Yo&apos;s Otaku Stand-Up Comedy [13+]</title>
         <hourbegin>19</hourbegin>
         <minutebegin>45</minutebegin>
         <hourend>20</hourend>
@@ -261,5 +261,31 @@
 		<minuteend>15</minuteend>
 		<location>WS 2 : 501</location>
 	</panel>
-    
+    <panel>
+		<day>1</day>
+		<title>PsychoBando Concert [21+]</title>
+		<hourbegin>20</hourbegin>
+		<minutebegin>00</minutebegin>
+		<hourend>21</hourend>
+		<minuteend>00</minuteend>
+		<location>Lounge 21 : 151</location>
+	</panel>
+    <panel>
+		<day>1</day>
+		<title>LolitaDark Concert [21+]</title>
+		<hourbegin>21</hourbegin>
+		<minutebegin>00</minutebegin>
+		<hourend>22</hourend>
+		<minuteend>00</minuteend>
+		<location>Lounge 21 : 151</location>
+	</panel>
+    <panel>
+		<day>1</day>
+		<title>Akai SKY Concert [21+]</title>
+		<hourbegin>22</hourbegin>
+		<minutebegin>00</minutebegin>
+		<hourend>23</hourend>
+		<minuteend>00</minuteend>
+		<location>Lounge 21 : 151</location>
+	</panel>
 </events>

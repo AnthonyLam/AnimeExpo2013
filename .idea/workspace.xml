@@ -38,13 +38,46 @@
       <change type="DELETED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\premiere.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\ticketed_event.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\workshop.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\res\layout\popup_events.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventPop.java" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventPop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/Panels.java" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/Panels.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/build/source/r/debug/com/lamapress/animeexpo2013/R.java" afterPath="$PROJECT_DIR$/AnimeExpo2013/build/source/r/debug/com/lamapress/animeexpo2013/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/google_play_services2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/google_play_services2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/google_play_services3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/google_play_services3.xml" />
+      <change type="DELETED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\java\com\lamapress\animeexpo2013\HoursView.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\AndroidStudioProjects\AX2013Project\MapViewOverlay.kmz" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day3/AMV.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day3/AMV.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/AnimeExpo2013.iml" afterPath="$PROJECT_DIR$/AnimeExpo2013/AnimeExpo2013.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/GooglePlayServices_aar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/GooglePlayServices_aar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/HomePage.java" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/HomePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day2/films.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day2/films.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day3/films.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day3/films.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day1/guest_of_honor.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day1/guest_of_honor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day3/guest_of_honor.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day3/guest_of_honor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/markers/levelOne.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/markers/levelOne.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day1/mature_content.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day1/mature_content.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day3/mature_content.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day3/mature_content.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day1/miscellaneous.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day1/miscellaneous.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day2/miscellaneous.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day2/miscellaneous.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day3/miscellaneous.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day3/miscellaneous.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day1/non_ticketed_event.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day1/non_ticketed_event.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day3/non_ticketed_event.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day3/non_ticketed_event.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/res/layout/page_home.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/res/layout/page_home.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day1/panels.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day1/panels.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day2/panels.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day2/panels.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day3/panels.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day3/panels.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day1/ticketed_event.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day1/ticketed_event.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day3/ticketed_event.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day3/ticketed_event.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day1/workshop.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day1/workshop.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day2/workshop.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day2/workshop.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day3/workshop.xml" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/assets/XML/Day3/workshop.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\java\com\lamapress\animeexpo2013\AboutActivity.java" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/ExpoInformation/AboutActivity.java" />
+      <change type="MOVED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\java\com\lamapress\animeexpo2013\CustomViewPager.java" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventShower/CustomViewPager.java" />
+      <change type="MOVED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\java\com\lamapress\animeexpo2013\EventAdapter.java" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventShower/EventAdapter.java" />
+      <change type="MOVED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\java\com\lamapress\animeexpo2013\EventPop.java" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/PanelsList/EventPop.java" />
+      <change type="MOVED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\java\com\lamapress\animeexpo2013\EventViewFragment.java" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventShower/EventViewFragment.java" />
+      <change type="MOVED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\java\com\lamapress\animeexpo2013\ExpoInfo.java" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/ExpoInformation/ExpoInfo.java" />
+      <change type="MOVED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\java\com\lamapress\animeexpo2013\ExpoMapFragment.java" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/MapFragments/ExpoMapFragment.java" />
+      <change type="MOVED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\java\com\lamapress\animeexpo2013\Expo_Events.java" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventShower/Expo_Events.java" />
+      <change type="MOVED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\java\com\lamapress\animeexpo2013\MapOverlay.java" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/MapFragments/MapOverlay.java" />
+      <change type="MOVED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\java\com\lamapress\animeexpo2013\MarkerHolder.java" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/MapFragments/MarkerHolder.java" />
+      <change type="MOVED" beforePath="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\java\com\lamapress\animeexpo2013\ScheduleFragment.java" afterPath="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/PanelsList/ScheduleFragment.java" />
     </list>
     <ignored path="AnimeExpo2013.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,119 +140,26 @@
     <breakpoint_rules />
     <ui_properties />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="Panels.java" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/Panels.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="56" column="46" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="2533">
-                    <folding>
-                      <element signature="e#1379#1387#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="ScheduleFragment.java" pinned="false" current="true" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/ScheduleFragment.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="30" column="4" selection-start="716" selection-end="716" vertical-scroll-proportion="-1.7589928" vertical-offset="1250" max-vertical-offset="1819">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="AnimeExpo2013" />
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="ExpoInfo.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/ExpoInformation/ExpoInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="51" selection-start="698" selection-end="700" vertical-scroll-proportion="0.29668412" vertical-offset="0" max-vertical-offset="884">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="HomePage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="32" selection-start="3593" selection-end="3593" vertical-scroll-proportion="0.0" vertical-offset="1637" max-vertical-offset="3077">
+            <state line="36" column="0" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3077">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HoursView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/HoursView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="493">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExpoMapFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/ExpoMapFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="23" selection-start="3710" selection-end="3710" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3230">
-              <folding>
-                <marker date="1372484635628" expanded="true" signature="2967:3453" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SqlMaker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/SqlMaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="54" selection-start="2772" selection-end="2772" vertical-scroll-proportion="0.0" vertical-offset="665" max-vertical-offset="1921">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="26" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1139">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PanelAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/PanelAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="27" selection-start="2359" selection-end="2359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pop_event.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/res/layout/pop_event.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventPop.java" pinned="false" current="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventPop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="203" column="24" selection-start="6168" selection-end="6168" vertical-scroll-proportion="0.9388489" vertical-offset="2011" max-vertical-offset="2941">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1395#1403#0" expanded="true" />
-                <marker date="1372561259600" expanded="false" signature="1657:2949" placeholder="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -249,6 +189,7 @@
     <option name="tasksExpandState">
       <map>
         <entry key="" value="true" />
+        <entry key="AX2013Project/" value="true" />
       </map>
     </option>
     <option name="availableProjects">
@@ -283,22 +224,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/MapOverlay.java" />
         <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/res/layout/hours_view_activity.xml" />
         <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/MarkerHolder.java" />
-        <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/ExpoInfo.java" />
         <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/ScheduleFragment.java" />
         <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/SqlMaker.java" />
         <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventViewFragment.java" />
         <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/PanelAdapter.java" />
         <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/ExpoMapFragment.java" />
-        <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/HomePage.java" />
         <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/AboutActivity.java" />
         <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/res/layout/about_activity.xml" />
         <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/XmlFile.java" />
         <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/res/layout/pop_event.xml" />
         <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/Panels.java" />
         <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventPop.java" />
+        <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/ExpoInfo.java" />
+        <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventShower/CustomViewPager.java" />
+        <option value="$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/HomePage.java" />
       </list>
     </option>
   </component>
@@ -306,10 +247,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="477" />
+    <option name="width" value="1443" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -337,6 +277,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -439,71 +380,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnimeExpo2013" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AX2013Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnimeExpo2013" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnimeExpo2013" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AX2013Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnimeExpo2013" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="animeexpo2013" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -536,10 +417,81 @@
               <option name="myItemId" value="animeexpo2013" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MapFragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnimeExpo2013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AX2013Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnimeExpo2013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="animeexpo2013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpoInformation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnimeExpo2013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AX2013Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnimeExpo2013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="animeexpo2013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EventShower" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -551,7 +503,7 @@
     <property name="ExportedApkPath" value="D:\Desktop\com.lamapress.0_9.AnimeExpo2013.apk" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="appearance" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="ExportedModule" value="AnimeExpo2013" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -737,6 +689,8 @@
       <created>1371599827764</created>
       <updated>1371599827764</updated>
       <workItem from="1371599837909" duration="2140000" />
+      <workItem from="1372581142053" duration="244000" />
+      <workItem from="1372581401869" duration="67000" />
     </task>
     <task id="LOCAL-00001" summary="Android Studio VCS Test&#10;">
       <created>1371937842210</created>
@@ -774,7 +728,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2140000" />
+    <option name="totallyTimeSpent" value="2451000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -797,33 +751,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="477" y="0" width="1443" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32847533" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39977974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35462555" sideWeight="0.5037353" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35903084" sideWeight="0.5032017" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45703125" sideWeight="0.19955157" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21931697" sideWeight="0.11563877" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34471366" sideWeight="0.49626467" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35903084" sideWeight="0.49733192" order="10" side_tool="false" content_ui="tabs" x="214" y="227" width="1428" height="941" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34753364" sideWeight="0.49626467" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3524229" sideWeight="0.4967983" order="10" side_tool="false" content_ui="tabs" x="214" y="227" width="1428" height="941" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39537445" sideWeight="0.49961686" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2379936" sideWeight="0.64096916" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19603524" sideWeight="0.49843013" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26574945" sideWeight="0.67152464" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19506727" sideWeight="0.49843013" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12860192" sideWeight="0.8017621" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -896,131 +850,110 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/ExpoInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventViewFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="49" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.64504284" vertical-offset="0" max-vertical-offset="817">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/CustomViewPager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/res/menu/home_page.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="226" selection-end="226" vertical-scroll-proportion="0.111658454" vertical-offset="0" max-vertical-offset="609">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/res/layout/about_activity.xml">
-      <provider editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/res/layout/fragment_schedule_view.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/res/layout/pop_event.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="32" selection-start="3593" selection-end="3593" vertical-scroll-proportion="0.0" vertical-offset="2202" max-vertical-offset="3077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/ExpoMapFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="23" selection-start="3710" selection-end="3710" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3230">
-          <folding>
-            <marker date="1372484635628" expanded="true" signature="2967:3453" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/SqlMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="54" selection-start="2772" selection-end="2772" vertical-scroll-proportion="0.0" vertical-offset="1030" max-vertical-offset="1921">
+        <state line="78" column="54" selection-start="2772" selection-end="2772" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/AboutActivity.java">
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/PanelsList/ScheduleFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="590" selection-end="590" vertical-scroll-proportion="0.3114224" vertical-offset="0" max-vertical-offset="928">
+        <state line="33" column="35" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventAdapter.java">
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventShower/Expo_Events.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1139">
+        <state line="5" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.019274376" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/MapFragments/ExpoMapFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="24" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="3774">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/AnimeExpo2013.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.15646258" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/Panels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="46" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="2533">
-          <folding>
-            <element signature="e#1379#1387#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/PanelAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="27" selection-start="2359" selection-end="2359" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="1190">
+        <state line="30" column="13" selection-start="854" selection-end="854" vertical-scroll-proportion="0.5340314" vertical-offset="0" max-vertical-offset="2533">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventPop.java">
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventShower/EventAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="24" selection-start="6168" selection-end="6168" vertical-scroll-proportion="0.9388489" vertical-offset="2011" max-vertical-offset="2941">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1395#1403#0" expanded="true" />
-            <marker date="1372561259600" expanded="false" signature="1657:2949" placeholder="{...}" />
-          </folding>
+        <state line="18" column="26" selection-start="567" selection-end="567" vertical-scroll-proportion="0.019630484" vertical-offset="102" max-vertical-offset="1139">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/ScheduleFragment.java">
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/PanelsList/EventPop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="4" selection-start="716" selection-end="716" vertical-scroll-proportion="-1.7589928" vertical-offset="1250" max-vertical-offset="1819">
+        <state line="146" column="35" selection-start="4228" selection-end="4228" vertical-scroll-proportion="0.6143106" vertical-offset="1756" max-vertical-offset="3570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventShower/EventViewFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="23" selection-start="527" selection-end="527" vertical-scroll-proportion="0.029668411" vertical-offset="187" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="39" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.37696335" vertical-offset="549" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/ExpoInformation/AboutActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="644" selection-end="644" vertical-scroll-proportion="0.504363" vertical-offset="0" max-vertical-offset="573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.4450262" vertical-offset="0" max-vertical-offset="573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/EventShower/CustomViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="243" selection-end="243" vertical-scroll-proportion="0.118673645" vertical-offset="0" max-vertical-offset="573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnimeExpo2013/src/main/java/com/lamapress/animeexpo2013/ExpoInformation/ExpoInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="51" selection-start="698" selection-end="700" vertical-scroll-proportion="0.29668412" vertical-offset="0" max-vertical-offset="884">
           <folding />
         </state>
       </provider>
@@ -1082,6 +1015,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

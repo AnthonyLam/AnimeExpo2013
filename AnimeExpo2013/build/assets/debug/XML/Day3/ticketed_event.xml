@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <events>
-   
+    <panel>
+        <day>3</day>
+        <title>Porno Graffiti Concert</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>19</hourend>
+        <minuteend>30</minuteend>
+        <location>Club Nokia : LA Live</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Masquerade</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>24</hourend>
+        <minuteend>00</minuteend>
+        <location>Main Events : Hall B</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>MYTH: Legends of Burlesque and Magic [18+ ID Req]</title>
+        <hourbegin>21</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>24</hourend>
+        <minuteend>00</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Adventure: Return to Neo-Tokyo</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>45</minuteend>
+        <location>LP4 : 411</location>
+    </panel>
+    
 </events>

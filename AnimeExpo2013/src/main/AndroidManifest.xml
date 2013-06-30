@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.lamapress.animeexpo2013.EventPop"
+            android:name=".PanelsList.EventPop"
             android:label="@string/title_activity_event_pop" >
         </activity>
 
@@ -32,15 +32,11 @@
             android:value="AIzaSyBSxx8zLsNHdacViMd6It1i0svfHBPXNZA" />
 
         <activity
-            android:name="com.lamapress.animeexpo2013.ExpoMapFragment"
+            android:name=".MapFragments.ExpoMapFragment"
             android:label="Map" >
         </activity>
         <activity
-            android:name="com.lamapress.animeexpo2013.HoursView"
-            android:label="@string/title_activity_hours_view" >
-        </activity>
-        <activity
-            android:name="com.lamapress.animeexpo2013.AboutActivity"
+            android:name=".ExpoInformation.AboutActivity"
             android:label="@string/title_activity_about" >
         </activity>
     </application>

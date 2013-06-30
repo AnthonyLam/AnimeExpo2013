@@ -1,4 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <events>
-    
+    <panel>
+        <day>3</day>
+        <title>GOH: George Wada Presents : Attack on Titan</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>00</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Production IG Guest of Honor Panel</title>
+        <hourbegin>15</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>00</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>GOH: Kazuhiko Inoue</title>
+        <hourbegin>16</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>17</hourend>
+        <minuteend>30</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Eyeshine Concert</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>00</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>GOH: Kyle Hebert</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>45</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>GOH: Christopher Sabbat</title>
+        <hourbegin>15</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>45</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>GOH: Keigo Sasaki</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>45</minuteend>
+        <location>LP3 : 515A</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>GOH: Vic Mignogna (ALL AGES)</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>30</minuteend>
+        <location>Lounge 21 : 151</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Johnny Yong Bosch Acoustic Singalong (ALL AGES)</title>
+        <hourbegin>15</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>00</minuteend>
+        <location>Lounge 21 : 151</location>
+    </panel>
 </events>

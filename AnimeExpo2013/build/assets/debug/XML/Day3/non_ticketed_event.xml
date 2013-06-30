@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <events>
-
+    <panel>
+        <day>3</day>
+        <title>Battle of the Bands</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>15</minuteend>
+        <location>Main Events : Hall B</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Fashion Show GODLS Infinity GLAVIL by tutuHA, MA*RS with Star marie</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>00</minuteend>
+        <location>Hybrid Dance : Concourse</location>
+    </panel>
 </events>

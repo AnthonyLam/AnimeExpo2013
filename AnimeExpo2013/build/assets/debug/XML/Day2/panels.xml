@@ -111,7 +111,7 @@
     </panel>
     <panel>
         <day>2</day>
-        <title>Anime'&apos;s Girls and Women</title>
+        <title>Anime&apos;s Girls and Women</title>
         <hourbegin>9</hourbegin>
         <minutebegin>30</minutebegin>
         <hourend>10</hourend>
@@ -189,5 +189,32 @@
         <hourend>12</hourend>
         <minuteend>15</minuteend>
         <location>WS2 : 501</location>
+    </panel>
+     <panel>
+        <day>2</day>
+        <title>Tamaki Suoh Sings a Bouquet of Love Songs[21+]</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>00</minuteend>
+        <location>Lounge 21 : 151</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Star Marie Meet and Greet [ALL AGES]</title>
+        <hourbegin>15</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>00</minuteend>
+        <location>Lounge 21 : 151</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Dr. Erratic&apos;s Amusements for the Damned</title>
+        <hourbegin>21</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>24</hourend>
+        <minuteend>00</minuteend>
+        <location>Lounge 21 : 151</location>
     </panel>
 </events>

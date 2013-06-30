@@ -1,4 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <events>
-
+    <panel>
+        <day>3</day>
+        <title>1st Annual AX K-Pop Cover Dance Competition Finals</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>30</minuteend>
+        <location>Hybrid Dance : Concourse</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>AX Dance Featuring: Jinrei, Nana, DJ Seven, SkirtDISCO</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>2</hourend>
+        <minuteend>00</minuteend>
+        <location>Hybrid Dance : Concourse</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Acoustikaraoke</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>00</minuteend>
+        <location>Karaoke 1 : 150AB</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Acoustic Open Mic</title>
+        <hourbegin>16</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>00</minuteend>
+        <location>Karaoke 1 : 150AB</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Karaoke Gong Show</title>
+        <hourbegin>21</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>23</hourend>
+        <minuteend>00</minuteend>
+        <location>Karaoke 1 : 150AB</location>
+    </panel>
 </events>

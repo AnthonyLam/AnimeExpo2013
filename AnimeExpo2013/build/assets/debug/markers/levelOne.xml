@@ -45,4 +45,14 @@
         <longitude>-118.269082</longitude>
         <text>Karaoke 2 : 150C</text>
     </marker>
+    <marker>
+        <location>34.041627</location>
+        <longitude>-118.268791</longitude>
+        <text>Lounge 21 : 151</text>
+    </marker>
+    <marker>
+        <location>34.044415</location>
+        <longitude>-118.267181</longitude>
+        <text>Club Nokia : LA Live</text>
+    </marker>
 </level>

@@ -1,4 +1,328 @@
 <?xml version="1.0" encoding="utf-8"?>
 <events>
-    
+    <panel>
+        <day>3</day>
+        <title>RightStuf &amp; Nozomi Entertainment Premieres</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 1 : 403</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Premiere: The Garden of Words</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 1 : 403</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Guilty Crown</title>
+        <hourbegin>16</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>19</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 1 : 403</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Anime Bancho Screening</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>30</minuteend>
+        <location>Video 1 : 403</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Ghost in the Shell: ARISE (1)</title>
+        <hourbegin>20</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>21</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 1 : 403</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Star Blazers (Yamato)(1)</title>
+        <hourbegin>21</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>22</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 1 : 403</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Starchild Special Premiere and Trailers!</title>
+        <hourbegin>22</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>23</hourend>
+        <minuteend>30</minuteend>
+        <location>Video 1 : 403</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>NISA Exclusive</title>
+        <hourbegin>00</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>1</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 1 : 403</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Nyarko-san 1-2</title>
+        <hourbegin>9</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>10</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 2 : 404</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Robotech 1,2,18,19</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 2 : 404</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Dragon Ball Z Special 1: Bardock, The Father of Goku</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 2 : 404</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Appleseed 1-3</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>30</minuteend>
+        <location>Video 2 : 404</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Soul Eater 1-3</title>
+        <hourbegin>15</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 2 : 404</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Blue Gender 1-3</title>
+        <hourbegin>16</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 2 : 404</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Hell Girl 1-3</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>19</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 2 : 404</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Casshem Sins 1-3</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 2 : 404</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Claymore 1-3</title>
+        <hourbegin>20</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>22</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 2 : 404</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Dead Sushi</title>
+        <hourbegin>22</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>24</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 2 : 404</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Love Hina 1-3</title>
+        <hourbegin>9</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>10</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 3 : 406</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Baka and Test: Summon the Beasts 1-3</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 3 : 406</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Sweet Blue Flowers 1-3</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 3 : 406</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Junjo Romantica 1-3</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>30</minuteend>
+        <location>Video 3 : 406</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Ristorante Paradiso 1-3</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 3 : 406</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Hanasaku Iroha Blossoms for Tomorrow 1-3</title>
+        <hourbegin>16</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>17</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 3 : 406</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Lagrange: The Flower of Rin-ne</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>30</minuteend>
+        <location>Video 3 : 406</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Psycho-Pass 1-3</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 3 : 406</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Ga-Rei-Zero</title>
+        <hourbegin>20</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>21</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 3 : 406</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Hellsing 1-3</title>
+        <hourbegin>21</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>22</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 3 : 406</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Hellsing Ultimate OVA 1-2</title>
+        <hourbegin>22</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>24</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 3 : 406</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Kanon 1-3</title>
+        <hourbegin>9</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 4 : 408</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Puella Magi Madoka Magica 1-3</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 4 : 408</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>King of Thorn</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 4 : 408</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>The Princess and the Pilot</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>19</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 4 : 408</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Berserk 1-3</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 4 : 408</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Berserk Golden Age Arc I: The Egg of the King</title>
+        <hourbegin>20</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>22</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 4 : 408</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Berserk Golden Age Arc II: The Battle for Doldrey</title>
+        <hourbegin>22</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>24</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 4 : 408</location>
+    </panel>
+
 </events>

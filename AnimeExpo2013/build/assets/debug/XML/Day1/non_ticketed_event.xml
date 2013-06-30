@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <events>
-
-    <panel>
-        <day>1</day>
-        <title>Opening Ceremonies</title>
-        <hourbegin>12</hourbegin>
-        <minutebegin>30</minutebegin>
-        <hourend>14</hourend>
-        <minuteend>30</minuteend>
-        <location>Main Events : Hall B</location>
-    </panel>
 	<panel>
         <day>1</day>
         <title>Anime Music Video Competition</title>
