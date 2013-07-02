@@ -14,14 +14,295 @@
     <string name="MapOne">1</string>
     <string name="MapTwo">2</string>
     <string name="MapHall">H</string>
-    <string name="title_activity_expo_info">ExpoInfo</string>
+    <string name="title_activity_expo_info">Expo Information</string>
     <string name="action_settings">Settings</string>
     <string name="exhibitors">Exhibitors</string>
     <string name="map">Map</string>
 
     <String name="hour">Hours</String>
 
-    <string name="title_activity_hours_view">HoursView</string>
-    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_hours_view">Hours View</string>
+    <string name="title_activity_about">Legal Hubub</string>
+    <string name="title_activity_expo_hours">Expo Hours</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string-array name="exhibitors_array">
+        <item>10th in Darkness</item>
+        <item>168 Dragon Trading</item>
+        <item>3 1/2 Samurai Studio</item>
+        <item>AAA Anime Distributor</item>
+        <item>ABCTOY4ME</item>
+        <item>Aerisk Fashion</item>
+        <item>Akadot Retail</item>
+        <item>Aksys Games</item>
+        <item>Akumu Ink Clothing</item>
+        <item>AmazingComics.com</item>
+        <item>Anime Chibi Sen</item>
+        <item>Anime Depot / King Roach Enterprises</item>
+        <item>Anime Fan Zone</item>
+        <item>Anime Gift</item>
+        <item>Anime Haus</item>
+        <item>Anime Hot</item>
+        <item>Anime Jungle</item>
+        <item>Anime King</item>
+        <item>Anime Link</item>
+        <item>Anime News Network</item>
+        <item>Anime Palace</item>
+        <item>Anime Pavilion</item>
+        <item>Anime Remix</item>
+        <item>Anime Sekai</item>
+        <item>Animebooks.com</item>
+        <item>AnimeEd.com</item>
+        <item>Aniplex of America Inc.</item>
+        <item>Apple 8</item>
+        <item>Arda Wigs / Kingdom Arts</item>
+        <item>Art of Nigel Sade</item>
+        <item>CURE</item>
+        <item>Bait</item>
+        <item>Bang Zoom! Entertainment</item>
+        <item>SodaCase</item>
+        <item>Best Anime Shop</item>
+        <item>Biseinen-ya, LLC</item>
+        <item>Bishonen Boutique</item>
+        <item>Black Cat Jewelry &amp; Gifts</item>
+        <item>Blick Art Materials</item>
+        <item>Bling Up Inc.</item>
+        <item>Bluefin Distribution</item>
+        <item>Broken Spirits Film</item>
+        <item>Bushiroad USA Inc.</item>
+        <item>Capcom U.S.A., Inc.</item>
+        <item>Captive Style</item>
+        <item>Cartoon Passion</item>
+        <item>Cheritz</item>
+        <item>Cherry Sauce Clothing</item>
+        <item>Chinanime</item>
+        <item>Classi-Glo, L.L.C.</item>
+        <item>Collectors Café</item>
+        <item>Collectors Universe And Anime</item>
+        <item>Cooper Product</item>
+        <item>Copic Markers / Imagination Int\'l Inc.</item>
+        <item>Core TCG</item>
+        <item>Cosplay MooMoo</item>
+        <item>Cosplay Passion</item>
+        <item>Cosplay Wigs USA</item>
+        <item>Crazyheads by Punchbrand</item>
+        <item>Crunchyroll</item>
+        <item>Daisuki</item>
+        <item>Dark Horse Comics</item>
+        <item>Mobage, Mobage, Mobage, DeNA</item>
+        <item>Desu-Nation</item>
+        <item>Digital Discs LLC</item>
+        <item>Project-H</item>
+        <item>Discotek Media</item>
+        <item>Doujin Online</item>
+        <item>Dragonsong Weapons, Inc.</item>
+        <item>Electro Flash Media</item>
+        <item>ENFU / Crayon Monsters</item>
+        <item>Enki Hobby</item>
+        <item>Epic Cosplay</item>
+        <item>Evike.com</item>
+        <item>Ex-Boyfriend</item>
+        <item>Ezaki Glico USA Corporation "Pocky"</item>
+        <item>FAKKU</item>
+        <item>PandaHat.com</item>
+        <item>Fat Rabbit Farm</item>
+        <item>Feng bo</item>
+        <item>Figure Haven</item>
+        <item>Flowtoys</item>
+        <item>Foam Brain Games</item>
+        <item>Funimation Productions Ltd</item>
+        <item>FY ART</item>
+        <item>Game Replica</item>
+        <item>GameChurch</item>
+        <item>GAMERAVE</item>
+        <item>Generations of Art</item>
+        <item>Glitch Gaming Apparel</item>
+        <item>Global Anime</item>
+        <item>GoBoiano</item>
+        <item>Go Go Nihon!</item>
+        <item>Good Smile Company</item>
+        <item>GaijinPot</item>
+        <item>Greentea Design</item>
+        <item>Hades Footwear</item>
+        <item>Hello Cavities</item>
+        <item>Hen Da Ne!, Inc</item>
+        <item>Hobby Shop Ichiban</item>
+        <item>Hobbyfan.com</item>
+        <item>Holley Tea Time</item>
+        <item>Icon Toy</item>
+        <item>Image Anime</item>
+        <item>IMT Anime</item>
+        <item>ITO EN (North America) Inc</item>
+        <item>J-List/JAST USA</item>
+        <item>Japan Toy USA</item>
+        <item>ANIMEGACON</item>
+        <item>Japanese Gift Market</item>
+        <item>Japanime Games</item>
+        <item>Jellykoe</item>
+        <item>MA*RS</item>
+        <item>GLAVIL by tutuHA</item>
+        <item>GOLDS</item>
+        <item>LIZ LISA</item>
+        <item>TRALALA</item>
+        <item>LIZ LISA doll</item>
+        <item>Jennifers Place</item>
+        <item>Jones Bones</item>
+        <item>Joye Company</item>
+        <item>Jpop House</item>
+        <item>JS Anime</item>
+        <item>JS Art</item>
+        <item>Kelly\'s Heroes</item>
+        <item>Kichi-Oni</item>
+        <item>Kinokuniya Bookstores</item>
+        <item>Kira Kira Cards</item>
+        <item>Level Up Studios/HALOLZ.com</item>
+        <item>3 Coconut Monkey</item>
+        <item>Lolita Charm</item>
+        <item>Lotus Era</item>
+        <item>MAD-GEAR</item>
+        <item>Magic and Monsters</item>
+        <item>Malice Chibi</item>
+        <item>Manga de Japanese</item>
+        <item>Manga University</item>
+        <item>MangaGamer.com</item>
+        <item>WELOVEFINE</item>
+        <item>Morinaga America, Inc</item>
+        <item>Ms. Martha\'s Corset Shoppe, LLC.</item>
+        <item>Multiverse Studio Inc.</item>
+        <item>Retro Pop Namu</item>
+        <item>Nexon America, Inc</item>
+        <item>Nicalis, Inc.</item>
+        <item>Ninja Jamul</item>
+        <item>Nippon Kodo</item>
+        <item>NIS America, Inc</item>
+        <item>NTT Solmare Corporation</item>
+        <item>Oborocharms</item>
+        <item>Off World Designs, Inc</item>
+        <item>Otaku Social Network</item>
+        <item>OTP, LLC</item>
+        <item>PacSet Tours</item>
+        <item>Parthenon Production Co. Ltd.</item>
+        <item>Pawstar</item>
+        <item>Power Anime</item>
+        <item>Purple Plum Inc</item>
+        <item>Qmomo/VooDoo Baby</item>
+        <item>Tee Turtle Shirts &amp; Posters</item>
+        <item>Rewind Design</item>
+        <item>Right Stuff Tech</item>
+        <item>Robot4Less</item>
+        <item>Rockin Android</item>
+        <item>My Dragon Pets</item>
+        <item>Cosroom, Young Online</item>
+        <item>Corvink/Jefbot</item>
+        <item>SacAnime</item>
+        <item>Sakura-Con</item>
+        <item>Sanshee</item>
+        <item>Science Fiction Continuum</item>
+        <item>Sebastien Millon</item>
+        <item>Section23 Films</item>
+        <item>Sentai Filmworks LLC</item>
+        <item>SHARK ROBOT LLC</item>
+        <item>Sharkchild, LLC</item>
+        <item>SixOn Clothing</item>
+        <item>Smith Micro Software Inc</item>
+        <item>SnuggBuds Headsets</item>
+        <item>So So Happy/Skelanimals</item>
+        <item>SoCalGaming</item>
+        <item>Songbird Ocarina</item>
+        <item>Spin Fusion</item>
+        <item>Squid Kids Ink</item>
+        <item>Starry Petals</item>
+        <item>Steampunk Pocketwatches</item>
+        <item>Steppie Clothing</item>
+        <item>STL Ocarina</item>
+        <item>Strangely Compelling Multimedia, Inc.</item>
+        <item>Taiwan Doujinshi Creation LTD.</item>
+        <item>ninja*arts</item>
+        <item>The Brands Boutique</item>
+        <item>The Comic Cellar</item>
+        <item>The Contact Lens Company</item>
+        <item>The Crimson Chain</item>
+        <item>The Five Wits</item>
+        <item>Timeless Trends</item>
+        <item>Toei Animation, Inc.</item>
+        <item>Tokyo Business Partners Corp</item>
+        <item>Top Sword</item>
+        <item>Toy Mandala</item>
+        <item>Toyarena, Inc</item>
+        <item>Toylet Collectibles</item>
+        <item>TOYNK.com</item>
+        <item>TribbleToys.com/GIANTmicrobes</item>
+        <item>TrollandToad.com</item>
+        <item>Twistory</item>
+        <item>UCC Distributing Inc.</item>
+        <item>Uchida of America Corp</item>
+        <item>Under The Mango Tree Journals</item>
+        <item>NEXT Inc (Union Music Japan)</item>
+        <item>Vertical Inc</item>
+        <item>Video Games New York</item>
+        <item>Visual You, Inc.</item>
+        <item>VIZ Media</item>
+        <item>Wowmax Media LLC</item>
+        <item>Yayahan.com</item>
+        <item>Yes Anime, Inc</item>
+        <item>PONY CANYON</item>
+        <item>Emoki LLC</item>
+        <item>Fantastic Fam, Inc.</item>
+        <item>Japan National Tourism Organization</item>
+        <item>L-Factory Inc.</item>
+        <item>Lotte U.S.A. Inc.</item>
+        <item>Otto Trading</item>
+        <item>eyeLuv.me Lashes</item>
+        <item>Toshio Maeda Urotsukidoji La BlueGirl</item>
+        <item>Electric Chair</item>
+        <item>Animate North America, Ltd</item>
+        <item>APOD Anime</item>
+        <item>Cosplay Deviants</item>
+        <item>d\'Errico Studios LTD</item>
+        <item>Emazing Lights</item>
+        <item>Galaxxy Rocks</item>
+        <item>Skullgirls</item>
+        <item>SOTA Toys</item>
+        <item>OMOCAT</item>
+        <item>P-Pro U.S.A.</item>
+        <item>Ronin Galaxy</item>
+        <item>The Hornsmythe</item>
+        <item>UTB (United Television Broadcasting Inc.)</item>
+        <item>Media Blasters</item>
+        <item>Silver Leaf Costumes</item>
+    </string-array>
+
+    <string name="title_activity_exhibitors">Exhibitors</string>
+    <string name="title_activity_shuttles">Shuttle Hours</string>
+
+    <string name="shuttle_service_hours">
+        <b>Hours of Service</b>\n
+        Wednesday, July 3\n
+
+        7:00 AM ~ 7:00 AM Every 30-60 Min\n\n
+
+
+
+        Thursday, July 4 ~ Saturday July 6\n
+        7:00 AM ~ 10:00 AM Every 20-40 Min\n\n
+
+        10:00 AM ~ 6:00 PM Every 15-30 Min\n\n
+
+        6:00 PM ~ 11:00 PM Every 20-40 Min\n\n
+
+        11:00 PM ~ 7:00 AM Every 30-60 Min\n\n
+
+
+        Sunday, July 7\n
+        7:00 AM ~ 10:00 AM Every 20-40 Min\n\n
+
+        10:00 AM ~ 6:00 PM Every 15-30 Min\n\n
+
+        6:00 PM ~ 10:00 PM Every 20-40 Min\n\n
+
+    </string>
 
 </resources>

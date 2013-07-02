@@ -21,23 +21,23 @@ public  class EventViewFragment extends Fragment {
 
         Expo_Events expos[] = new Expo_Events[]{
                 new Expo_Events(R.drawable.ic_panel,"Panels",
-                        ""), // Item 0
+                        "Listen to people talk"), // Item 0
                 new Expo_Events(R.drawable.ic_guest,"Guest of Honor",
-                        "Meet industry professionals"),                     // Item 1
+                        "Listen to people talk about themselves"),                     // Item 1
                 new Expo_Events(R.drawable.ic_films,"Films",
                         "Relax and watch your favorite anime"),             // Item 2
                 new Expo_Events(R.drawable.ic_ticketed,"Ticketed Event",
-                        "Prepurchased ticket required"),                    // Item 3
+                        "You need a ticket!"),                    // Item 3
                 new Expo_Events(R.drawable.ic_workshop,"Workshop",
                         "Learn something new"),                             // Item 4
                 new Expo_Events(R.drawable.ic_nonticket,"Non-Ticketed Event",
-                        "Various AX hosted events"),                        // Item 5
+                        "You don't need a ticket!"),                        // Item 5
                 new Expo_Events(R.drawable.ic_sadpanda,"Mature Content",
-                        "18+ Only"),                                         // Item 6
+                        "18+ Only , It's probably hentai"),                                         // Item 6
                 new Expo_Events(R.drawable.ic_amv,"Anime Music Videos",
-                        ""),
+                        "Music videos made using anime"),
                 new Expo_Events(R.drawable.ic_misc,"Miscellaneous",     // Item 7
-                        "No Category")
+                        "I don't know where these go")
 
         };
 

@@ -110,7 +110,7 @@ public class ScheduleFragment extends Fragment{
     }
 
     public void refreshView(){
-        listPanel = sqlmaker.getContent();
+        listPanel = sqlmaker.getAfterContent();
         Collections.sort(listPanel);
         adapter.clear();
         adapter.addAll(listPanel);

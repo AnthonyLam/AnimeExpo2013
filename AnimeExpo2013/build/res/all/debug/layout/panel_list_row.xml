@@ -23,29 +23,33 @@
                 android:layout_column="0"
                 android:maxLines="3"
                 android:minLines="2"
-                android:textStyle="bold|italic"/>
+                android:textStyle="bold|italic"
+                android:layout_marginBottom="5dp"/>
 
         <LinearLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
+                android:layout_height="wrap_content">
 
             <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="Panel Location"
                     android:id="@+id/panel_location"
                     android:layout_gravity="center_horizontal|left|top"
                     android:layout_weight="1"
-                    android:gravity="left"/>
+                    android:gravity="left"
+                    android:text="Panel Location"
+                    />
 
             <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="Panel Time"
                     android:id="@+id/panel_time"
-                    android:layout_weight="1"
                     android:layout_gravity="center_horizontal|right|top"
-                    android:gravity="right"/>
+                    android:singleLine="false"
+                    android:textStyle="italic"
+                    android:gravity="right"
+                    android:layout_weight="1"/>
         </LinearLayout>
 
     </LinearLayout>

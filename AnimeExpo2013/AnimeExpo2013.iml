@@ -66,6 +66,7 @@
     </content>
     <orderEntry type="jdk" jdkName="Android 4.2.2" jdkType="Android SDK" />
     <orderEntry type="module" module-name="GooglePlayServices" exported="" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="android-support-v4" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -76,7 +77,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="GooglePlayServices.aar" level="project" />
-    <orderEntry type="library" name="android-support-v4" level="project" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="google-play-services" level="project" />
   </component>

@@ -85,17 +85,38 @@ public class Panels implements Comparable<Panels>{
                         panelEvent.title = text;
                     }
                     else if(tagname.equalsIgnoreCase("hourbegin")){
+                        try{
                         panelEvent.hourBegin = Integer.parseInt(text);
+                        }
+                        catch(NumberFormatException e){
+                            panelEvent.hourBegin = 3;
+                        }
                     }
                     else if(tagname.equalsIgnoreCase("minutebegin")){
+                        try{
                         panelEvent.minuteBegin = Integer.parseInt(text);
+                        }
+                        catch(NumberFormatException e){
+                            panelEvent.minuteBegin = 23;
+                        }
                     }
                     else if(tagname.equalsIgnoreCase("hourend")){
-                        panelEvent.hourEnd = Integer.parseInt(text);
+                        try{
+
+                            panelEvent.hourEnd = Integer.parseInt(text);
+                        }
+                        catch(NumberFormatException e){
+                            panelEvent.hourEnd = 3;
+                        }
 
                     }
                     else if(tagname.equalsIgnoreCase("minuteend")){
+                        try{
                         panelEvent.minuteEnd = Integer.parseInt(text);
+                        }
+                        catch(NumberFormatException e){
+                            panelEvent.minuteEnd = 23;
+                        }
                     }
                     else if(tagname.equalsIgnoreCase("location")){
                         panelEvent.location = text;

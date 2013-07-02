@@ -7,6 +7,21 @@
     <dataSet config="main" >
         <source path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets" >
             <file
+                name="hours/day0.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\hours\day0.xml" />
+            <file
+                name="hours/day1.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\hours\day1.xml" />
+            <file
+                name="hours/day2.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\hours\day2.xml" />
+            <file
+                name="hours/day3.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\hours\day3.xml" />
+            <file
+                name="hours/day4.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\hours\day4.xml" />
+            <file
                 name="maps/ax_map/17/22474/78730.png"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\17\22474\78730.png" />
             <file
@@ -1495,6 +1510,9 @@
                 name="markers/levelTwo.xml"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\markers\levelTwo.xml" />
             <file
+                name="markers/shuttle.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\markers\shuttle.xml" />
+            <file
                 name="XML/Day1/AMV.xml"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\AMV.xml" />
             <file
@@ -1515,9 +1533,6 @@
             <file
                 name="XML/Day1/panels.xml"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\panels.xml" />
-            <file
-                name="XML/Day1/premiere.xml"
-                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\premiere.xml" />
             <file
                 name="XML/Day1/ticketed_event.xml"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\ticketed_event.xml" />
@@ -1546,9 +1561,6 @@
                 name="XML/Day2/panels.xml"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\panels.xml" />
             <file
-                name="XML/Day2/premiere.xml"
-                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\premiere.xml" />
-            <file
                 name="XML/Day2/ticketed_event.xml"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\ticketed_event.xml" />
             <file
@@ -1576,9 +1588,6 @@
                 name="XML/Day3/panels.xml"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\panels.xml" />
             <file
-                name="XML/Day3/premiere.xml"
-                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\premiere.xml" />
-            <file
                 name="XML/Day3/ticketed_event.xml"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\ticketed_event.xml" />
             <file
@@ -1605,9 +1614,6 @@
             <file
                 name="XML/Day4/panels.xml"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\panels.xml" />
-            <file
-                name="XML/Day4/premiere.xml"
-                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\premiere.xml" />
             <file
                 name="XML/Day4/ticketed_event.xml"
                 path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\ticketed_event.xml" />

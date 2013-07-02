@@ -1,4 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.lamapress.animeexpo2013">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="3" android:versionName="1.0.2" package="com.lamapress.animeexpo2013">
 
     <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="16"/>
 
@@ -10,16 +10,20 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:label="@string/title_activity_event_pop" android:name="com.lamapress.animeexpo2013.EventPop">
+        <activity android:label="@string/title_activity_event_pop" android:name="com.lamapress.animeexpo2013.PanelsList.EventPop">
         </activity>
 
         <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBSxx8zLsNHdacViMd6It1i0svfHBPXNZA"/>
 
-        <activity android:label="Map" android:name="com.lamapress.animeexpo2013.ExpoMapFragment">
+        <activity android:label="Map" android:name="com.lamapress.animeexpo2013.MapFragments.ExpoMapFragment">
         </activity>
-        <activity android:label="@string/title_activity_hours_view" android:name="com.lamapress.animeexpo2013.HoursView">
+        <activity android:label="@string/title_activity_about" android:name="com.lamapress.animeexpo2013.ExpoInformation.AboutActivity">
         </activity>
-        <activity android:label="@string/title_activity_about" android:name="com.lamapress.animeexpo2013.AboutActivity">
+        <activity android:label="@string/title_activity_expo_hours" android:name="com.lamapress.animeexpo2013.ExpoInformation.ExpoHours">
+        </activity>
+        <activity android:label="@string/title_activity_exhibitors" android:name="com.lamapress.animeexpo2013.ExpoInformation.Exhibitors">
+        </activity>
+        <activity android:label="@string/title_activity_shuttles" android:name="com.lamapress.animeexpo2013.Shuttles">
         </activity>
     </application>
 

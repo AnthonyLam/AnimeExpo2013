@@ -38,7 +38,7 @@
     </panel>
     <panel>
         <day>3</day>
-        <title>"What&apos;s Wrong with my AMV" Entering an AMV Contest</title>
+        <title>&quot;What&apos;s Wrong with my AMV&quot; Entering an AMV Contest</title>
         <hourbegin>14</hourbegin>
         <minutebegin>30</minutebegin>
         <hourend>15</hourend>
@@ -74,7 +74,7 @@
     </panel>
     <panel>
         <day>3</day>
-        <title>"Top 20 Trailers of all Time" Countdown</title>
+        <title>&quot;Top 20 Trailers of all Time&quot; Countdown</title>
         <hourbegin>21</hourbegin>
         <minutebegin>00</minutebegin>
         <hourend>22</hourend>

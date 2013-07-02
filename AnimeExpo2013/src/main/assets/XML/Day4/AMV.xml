@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <event>	
-   
+    <panel>
+        <day>4</day>
+        <title>AMV Competition Best of the Non-Finalists</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>30</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>AMVs That Inspired Us to Buy the Music</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>45</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>AMV Parodies of TV Openings</title>
+        <hourbegin>15</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>00</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
 </event>

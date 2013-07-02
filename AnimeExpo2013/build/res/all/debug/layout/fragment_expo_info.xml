@@ -35,4 +35,13 @@
             android:layout_below="@+id/map_button"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="14dp"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shuttle Routes"
+            android:id="@+id/shuttle_routes"
+            android:layout_below="@+id/exhibitor_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"/>
 </RelativeLayout>

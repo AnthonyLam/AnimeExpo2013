@@ -27,12 +27,14 @@ import java.util.List;
 public class EventPop extends Activity implements
             ActionBar.OnNavigationListener{
 
+    /** Create an array adapter to populate dropwnlist */
     private final String[] actions = new String[] {"All","Day 1", "Day 2", "Day 3", "Day 4"};
     List<Panels> listPanel;
     private Panels panHandle = new Panels();
     private String file = "";
     private PanelAdapter adapter;
-    /** Create an array adapter to populate dropdownlist */
+
+
     public  EventPop(){
 
     }
@@ -77,31 +79,37 @@ public class EventPop extends Activity implements
             }
             // Ticketed Event
             case 3:{
+                actionBarTitle = "Ticketed Events";
                 file = "ticketed_event";
                 break;
             }
             // Workshop
             case 4:{
+                actionBarTitle  = "Workshops";
                 file = "workshop";
                 break;
             }
             // Non-Ticketed Event
             case 5:{
+                actionBarTitle = "Non-Ticketed Events";
                 file = "non_ticketed_event";
                 break;
 
             }
             // Mature Content 18+ Only
             case 6:{
+                actionBarTitle = "Mature Content";
                 file = "mature_content";
                 break;
             }
             case 7:{
+                actionBarTitle = "Anime Music Videos";
                 file="AMV";
                 break;
             }
             case 8:
             {
+                actionBarTitle = "Miscellaneous Events";
                 file = "miscellaneous";
                 break;
             }
@@ -210,6 +218,15 @@ public class EventPop extends Activity implements
         try{
             if(position != 0){
                 listPanel = (panHandle.panel(this,file,position));
+                adapter.clear();
+                adapter.addAll(listPanel);
+                adapter.notifyDataSetChanged();
+            }
+            else{
+                listPanel = panHandle.panel(this,file,1);
+                listPanel.addAll(panHandle.panel(this,file,2));
+                listPanel.addAll(panHandle.panel(this,file,3));
+                listPanel.addAll(panHandle.panel(this,file,4));
                 adapter.clear();
                 adapter.addAll(listPanel);
                 adapter.notifyDataSetChanged();

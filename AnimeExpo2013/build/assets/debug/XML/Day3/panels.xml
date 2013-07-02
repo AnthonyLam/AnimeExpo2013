@@ -20,7 +20,7 @@
     </panel>
     <panel>
         <day>3</day>
-        <title>Vocaloid Panel: Mirai no Neiro "The Sound of the Future" part 1</title>
+        <title>Vocaloid Panel: Mirai no Neiro &quot;The Sound of the Future&quot; part 1</title>
         <hourbegin>10</hourbegin>
         <minutebegin>00</minutebegin>
         <hourend>11</hourend>
@@ -74,7 +74,7 @@
     </panel>
     <panel>
         <day>3</day>
-        <title>Vocaloid Panel: Mirai no Neiro "The Sound of the Future" Part 2</title>
+        <title>Vocaloid Panel: Mirai no Neiro &quot;The Sound of the Future&quot; Part 2</title>
         <hourbegin>12</hourbegin>
         <minutebegin>00</minutebegin>
         <hourend>13</hourend>
@@ -119,11 +119,11 @@
     </panel>
     <panel>
         <day>3</day>
-        <title>Words, Pictures,and Language inJapanese Comics</title>
-        <hourbegin></hourbegin>
-        <minutebegin></minutebegin>
-        <hourend></hourend>
-        <minuteend></minuteend>
+        <title>Words, Pictures,and Language in Japanese Comics</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>00</minuteend>
         <location>LP4 : 411</location>
     </panel>
     <panel>

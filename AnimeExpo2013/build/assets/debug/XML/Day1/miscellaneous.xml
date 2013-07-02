@@ -54,4 +54,13 @@
         <minuteend>00</minuteend>
         <location>Karaoke 2 : 150C</location>
     </panel>
+        <panel>
+        <day>1</day>
+		<title>AX Dance Night Ft: Casual Robot,Casanova Frankenstein, Revolution Boi, Meishi Smile, DJ Jeffito [18+ After 11PM]</title>
+		<hourbegin>19</hourbegin>
+		<minutebegin>00</minutebegin>
+		<hourend>2</hourend>
+		<minuteend>00</minuteend>
+		<location>Hybrid Dance : Concourse</location>
+    </panel>
 </events>

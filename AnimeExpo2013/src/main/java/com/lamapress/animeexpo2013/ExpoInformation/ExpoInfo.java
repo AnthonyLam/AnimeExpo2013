@@ -11,6 +11,7 @@ import android.widget.Button;
 
 import com.lamapress.animeexpo2013.MapFragments.ExpoMapFragment;
 import com.lamapress.animeexpo2013.R;
+import com.lamapress.animeexpo2013.Shuttles;
 
 public class ExpoInfo extends Fragment {
 
@@ -21,11 +22,13 @@ public class ExpoInfo extends Fragment {
         Button hoursButton = (Button)view.findViewById(R.id.hours_button);
         Button mapButton = (Button)view.findViewById(R.id.map_button);
         Button exhibitorButton = (Button)view.findViewById(R.id.exhibitor_button);
+        Button shuttleButton = (Button)view.findViewById(R.id.shuttle_routes);
 
         hoursButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(getActivity(),ExpoHours.class);
+                getActivity().startActivity(intent);
             }
         });
 
@@ -41,10 +44,18 @@ public class ExpoInfo extends Fragment {
         exhibitorButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(getActivity(),Exhibitors.class);
+                getActivity().startActivity(intent);
             }
         });
 
+        shuttleButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                    Intent intent = new Intent(getActivity(),Shuttles.class);
+                    getActivity().startActivity(intent);
+            }
+        });
 
         return view;
     }

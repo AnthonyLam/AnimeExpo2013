@@ -39,7 +39,7 @@
     </panel>
     <panel>
         <day>2</day>
-        <title>Titmouse Inc: "We make carbons"</title>
+        <title>Titmouse Inc: &quot;We make carbons&quot;</title>
         <hourbegin>19</hourbegin>
         <minutebegin>45</minutebegin>
         <hourend>10</hourend>
@@ -156,7 +156,7 @@
     </panel>
     <panel>
         <day>2</day>
-        <title>"The Art of Localization" by Aksys Games</title>
+        <title>&quot;The Art of Localization&quot; by Aksys Games</title>
         <hourbegin>15</hourbegin>
         <minutebegin>45</minutebegin>
         <hourend>16</hourend>

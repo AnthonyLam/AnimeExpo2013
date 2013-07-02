@@ -51,18 +51,25 @@ public class SqlMaker extends SQLiteOpenHelper {
         onCreate(database);
     }
 
-    public void addContent(Panels id){
-        SQLiteDatabase db = this.getWritableDatabase();
+    public void addContent( final Panels id){
+        final SQLiteDatabase db = this.getWritableDatabase();
 
-            ContentValues values = new ContentValues();
-            values.put(COLUMN_TITLE, id.title);
-            values.put(COLUMN_DAY,id.day);
-            values.put(COLUMN_TIME_BEGIN,Long.toString(id.begin.getTimeInMillis()));
-            values.put(COLUMN_TIME_END,Long.toString(id.end.getTimeInMillis()));
-            values.put(COLUMN_LOCATION,id.location);
 
-            db.insert(TABLE_SCHEDULE,null,values);
-        db.close();
+        new Thread(new Runnable(){
+            public void run(){
+
+                ContentValues values = new ContentValues();
+                values.put(COLUMN_TITLE, id.title);
+                values.put(COLUMN_DAY,id.day);
+                values.put(COLUMN_TIME_BEGIN,Long.toString(id.begin.getTimeInMillis()));
+                values.put(COLUMN_TIME_END,Long.toString(id.end.getTimeInMillis()));
+                values.put(COLUMN_LOCATION,id.location);
+
+                db.insert(TABLE_SCHEDULE,null,values);
+                db.close();
+            }
+        }).start();
+
     }
 
 
@@ -88,29 +95,63 @@ public class SqlMaker extends SQLiteOpenHelper {
             e.printStackTrace();
             return false;
         }
-
+            cursor.close();
         return id >= 0;
     }
 
     public List<Panels> getContent(){
-        List<Panels> panelsList = new ArrayList<Panels>();
-        String selectQuery = "SELECT * FROM " + TABLE_SCHEDULE;
 
-        SQLiteDatabase db = getWritableDatabase();
-        Cursor cursor = db.rawQuery(selectQuery,null);
+        final List<Panels> panelsList = new ArrayList<Panels>();
 
-        if(cursor.moveToFirst()){
-            do{
-                Panels panel = new Panels();
-                panel.title = cursor.getString(1);
-                panel.day = Integer.parseInt(cursor.getString(2));
-                panel.begin.setTimeInMillis(Long.parseLong(cursor.getString(3)));
-                panel.end.setTimeInMillis(Long.parseLong(cursor.getString(4)));
-                panel.location = cursor.getString(5);
-                panelsList.add(panel);
-            } while(cursor.moveToNext());
-        }
-    return panelsList;
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                String selectQuery = "SELECT * FROM " + TABLE_SCHEDULE;
+
+                SQLiteDatabase db = getWritableDatabase();
+                Cursor cursor = db.rawQuery(selectQuery,null);
+
+                if(cursor.moveToFirst()){
+                    do{
+                        Panels panel = new Panels();
+                        panel.title = cursor.getString(1);
+                        panel.day = Integer.parseInt(cursor.getString(2));
+                        panel.begin.setTimeInMillis(Long.parseLong(cursor.getString(3)));
+                        panel.end.setTimeInMillis(Long.parseLong(cursor.getString(4)));
+                        panel.location = cursor.getString(5);
+                        panelsList.add(panel);
+                    } while(cursor.moveToNext());
+                }
+
+                cursor.close();
+            }
+        }).start();
+
+        return panelsList;
     }
 
+    public List<Panels> getAfterContent(){
+        final List<Panels> panelsList = new ArrayList<Panels>();
+
+                String selectQuery = "SELECT * FROM " + TABLE_SCHEDULE;
+
+                SQLiteDatabase db = getWritableDatabase();
+                Cursor cursor = db.rawQuery(selectQuery,null);
+
+                if(cursor.moveToFirst()){
+                    do{
+                        Panels panel = new Panels();
+                        panel.title = cursor.getString(1);
+                        panel.day = Integer.parseInt(cursor.getString(2));
+                        panel.begin.setTimeInMillis(Long.parseLong(cursor.getString(3)));
+                        panel.end.setTimeInMillis(Long.parseLong(cursor.getString(4)));
+                        panel.location = cursor.getString(5);
+                        panelsList.add(panel);
+                    } while(cursor.moveToNext());
+
+                cursor.close();
+                }
+
+        return panelsList;
+    }
 }

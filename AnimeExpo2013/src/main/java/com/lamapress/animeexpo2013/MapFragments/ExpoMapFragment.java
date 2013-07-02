@@ -3,6 +3,7 @@ package com.lamapress.animeexpo2013.MapFragments;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,6 +17,8 @@ import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.Polyline;
+import com.google.android.gms.maps.model.PolylineOptions;
 import com.google.android.gms.maps.model.TileOverlay;
 import com.google.android.gms.maps.model.TileOverlayOptions;
 import com.lamapress.animeexpo2013.R;
@@ -35,7 +38,7 @@ public class ExpoMapFragment extends Activity {
     MapOverlay[] overlay = new MapOverlay[NUM_OVERLAY];
     TileOverlay[] tileOverlay = new TileOverlay[NUM_OVERLAY];
     public LatLng cameraLocation;
-    List<Marker> markers = new ArrayList<Marker>();
+    List<Marker> roadmarkers ;
     List<Marker> levelOneMarker;
     List<Marker> levelTwoMarker;
     MarkerHolder holder;
@@ -91,16 +94,19 @@ public class ExpoMapFragment extends Activity {
 
         holder = new MarkerHolder();
 
-
                 try{
+                    roadmarkers = holder.loadMarker(getAssets().open("markers/shuttle.xml"),mMap);
                     levelOneMarker = holder.loadMarker(getAssets().open("markers/levelOne.xml"),mMap);
                     levelTwoMarker = holder.loadMarker(getAssets().open("markers/levelTwo.xml"),mMap);
+                    //markerVisibility(roadmarkers,true);
                 }
                 catch(IOException e){
+                    roadmarkers = null;
                     levelOneMarker = null;
                     levelTwoMarker = null;
                 }
                 catch(XmlPullParserException e){
+                    roadmarkers = null;
                     levelOneMarker = null;
                     levelTwoMarker = null;
 
@@ -109,7 +115,7 @@ public class ExpoMapFragment extends Activity {
         cameraLocation = cameraToMarker(focus);
         CameraPosition cameraPos = new CameraPosition.Builder()
                 .target(cameraLocation)
-                .zoom(20)
+                .zoom(18)
                 .bearing(270)
                 .build();
         mMap.moveCamera(CameraUpdateFactory.newCameraPosition(cameraPos));
@@ -193,7 +199,7 @@ public class ExpoMapFragment extends Activity {
     public LatLng cameraToMarker(String search){
         search = search.replaceAll("\\s+","");
         for(Marker marker : levelOneMarker ){
-            if(marker.getTitle().replaceAll("\\s","").equals(search)){
+            if(marker.getTitle().replaceAll("\\s+","").equals(search)){
                 tileOverlay[1].setVisible(true);
                 tileOverlay[2].setVisible(false);
                 markerVisibility(levelOneMarker,true);
@@ -203,7 +209,7 @@ public class ExpoMapFragment extends Activity {
             }
         }
         for(Marker marker : levelTwoMarker){
-            if(marker.getTitle().replaceAll("\\s","").equals(search)){
+            if(marker.getTitle().replaceAll("\\s+","").equals(search)){
                 tileOverlay[1].setVisible(false);
                 tileOverlay[2].setVisible(true);
                 markerVisibility(levelOneMarker,false);
@@ -212,6 +218,12 @@ public class ExpoMapFragment extends Activity {
                 return marker.getPosition();
             }
         }
+        for(Marker marker : roadmarkers){
+            if(marker.getTitle().replaceAll("\\s+","").equals(search)){
+                return marker.getPosition();
+            }
+        }
         return new LatLng( 34.040459,-118.270609);
     }
+
 }

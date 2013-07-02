@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lamapress.animeexpo2013"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="3"
+    android:versionName="1.0.2" >
 
     <uses-sdk
-        android:minSdkVersion="11"
+        android:minSdkVersion="14"
         android:targetSdkVersion="16" />
 
     <application
@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PanelsList.EventPop"
+            android:name="com.lamapress.animeexpo2013.PanelsList.EventPop"
             android:label="@string/title_activity_event_pop" >
         </activity>
 
@@ -32,12 +32,24 @@
             android:value="AIzaSyBSxx8zLsNHdacViMd6It1i0svfHBPXNZA" />
 
         <activity
-            android:name=".MapFragments.ExpoMapFragment"
+            android:name="com.lamapress.animeexpo2013.MapFragments.ExpoMapFragment"
             android:label="Map" >
         </activity>
         <activity
-            android:name=".ExpoInformation.AboutActivity"
+            android:name="com.lamapress.animeexpo2013.ExpoInformation.AboutActivity"
             android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.lamapress.animeexpo2013.ExpoInformation.ExpoHours"
+            android:label="@string/title_activity_expo_hours" >
+        </activity>
+        <activity
+            android:name="com.lamapress.animeexpo2013.ExpoInformation.Exhibitors"
+            android:label="@string/title_activity_exhibitors" >
+        </activity>
+        <activity
+            android:name="com.lamapress.animeexpo2013.Shuttles"
+            android:label="@string/title_activity_shuttles" >
         </activity>
     </application>
 
