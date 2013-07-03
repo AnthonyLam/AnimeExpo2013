@@ -65,6 +65,7 @@ public class ExpoMapFragment extends Activity {
         Button oneButton = (Button)findViewById(R.id.show_level_one);
         Button twoButton = (Button)findViewById(R.id.show_level_two);
 
+
         try{
 
             mView = (MapView)findViewById(R.id.map);

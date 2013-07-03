@@ -84,7 +84,7 @@ public class SqlMaker extends SQLiteOpenHelper {
         Cursor cursor;
         int id;
         String findQuery = "SELECT " + COLUMN_ID +  " FROM " + TABLE_SCHEDULE + " WHERE "
-                + column + " =  \'" + search + "\'";
+                + column + " =  \'" + search.replaceAll("'","''") + "\'";
         try{
             cursor = db.rawQuery(findQuery,null);
             cursor.moveToFirst();
