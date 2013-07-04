@@ -176,9 +176,15 @@ public class EventPop extends Activity implements
         enabled = sql.findContent("title",listPanel.get(info.position).title);
 
         MenuItem myMenuItem = menu.findItem(R.id.remove_from_schedule);
-        myMenuItem.setVisible(enabled);
-        myMenuItem = menu.findItem(R.id.add_to_schedule);
-        myMenuItem.setVisible(!enabled);
+        try{
+
+            myMenuItem.setVisible(enabled);
+            myMenuItem = menu.findItem(R.id.add_to_schedule);
+            myMenuItem.setVisible(!enabled);
+        }
+        catch(NullPointerException e){
+            e.printStackTrace();
+        }
 
     }
 

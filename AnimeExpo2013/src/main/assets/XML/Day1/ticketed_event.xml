@@ -8,6 +8,7 @@
         <hourend>19</hourend>
         <minuteend>45</minuteend>
         <location>Main Events : Hall B</location>
+        <description></description>
     </panel>
 	<panel>
         <day>2</day>
@@ -17,6 +18,6 @@
         <hourend>21</hourend>
         <minuteend>45</minuteend>
         <location>Main Events : Hall B</location>
+        <description></description>
     </panel>
-  
 </events>

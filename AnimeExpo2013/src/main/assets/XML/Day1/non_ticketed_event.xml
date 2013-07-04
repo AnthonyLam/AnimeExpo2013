@@ -8,6 +8,7 @@
         <hourend>24</hourend>
         <minuteend>00</minuteend>
         <location>Main Events : Hall B</location>
+        <description></description>
     </panel>
     <panel>
         <day>1</day>
@@ -17,7 +18,6 @@
 		<hourend>18</hourend>
 		<minuteend>30</minuteend>
 		<location>Hybrid Dance : Concourse</location>
-    </panel>
-
-   
+        <description></description>
+    </panel>   
 </events>

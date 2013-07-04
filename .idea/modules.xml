@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/AX2013Project.iml" filepath="$PROJECT_DIR$/AX2013Project.iml" />
       <module fileurl="file://$PROJECT_DIR$/AnimeExpo2013/AnimeExpo2013.iml" filepath="$PROJECT_DIR$/AnimeExpo2013/AnimeExpo2013.iml" />
       <module fileurl="file://$PROJECT_DIR$/GooglePlayServices/GooglePlayServices.iml" filepath="$PROJECT_DIR$/GooglePlayServices/GooglePlayServices.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-071a61c/actionbarsherlock/actionbarsherlock.iml" filepath="$PROJECT_DIR$/../JakeWharton-ActionBarSherlock-071a61c/actionbarsherlock/actionbarsherlock.iml" />
       <module fileurl="file://$APPLICATION_HOME_DIR$/sdk/extras/google/google_play_services/libproject/google-play-services_lib/google-play-services_lib.iml" filepath="$APPLICATION_HOME_DIR$/sdk/extras/google/google_play_services/libproject/google-play-services_lib/google-play-services_lib.iml" />
     </modules>
   </component>

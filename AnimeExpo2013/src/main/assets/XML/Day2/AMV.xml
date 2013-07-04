@@ -8,6 +8,7 @@
         <hourend>10</hourend>
         <minuteend>45</minuteend>
         <location>AMV Room : 511</location>
+        <description></description>
     </panel>
     <panel>
         <day>2</day>
@@ -17,6 +18,7 @@
         <hourend>12</hourend>
         <minuteend>45</minuteend>
         <location>AMV Room : 511</location>
+        <description></description>
     </panel>
     <panel>
         <day>2</day>
@@ -26,6 +28,7 @@
         <hourend>14</hourend>
         <minuteend>00</minuteend>
         <location>AMV Room : 511</location>
+        <description></description>
     </panel>
     <panel>
         <day>2</day>
@@ -35,6 +38,7 @@
         <hourend>17</hourend>
         <minuteend>30</minuteend>
         <location>AMV Room : 511</location>
+        <description></description>
     </panel>
     <panel>
         <day>2</day>
@@ -44,6 +48,7 @@
         <hourend>18</hourend>
         <minuteend>45</minuteend>
         <location>AMV Room : 511</location>
+        <description></description>
     </panel>
     <panel>
         <day>2</day>
@@ -53,6 +58,7 @@
         <hourend>21</hourend>
         <minuteend>15</minuteend>
         <location>AMV Room : 511</location>
+        <description></description>
     </panel>
     <panel>
         <day>2</day>
@@ -62,5 +68,6 @@
         <hourend>22</hourend>
         <minuteend>30</minuteend>
         <location>AMV Room : 511</location>
+        <description></description>
     </panel>
 </event>

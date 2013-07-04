@@ -290,6 +290,15 @@
     </panel>
     <panel>
         <day>3</day>
+        <title>Rurouni Kenshin Live Action</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>17</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 4 : 408</location>
+    </panel>
+    <panel>
+        <day>3</day>
         <title>The Princess and the Pilot</title>
         <hourbegin>17</hourbegin>
         <minutebegin>15</minutebegin>

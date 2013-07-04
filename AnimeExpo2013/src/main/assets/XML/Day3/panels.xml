@@ -8,6 +8,7 @@
         <hourend>11</hourend>
         <minuteend>00</minuteend>
         <location>LP1 : Petree Hall</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -17,6 +18,7 @@
         <hourend>14</hourend>
         <minuteend>45</minuteend>
         <location>LP1 : Petree Hall</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -26,6 +28,7 @@
         <hourend>11</hourend>
         <minuteend>30</minuteend>
         <location>LP2 : 502AB</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -35,6 +38,7 @@
         <hourend>14</hourend>
         <minuteend>15</minuteend>
         <location>LP2 : 502AB</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -44,6 +48,7 @@
         <hourend>15</hourend>
         <minuteend>30</minuteend>
         <location>LP2 : 502AB</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -53,6 +58,7 @@
         <hourend>18</hourend>
         <minuteend>00</minuteend>
         <location>LP2 : 502AB</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -62,6 +68,7 @@
         <hourend>20</hourend>
         <minuteend>30</minuteend>
         <location>LP2 : 502AB</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -71,6 +78,7 @@
         <hourend>11</hourend>
         <minuteend>15</minuteend>
         <location>LP3 : 515A</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -80,6 +88,7 @@
         <hourend>13</hourend>
         <minuteend>30</minuteend>
         <location>LP3 : 515A</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -89,6 +98,7 @@
         <hourend>15</hourend>
         <minuteend>00</minuteend>
         <location>LP3 : 515A</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -98,6 +108,7 @@
         <hourend>16</hourend>
         <minuteend>15</minuteend>
         <location>LP3 : 515A</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -107,6 +118,7 @@
         <hourend>17</hourend>
         <minuteend>30</minuteend>
         <location>LP3 : 515A</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -116,6 +128,7 @@
         <hourend>20</hourend>
         <minuteend>00</minuteend>
         <location>LP3 : 515A</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -125,6 +138,7 @@
         <hourend>11</hourend>
         <minuteend>00</minuteend>
         <location>LP4 : 411</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -134,6 +148,7 @@
         <hourend>11</hourend>
         <minuteend>00</minuteend>
         <location>LP4 : 411</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -143,6 +158,7 @@
         <hourend>12</hourend>
         <minuteend>15</minuteend>
         <location>LP4 : 411</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -152,6 +168,7 @@
         <hourend>13</hourend>
         <minuteend>30</minuteend>
         <location>LP4 : 411</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -161,6 +178,7 @@
         <hourend>14</hourend>
         <minuteend>45</minuteend>
         <location>LP4 : 411</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -170,6 +188,7 @@
         <hourend>16</hourend>
         <minuteend>00</minuteend>
         <location>LP4 : 411</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -179,6 +198,7 @@
         <hourend>20</hourend>
         <minuteend>15</minuteend>
         <location>LP4 : 411</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -188,6 +208,7 @@
         <hourend>12</hourend>
         <minuteend>30</minuteend>
         <location>WS1 : 515</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -197,6 +218,7 @@
         <hourend>19</hourend>
         <minuteend>45</minuteend>
         <location>WS1 : 515</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -206,6 +228,7 @@
         <hourend>11</hourend>
         <minuteend>00</minuteend>
         <location>WS2 : 501</location>
+        <description></description>
     </panel>
     <panel>
         <day>3</day>
@@ -215,5 +238,6 @@
         <hourend>17</hourend>
         <minuteend>15</minuteend>
         <location>Lounge 21 : 151</location>
+        <description></description>
     </panel>
 </events>

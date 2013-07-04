@@ -76,7 +76,7 @@ public class SqlMaker extends SQLiteOpenHelper {
 
     public void removeContent(String column, String item){
         SQLiteDatabase db = this.getWritableDatabase();
-        db.delete(TABLE_SCHEDULE,column + "=\'" + item + '\'',null);
+        db.delete(TABLE_SCHEDULE,column + "=\'" + item.replaceAll("'","''") + '\'',null);
     }
 
     public boolean findContent(String column,String search){

@@ -8,6 +8,7 @@
         <hourend>16</hourend>
         <minuteend>00</minuteend>
         <location>Main Events : Hall B</location>
+        <description></description>
     </panel>
     <panel>
         <day>4</day>
@@ -17,6 +18,6 @@
         <hourend>18</hourend>
         <minuteend>00</minuteend>
         <location>Main Events : Hall B</location>
+        <description></description>
     </panel>
-
 </events>

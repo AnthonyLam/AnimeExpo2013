@@ -8,6 +8,7 @@
         <hourend>21</hourend>
         <minuteend>00</minuteend>
         <location>Karaoke 1 : 150AB</location>
+        <description></description>
     </panel>
     <panel>
         <day>2</day>
@@ -17,5 +18,6 @@
         <hourend>24</hourend>
         <minuteend>00</minuteend>
         <location>Karaoke 1 : 150AB</location>
+        <description></description>
     </panel>
 </events>

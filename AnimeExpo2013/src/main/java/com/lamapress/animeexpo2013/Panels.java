@@ -11,6 +11,7 @@ import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
 
@@ -138,7 +139,7 @@ public class Panels implements Comparable<Panels>{
         }
 
 
-
+        Collections.sort(panelEvents);
         return panelEvents;
     }
 
