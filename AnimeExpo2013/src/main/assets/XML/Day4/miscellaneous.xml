@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+    <panel>
+        <day>4</day>
+        <title>SPJA Charity Auction</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>00</minuteend>
+        <location>Main Events : Hall B</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>Closing Ceremonies</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>00</minuteend>
+        <location>Main Events : Hall B</location>
+        <description></description>
+    </panel>
+</events>

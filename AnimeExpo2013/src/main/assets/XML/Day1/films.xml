@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+    <panel>
+        <day>1</day>
+        <title>Welcome to the NHK 1 - 3 [D/17+]</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 1 : 403</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>1</day>
+        <title>Tiger and Bunny 1-3 [S/13+]</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>30</minuteend>
+        <location>Video 1 : 403</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>1</day>
+        <title>Ruroni Kenshin Live Action</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 1 : 403</location>
+        <description></description>
+    </panel>
+	 <panel>
+        <day>1</day>
+        <title>FUNimation Presents: Wolf Children [D/13+]</title>
+        <hourbegin>16</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 1 : 403</location>
+        <description></description>
+    </panel>
+	 <panel>
+        <day>1</day>
+        <title>Full Metal Alchemist 1-3 [D/13+]</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 1 : 403</location>
+        <description></description>
+    </panel>
+	 <panel>
+        <day>1</day>
+        <title>Full Metal Alchemist: Brotherhood 1-3 [D/14+]</title>
+        <hourbegin>20</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>21</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 1 : 403</location>
+        <description></description>
+    </panel>
+	 <panel>
+        <day>1</day>
+        <title>Full Metal Alchemist: The Movie - Conqueror of Shamballa [D/13+]</title>
+        <hourbegin>21</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>23</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 1 : 403</location>
+        <description></description>
+    </panel>
+	 <panel>
+        <day>1</day>
+        <title>FLCL 1-3 [D/16+]</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 2 : 404</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Case Closed 1-3 [D/13+]</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 2 : 404</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Fruits Basket 1-3 [D/13+]</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>30</minuteend>
+        <location>Video 2 : 404</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Kenichi the Mightiest Disciple 1-3 [D/13+]</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 2 : 404</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Mushi-shi 1-3 [D/13+]</title>
+        <hourbegin>16</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>17</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 2 : 404</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Noir 1-3 [D/15+]</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>30</minuteend>
+        <location>Video 2 : 404</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Steins;Gate 1-3 [D/14+]</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 2 : 404</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>XXXhOLiC 1-3 [D/14+]</title>
+        <hourbegin>20</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>21</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 2 : 404</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Black Butler 1-3 [D/16+]</title>
+        <hourbegin>21</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>22</hourend>
+        <minuteend>30</minuteend>
+        <location>Video 2 : 404</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Black Butler II 1-3 [D/16+]</title>
+        <hourbegin>22</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>23</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 2 : 404</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Kids on the Slope 1-3 [S/16+]</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 3 : 406</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Accel World 1-3 [S/13+]</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>30</minuteend>
+        <location>Video 3 : 406</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Jyu-Oh-Sei 1-3 [D/15+]</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 3 : 406</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Fate/Stay Night 1-3 [S/14+]</title>
+        <hourbegin>15</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 3 : 406</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Gunslinger Girl 1-3 [S/14+]</title>
+        <hourbegin>16</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>17</hourend>
+        <minuteend>30</minuteend>
+        <location>Video 3 : 406</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>ALL OF THE LASER DISCS</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>23</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 3 : 406</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Inu Yasha 1-3 [S/13+]</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 4 : 408</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Inu Yasha: Final Act 1-3 [S/13+]</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 4 : 408</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Nura: Rise of the Yokai Clan 1-3 [S/13+]</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 4 : 408</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Naruto 1-3 [S/15+]</title>
+        <hourbegin>15</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 4 : 408</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Naruto Shippuden 1-3 [S/13+]</title>
+        <hourbegin>16</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>17</hourend>
+        <minuteend>15</minuteend>
+        <location>Video 4 : 408</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Blue Exorcist 1-3 [S/13+]</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>30</minuteend>
+        <location>Video 4 : 408</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Cosplayer Nation: A Documentary</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>19</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 4 : 408</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Evangelion : 1.0 You Are Not Alone</title>
+        <hourbegin>20</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>22</hourend>
+        <minuteend>00</minuteend>
+        <location>Video 4 : 408</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Evangelion 2.0 You Can Not Advance</title>
+        <hourbegin>22</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>23</hourend>
+        <minuteend>45</minuteend>
+        <location>Video 4 : 408</location>
+        <description></description>
+    </panel>
+</events>

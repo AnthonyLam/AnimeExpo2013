@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+        <panel>
+        <day>4</day>
+        <title>Bandai Namco Games and Shueisha Present: Naruto</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>00</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>The Garden of Words Panel with Makoto Shinkai</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>15</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>VIZ Media Panel</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>30</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>FUNimation Industry Panel</title>
+        <hourbegin>15</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>30</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>My Little Pony: Sound is Magic</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>00</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>GameTrailers Presents: Kingdom Hearts Pop Fiction &amp; More</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>45</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>The Great Myth of Voice Acting</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>00</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>Thousand Pounds Live Action Anime Hour</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>15</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>Crypton Future Media, INC Presents Hatsune Miku</title>
+        <hourbegin>15</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>17</hourend>
+        <minuteend>00</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>Harmony Gold Presents: Robot Rumble</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>30</minuteend>
+        <location>LP3 : 515A</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>Convention Gripe Session</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>45</minuteend>
+        <location>LP3 : 515A</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>Japanamerica Book Signing: The Future of Anime</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>30</minuteend>
+        <location>LP3 : 515A</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>SPJA Board of Directors Meeting</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>00</minuteend>
+        <location>LP4 : 411</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>Objection! Creating a Startup for your Anime Business</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>15</minuteend>
+        <location>LP4 : 411</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>What Anime Fans do, Why and How</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>30</minuteend>
+        <location>LP4 : 411</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>The Future of Graphic Novels and Motion Comics</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>45</minuteend>
+        <location>LP4 : 411</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>Dubs that Time Forgot</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>00</minuteend>
+        <location>WS1 : 515</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>Teenage Mutant Ninja Turtles: Inside Season One</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>15</minuteend>
+        <location>WS1 : 515</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>Mass Effect Protocol: Standard Protocol</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>00</minuteend>
+        <location>WS2 : 501</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>Dark Horse presents: The Changing Faces of Evangelion</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>15</minuteend>
+        <location>WS2 : 501</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>Diversity in the Cosplay Community</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>00</minuteend>
+        <location>WS2 : 501</location>
+    </panel>
+    <panel>
+        <day>4</day>
+        <title>CELL Q/A</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>00</minuteend>
+        <location>Lounge 21 : 151</location>
+    </panel>
+</events>

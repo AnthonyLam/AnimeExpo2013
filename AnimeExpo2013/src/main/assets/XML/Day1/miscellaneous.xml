@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+    <panel>
+        <day>1</day>
+        <title>Opening Ceremonies</title>
+        <hourbegin>9</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>30</minuteend>
+        <location>Main Events : Hall B</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>1</day>
+        <title>Karaoke Contest Warm-Ups</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>00</minuteend>
+        <location>Karaoke 1 : 150AB</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>1</day>
+        <title>Karaoke Contest Prelims</title>
+        <hourbegin>16</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>19</hourend>
+        <minuteend>00</minuteend>
+        <location>Karaoke 1 : 150AB</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>1</day>
+        <title>Karaoke All-Stars</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>00</minuteend>
+        <location>Karaoke 1 : 150AB</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>1</day>
+        <title>Karaoke Contest Semifinals and Finals</title>
+        <hourbegin>20</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>24</hourend>
+        <minuteend>00</minuteend>
+        <location>Karaoke 1 : 150AB</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>1</day>
+        <title>Karaoke Contest Check-in/Sign-up and Warm-ups</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>00</minuteend>
+        <location>Karaoke 2 : 150C</location>
+        <description></description>
+    </panel>
+        <panel>
+        <day>1</day>
+		<title>AX Dance Night Ft: Casual Robot,Casanova Frankenstein, Revolution Boi, Meishi Smile, DJ Jeffito [18+ After 11PM]</title>
+		<hourbegin>19</hourbegin>
+		<minutebegin>00</minutebegin>
+		<hourend>2</hourend>
+		<minuteend>00</minuteend>
+		<location>Hybrid Dance : Concourse</location>
+        <description></description>
+    </panel>
+</events>

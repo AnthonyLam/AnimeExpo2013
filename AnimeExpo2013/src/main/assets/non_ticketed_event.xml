@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+
+    <panel>
+        <day>1</day>
+        <title>Opening Ceremonies</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>30</minuteend>
+        <location>Main Events : Hall B</location>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>Anime Music Video Competition</title>
+        <hourbegin>20</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>24</hourend>
+        <minuteend>00</minuteend>
+        <location>Main Events : Hall B</location>
+    </panel>
+    <panel>
+        <day>1</day>
+		<title>First Annual K-Pop Cover AX Dance Competition</title>
+		<hourbegin>16</hourbegin>
+		<minutebegin>30</minutebegin>
+		<hourend>18</hourend>
+		<minuteend>30</minuteend>
+		<location>Hybrid Dance : Concourse</location>
+    </panel>
+    <panel>
+        <day>1</day>
+		<title>AX Dance Night Ft: Casual Robot,Casanova Frankenstein, Revolution Boi, Meishi Smile, DJ Jeffito [18+ After 11PM]</title>
+		<hourbegin>19</hourbegin>
+		<minutebegin>00</minutebegin>
+		<hourend>2</hourend>
+		<minuteend>00</minuteend>
+		<location>Hybrid Dance : Concourse</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Japan Film Society Film Fest Awards!</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>30</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Liz Lisa Doll Tralala Liz Lisa Fasion Show with Star Marie</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>00</minuteend>
+        <location>Hybrid Dance : Concourse</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Shinjuku Ball Featuring DJ Mistymind and Nana</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>00</minuteend>
+        <location>Hybrid Dance : Concourse</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>AX Dance Featuring: Heal, Dead Kruiser, RAM RIDER, Ameya</title>
+        <hourbegin>20</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>2</hourend>
+        <minuteend>00</minuteend>
+        <location>Hybrid Dance : Concourse</location>
+    </panel>
+</events>

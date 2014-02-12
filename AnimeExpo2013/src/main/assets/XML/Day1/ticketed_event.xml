@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+    <panel>
+        <day>1</day>
+        <title>Aya Ikeda x CARAT Convert!</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>19</hourend>
+        <minuteend>45</minuteend>
+        <location>Main Events : Hall B</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>2</day>
+        <title>Visual Kei Night Featuring: Kaya x Moon Stream x CELL Concert</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>21</hourend>
+        <minuteend>45</minuteend>
+        <location>Main Events : Hall B</location>
+        <description></description>
+    </panel>
+</events>

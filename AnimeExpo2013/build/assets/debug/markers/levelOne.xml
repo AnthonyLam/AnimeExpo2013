@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level>
+    <marker>
+        <latitude>34.039826</latitude>
+        <longitude>-118.269118</longitude>
+        <text>Registration</text>
+    </marker>
+    <marker>
+        <latitude>34.042739</latitude>
+        <longitude>-118.268261</longitude>
+        <text>Bag Check</text>
+    </marker>
+    <marker>
+        <latitude>34.042925</latitude>
+        <longitude>-118.268862</longitude>
+        <text>Ticketing</text>
+    </marker>
+    <marker>
+        <latitude>34.043038</latitude>
+        <longitude>-118.269384</longitude>
+        <text>Gaming Lounge</text>
+    </marker>
+    <marker>
+        <latitude>34.042723</latitude>
+        <longitude>-118.270030</longitude>
+        <text>Main Events : Hall B</text>
+    </marker>
+    <marker>
+        <latitude>34.043252</latitude>
+        <longitude>-118.26874</longitude>
+        <text>LP1 : Petree Hall</text>
+    </marker>
+    <marker>
+        <latitude>34.041770</latitude>
+        <longitude>-118.268847</longitude>
+        <text>Hybrid Dance : Concourse</text>
+    </marker>
+    <marker>
+        <latitude>34.04151</latitude>
+        <longitude>-118.268928</longitude>
+        <text>Karaoke 1 : 150AB</text>
+    </marker>
+    <marker>
+        <latitude>34.0416</latitude>
+        <longitude>-118.269082</longitude>
+        <text>Karaoke 2 : 150C</text>
+    </marker>
+    <marker>
+        <location>34.041627</location>
+        <longitude>-118.268791</longitude>
+        <text>Lounge 21 : 151</text>
+    </marker>
+    <marker>
+        <location>34.044415</location>
+        <longitude>-118.267181</longitude>
+        <text>Club Nokia : LA Live</text>
+    </marker>
+</level>

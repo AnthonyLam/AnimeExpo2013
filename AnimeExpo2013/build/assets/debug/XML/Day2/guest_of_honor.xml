@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+    <panel>
+        <day>2</day>
+        <title>K - English World Premiere &amp; Behind the Scenes</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>00</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Kick Heart Premiere &amp; Q/A</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>15</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Culture Japan with Danny Choo</title>
+        <hourbegin>9</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>00</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>GOH: Megumi han</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>15</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>GOH: Porno Graffitti</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>15</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>GOH: Noizi Ito</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>15</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>GOH: Eric Vale</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>19</hourend>
+        <minuteend>30</minuteend>
+        <location>LP2 : 502AB</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>GOH: Nobuhiro Kikuchi</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>15</minuteend>
+        <location>LP3 : 515A</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>GOH: Mari Okada</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>30</minuteend>
+        <location>LP3 : 515A</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Marginal Records, Maltine Records and RAM RIDER Meet and Greet</title>
+        <hourbegin>15</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>00</minuteend>
+        <location>Hybrid Dance : Concourse</location>
+    </panel>
+</events>

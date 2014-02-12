@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+    <panel>
+        <day>4</day>
+        <title>GOH: Alodia</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>45</minuteend>
+        <location>LP1 : Petree Hall</location>
+    </panel>
+</events>

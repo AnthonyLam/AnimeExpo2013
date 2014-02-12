@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<event>	
+    <panel>
+		<day>1</day>
+		<title>Lights, Camera, ACTION!</title>
+		<hourbegin>11</hourbegin>
+		<minutebegin>00</minutebegin>
+		<hourend>11</hourend>
+		<minuteend>45</minuteend>
+		<location>AMV Room : 511</location>
+	</panel>
+	<panel>
+		<day>1</day>
+		<title>AMV 101: Starting on the Right Track</title>
+		<hourbegin>12</hourbegin>
+		<minutebegin>00</minutebegin>
+		<hourend>13</hourend>
+		<minuteend>00</minuteend>
+		<location>AMV Room : 511</location>
+	</panel>
+	<panel>
+		<day>1</day>
+		<title>Creator Spotlights</title>
+		<hourbegin>13</hourbegin>
+		<minutebegin>15</minutebegin>
+		<hourend>14</hourend>
+		<minuteend>15</minuteend>
+		<location>AMV Room : 511</location>
+	</panel>
+	<panel>
+		<day>1</day>
+		<title>Awesomecore AMVs</title>
+		<hourbegin>14</hourbegin>
+		<minutebegin>30</minutebegin>
+		<hourend>15</hourend>
+		<minuteend>30</minuteend>
+		<location>AMV Room : 511</location>
+	</panel>
+	<panel>
+		<day>1</day>
+		<title>AMV Wayback Machine: The History of AMVs</title>
+		<hourbegin>15</hourbegin>
+		<minutebegin>45</minutebegin>
+		<hourend>17</hourend>
+		<minuteend>15</minuteend>
+		<location>AMV Room : 511</location>
+	</panel>
+	<panel>
+		<day>1</day>
+		<title>Anime According to AMVs</title>
+		<hourbegin>17</hourbegin>
+		<minutebegin>30</minutebegin>
+		<hourend>18</hourend>
+		<minuteend>45</minuteend>
+		<location>AMV Room : 511</location>
+	</panel>
+	<panel>
+		<day>1</day>
+		<title>AMV Showcase</title>
+		<hourbegin>19</hourbegin>
+		<minutebegin>00</minutebegin>
+		<hourend>20</hourend>
+		<minuteend>00</minuteend>
+		<location>AMV Room : 511</location>
+	</panel>
+    <panel>
+        <day>2</day>
+        <title>"We Will Rock You!" AMV Tribute</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>10</hourend>
+        <minuteend>45</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Creator Spotlights</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>45</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>AMV 201: "How did they do that?!"</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>00</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>AMV Chef Competition</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>17</hourend>
+        <minuteend>30</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Cosplay Music Videos</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>45</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Anime Expo AMV Competition 10-Year Retrospective</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>21</hourend>
+        <minuteend>15</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>The Dry Martini AMV Collection</title>
+        <hourbegin>21</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>22</hourend>
+        <minuteend>30</minuteend>
+        <location>AMV Room : 511</location>
+    </panel>
+</event>

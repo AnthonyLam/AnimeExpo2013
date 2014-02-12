@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="google-play-services">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/GooglePlayServices/libs/google-play-services.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AnimeExpo2013/build/exploded-bundles/GooglePlayServices.aar/libs/google-play-services.jar!/" />
+      <root url="jar://$PROJECT_DIR$/GooglePlayServices/libs/google-play-services.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AnimeExpo2013/libs/google-play-services.jar!/" />
+      <root url="jar://$PROJECT_DIR$/GooglePlayServices/libs/google-play-services.jar!/" />
+      <root url="jar://$PROJECT_DIR$/GooglePlayServices/libs/google-play-services.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

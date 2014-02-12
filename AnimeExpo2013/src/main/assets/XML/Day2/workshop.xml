@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+    <panel>
+        <day>2</day>
+        <title>Copic Presents: Ink, Paper &amp; Imagination</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>30</minuteend>
+        <location>WS1 : 515</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>No Means No! Defense Against Fanboys and Fangirls</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>45</minuteend>
+        <location>WS1 : 515</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Team Lift XMA Presents: Stunt-fighting 101</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>45</minuteend>
+        <location>WS1 : 515</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>History of Kendo and Kendo: Level 1</title>
+        <hourbegin>15</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>45</minuteend>
+        <location>WS1 : 515</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Learn to Spin Poi From the Masters</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>00</minuteend>
+        <location>WS1 : 515</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>eigoManga Presents: How to Draw manga and Portfolio Review</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>19</hourend>
+        <minuteend>30</minuteend>
+        <location>WS1 : 515</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Polymer Clay Dinopalooza! with Kaity O&apos;Shea</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>21</hourend>
+        <minuteend>15</minuteend>
+        <location>WS1 : 515</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Advanced Gunpla Model Building</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>00</minuteend>
+        <location>WS2 : 501</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Copic Presents: Copic Essentials</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>45</minuteend>
+        <location>WS2 : 501</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Bang Zoom! Presents: Inside of the Voice Actor&apos;s Studio</title>
+        <hourbegin>16</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>17</hourend>
+        <minuteend>00</minuteend>
+        <location>WS2 : 501</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Copic Presents: DIY Zombies</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>45</minuteend>
+        <location>WS2 : 501</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>All About Japanese Food with EatingInBed</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>00</minuteend>
+        <location>WS2 : 501</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>So You Want to Make an Audio Drama?</title>
+        <hourbegin>20</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>21</hourend>
+        <minuteend>45</minuteend>
+        <location>WS2 : 501</location>
+        <description></description>
+    </panel>
+</events>

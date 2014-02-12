@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+    <panel>
+        <day>3</day>
+        <title>Origami</title>
+        <hourbegin>9</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>15</minuteend>
+        <location>WS1 : 515</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Creating Steampunk Characters: Concept to Costume</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>15</minuteend>
+        <location>WS1 : 515</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Intro to Bead Sprites</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>30</minuteend>
+        <location>WS1 : 515</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Kendo: Level 2</title>
+        <hourbegin>16</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>17</hourend>
+        <minuteend>00</minuteend>
+        <location>WS1 : 515</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Online Voice Acting with Kira Buckland</title>
+        <hourbegin>20</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>21</hourend>
+        <minuteend>30</minuteend>
+        <location>WS1 : 515</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>My Little Pony: Origami is Magic</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>45</minuteend>
+        <location>WS2 : 501</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Copic Presents: rookie Manga Character Design</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>30</minuteend>
+        <location>WS2 : 501</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Copic Presents: Creature Creation</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>15</minuteend>
+        <location>WS2 : 501</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Copic Presents: The Science of Creature Design</title>
+        <hourbegin>16</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>00</minuteend>
+        <location>WS2 : 501</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Bang Zoom! Presents: Inside of the Voice Actor&apos;s Studio</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>19</hourend>
+        <minuteend>15</minuteend>
+        <location>WS2 : 501</location>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Emazing Lights Panel #2</title>
+        <hourbegin>15</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>17</hourend>
+        <minuteend>00</minuteend>
+        <location>Hybrid Dance : Concourse</location>
+    </panel>
+</events>

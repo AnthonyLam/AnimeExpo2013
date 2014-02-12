@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+    <panel>
+        <day>2</day>
+        <title>Name that Karaoke</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>21</hourend>
+        <minuteend>00</minuteend>
+        <location>Karaoke 1 : 150AB</location>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Ultimate Karaoke Fighting Championship</title>
+        <hourbegin>21</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>24</hourend>
+        <minuteend>00</minuteend>
+        <location>Karaoke 1 : 150AB</location>
+    </panel>
+</events>

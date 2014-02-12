@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+    <panel>
+        <day>1</day>
+        <title>GOH: huke, Good Smile Company, Ultra Super Pictures and Max Factory</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>19</hourend>
+        <minuteend>30</minuteend>
+        <location>LP1 : Petree Hall</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>GOH: Kaya</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>00</minuteend>
+        <location>LP2 : 502AB</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>GOH: Johnny Yong Bosch</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>30</minuteend>
+        <location>LP2 : 502AB</location>
+        <description></description>
+    </panel>
+	<panel>
+        <day>1</day>
+        <title>GOH: Kazuhiro Furuhashi</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>15</minuteend>
+        <location>LP3 : 515A</location>
+        <description></description>
+    </panel>
+    <panel>
+		<day>1</day>
+		<title>KYLE TV: Kyle Hebert Uncensored</title>
+		<hourbegin>24</hourbegin>
+		<minutebegin>00</minutebegin>
+		<hourend>1</hourend>
+		<minuteend>00</minuteend>
+		<location>Lounge 21 : 151</location>
+        <description></description>
+	</panel>
+</events>

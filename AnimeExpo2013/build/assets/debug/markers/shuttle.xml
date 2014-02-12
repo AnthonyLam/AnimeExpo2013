@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level>
+    <marker>
+        <latitude>34.053013</latitude>
+        <longitude>-118.256269</longitude>
+        <text>Westin Bonaventure - Curbside of Figueroa</text>
+    </marker>
+    <marker>
+        <latitude>34.049632</latitude>
+        <longitude>-118.254371</longitude>
+        <text>Millenium Biltmore Hotel - Cubside on Grand Avenue</text>
+    </marker>
+    <marker>
+        <latitude>34.052968</latitude>
+        <longitude>-118.247753</longitude>
+        <text>Kawada Hotel -  On Hill Street - Corner of 2nd</text>
+    </marker>
+    <marker>
+        <latitude>34.047755</latitude>
+        <longitude>-118.258068</longitude>
+        <text>Sheraton - Curbisde on Hope Street</text>
+    </marker>
+</level>

@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="GooglePlayServices.aar" >
+        <source path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\build\exploded-bundles\GooglePlayServices.aar\assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets" >
+            <file
+                name="hours/day0.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\hours\day0.xml" />
+            <file
+                name="hours/day1.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\hours\day1.xml" />
+            <file
+                name="hours/day2.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\hours\day2.xml" />
+            <file
+                name="hours/day3.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\hours\day3.xml" />
+            <file
+                name="hours/day4.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\hours\day4.xml" />
+            <file
+                name="maps/ax_map/17/22474/78730.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\17\22474\78730.png" />
+            <file
+                name="maps/ax_map/17/22474/78731.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\17\22474\78731.png" />
+            <file
+                name="maps/ax_map/17/22475/78730.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\17\22475\78730.png" />
+            <file
+                name="maps/ax_map/17/22475/78731.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\17\22475\78731.png" />
+            <file
+                name="maps/ax_map/18/44949/157460.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\18\44949\157460.png" />
+            <file
+                name="maps/ax_map/18/44949/157461.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\18\44949\157461.png" />
+            <file
+                name="maps/ax_map/18/44949/157462.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\18\44949\157462.png" />
+            <file
+                name="maps/ax_map/18/44950/157460.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\18\44950\157460.png" />
+            <file
+                name="maps/ax_map/18/44950/157461.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\18\44950\157461.png" />
+            <file
+                name="maps/ax_map/18/44950/157462.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\18\44950\157462.png" />
+            <file
+                name="maps/ax_map/19/89898/314920.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89898\314920.png" />
+            <file
+                name="maps/ax_map/19/89898/314921.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89898\314921.png" />
+            <file
+                name="maps/ax_map/19/89898/314922.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89898\314922.png" />
+            <file
+                name="maps/ax_map/19/89898/314923.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89898\314923.png" />
+            <file
+                name="maps/ax_map/19/89898/314924.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89898\314924.png" />
+            <file
+                name="maps/ax_map/19/89899/314920.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89899\314920.png" />
+            <file
+                name="maps/ax_map/19/89899/314921.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89899\314921.png" />
+            <file
+                name="maps/ax_map/19/89899/314922.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89899\314922.png" />
+            <file
+                name="maps/ax_map/19/89899/314923.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89899\314923.png" />
+            <file
+                name="maps/ax_map/19/89899/314924.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89899\314924.png" />
+            <file
+                name="maps/ax_map/19/89900/314920.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89900\314920.png" />
+            <file
+                name="maps/ax_map/19/89900/314921.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89900\314921.png" />
+            <file
+                name="maps/ax_map/19/89900/314922.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89900\314922.png" />
+            <file
+                name="maps/ax_map/19/89900/314923.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89900\314923.png" />
+            <file
+                name="maps/ax_map/19/89900/314924.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89900\314924.png" />
+            <file
+                name="maps/ax_map/19/89901/314920.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89901\314920.png" />
+            <file
+                name="maps/ax_map/19/89901/314921.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89901\314921.png" />
+            <file
+                name="maps/ax_map/19/89901/314922.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89901\314922.png" />
+            <file
+                name="maps/ax_map/19/89901/314923.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89901\314923.png" />
+            <file
+                name="maps/ax_map/19/89901/314924.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\19\89901\314924.png" />
+            <file
+                name="maps/ax_map/20/179797/629841.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179797\629841.png" />
+            <file
+                name="maps/ax_map/20/179797/629842.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179797\629842.png" />
+            <file
+                name="maps/ax_map/20/179797/629843.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179797\629843.png" />
+            <file
+                name="maps/ax_map/20/179797/629844.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179797\629844.png" />
+            <file
+                name="maps/ax_map/20/179797/629845.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179797\629845.png" />
+            <file
+                name="maps/ax_map/20/179797/629846.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179797\629846.png" />
+            <file
+                name="maps/ax_map/20/179797/629847.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179797\629847.png" />
+            <file
+                name="maps/ax_map/20/179797/629848.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179797\629848.png" />
+            <file
+                name="maps/ax_map/20/179798/629841.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179798\629841.png" />
+            <file
+                name="maps/ax_map/20/179798/629842.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179798\629842.png" />
+            <file
+                name="maps/ax_map/20/179798/629843.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179798\629843.png" />
+            <file
+                name="maps/ax_map/20/179798/629844.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179798\629844.png" />
+            <file
+                name="maps/ax_map/20/179798/629845.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179798\629845.png" />
+            <file
+                name="maps/ax_map/20/179798/629846.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179798\629846.png" />
+            <file
+                name="maps/ax_map/20/179798/629847.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179798\629847.png" />
+            <file
+                name="maps/ax_map/20/179798/629848.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179798\629848.png" />
+            <file
+                name="maps/ax_map/20/179799/629841.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179799\629841.png" />
+            <file
+                name="maps/ax_map/20/179799/629842.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179799\629842.png" />
+            <file
+                name="maps/ax_map/20/179799/629843.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179799\629843.png" />
+            <file
+                name="maps/ax_map/20/179799/629844.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179799\629844.png" />
+            <file
+                name="maps/ax_map/20/179799/629845.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179799\629845.png" />
+            <file
+                name="maps/ax_map/20/179799/629846.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179799\629846.png" />
+            <file
+                name="maps/ax_map/20/179799/629847.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179799\629847.png" />
+            <file
+                name="maps/ax_map/20/179799/629848.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179799\629848.png" />
+            <file
+                name="maps/ax_map/20/179800/629841.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179800\629841.png" />
+            <file
+                name="maps/ax_map/20/179800/629842.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179800\629842.png" />
+            <file
+                name="maps/ax_map/20/179800/629843.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179800\629843.png" />
+            <file
+                name="maps/ax_map/20/179800/629844.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179800\629844.png" />
+            <file
+                name="maps/ax_map/20/179800/629845.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179800\629845.png" />
+            <file
+                name="maps/ax_map/20/179800/629846.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179800\629846.png" />
+            <file
+                name="maps/ax_map/20/179800/629847.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179800\629847.png" />
+            <file
+                name="maps/ax_map/20/179800/629848.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179800\629848.png" />
+            <file
+                name="maps/ax_map/20/179801/629841.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179801\629841.png" />
+            <file
+                name="maps/ax_map/20/179801/629842.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179801\629842.png" />
+            <file
+                name="maps/ax_map/20/179801/629843.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179801\629843.png" />
+            <file
+                name="maps/ax_map/20/179801/629844.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179801\629844.png" />
+            <file
+                name="maps/ax_map/20/179801/629845.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179801\629845.png" />
+            <file
+                name="maps/ax_map/20/179801/629846.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179801\629846.png" />
+            <file
+                name="maps/ax_map/20/179801/629847.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179801\629847.png" />
+            <file
+                name="maps/ax_map/20/179801/629848.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179801\629848.png" />
+            <file
+                name="maps/ax_map/20/179802/629841.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179802\629841.png" />
+            <file
+                name="maps/ax_map/20/179802/629842.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179802\629842.png" />
+            <file
+                name="maps/ax_map/20/179802/629843.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179802\629843.png" />
+            <file
+                name="maps/ax_map/20/179802/629844.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179802\629844.png" />
+            <file
+                name="maps/ax_map/20/179802/629845.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179802\629845.png" />
+            <file
+                name="maps/ax_map/20/179802/629846.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179802\629846.png" />
+            <file
+                name="maps/ax_map/20/179802/629847.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179802\629847.png" />
+            <file
+                name="maps/ax_map/20/179802/629848.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179802\629848.png" />
+            <file
+                name="maps/ax_map/20/179803/629841.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179803\629841.png" />
+            <file
+                name="maps/ax_map/20/179803/629842.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179803\629842.png" />
+            <file
+                name="maps/ax_map/20/179803/629843.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179803\629843.png" />
+            <file
+                name="maps/ax_map/20/179803/629844.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179803\629844.png" />
+            <file
+                name="maps/ax_map/20/179803/629845.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179803\629845.png" />
+            <file
+                name="maps/ax_map/20/179803/629846.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179803\629846.png" />
+            <file
+                name="maps/ax_map/20/179803/629847.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179803\629847.png" />
+            <file
+                name="maps/ax_map/20/179803/629848.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\20\179803\629848.png" />
+            <file
+                name="maps/ax_map/21/359595/1259682.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359595\1259682.png" />
+            <file
+                name="maps/ax_map/21/359595/1259683.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359595\1259683.png" />
+            <file
+                name="maps/ax_map/21/359595/1259684.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359595\1259684.png" />
+            <file
+                name="maps/ax_map/21/359595/1259685.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359595\1259685.png" />
+            <file
+                name="maps/ax_map/21/359595/1259686.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359595\1259686.png" />
+            <file
+                name="maps/ax_map/21/359595/1259687.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359595\1259687.png" />
+            <file
+                name="maps/ax_map/21/359595/1259688.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359595\1259688.png" />
+            <file
+                name="maps/ax_map/21/359595/1259689.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359595\1259689.png" />
+            <file
+                name="maps/ax_map/21/359595/1259690.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359595\1259690.png" />
+            <file
+                name="maps/ax_map/21/359595/1259691.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359595\1259691.png" />
+            <file
+                name="maps/ax_map/21/359595/1259692.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359595\1259692.png" />
+            <file
+                name="maps/ax_map/21/359595/1259693.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359595\1259693.png" />
+            <file
+                name="maps/ax_map/21/359595/1259694.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359595\1259694.png" />
+            <file
+                name="maps/ax_map/21/359595/1259695.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359595\1259695.png" />
+            <file
+                name="maps/ax_map/21/359595/1259696.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359595\1259696.png" />
+            <file
+                name="maps/ax_map/21/359595/1259697.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359595\1259697.png" />
+            <file
+                name="maps/ax_map/21/359596/1259682.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359596\1259682.png" />
+            <file
+                name="maps/ax_map/21/359596/1259683.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359596\1259683.png" />
+            <file
+                name="maps/ax_map/21/359596/1259684.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359596\1259684.png" />
+            <file
+                name="maps/ax_map/21/359596/1259685.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359596\1259685.png" />
+            <file
+                name="maps/ax_map/21/359596/1259686.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359596\1259686.png" />
+            <file
+                name="maps/ax_map/21/359596/1259687.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359596\1259687.png" />
+            <file
+                name="maps/ax_map/21/359596/1259688.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359596\1259688.png" />
+            <file
+                name="maps/ax_map/21/359596/1259689.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359596\1259689.png" />
+            <file
+                name="maps/ax_map/21/359596/1259690.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359596\1259690.png" />
+            <file
+                name="maps/ax_map/21/359596/1259691.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359596\1259691.png" />
+            <file
+                name="maps/ax_map/21/359596/1259692.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359596\1259692.png" />
+            <file
+                name="maps/ax_map/21/359596/1259693.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359596\1259693.png" />
+            <file
+                name="maps/ax_map/21/359596/1259694.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359596\1259694.png" />
+            <file
+                name="maps/ax_map/21/359596/1259695.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359596\1259695.png" />
+            <file
+                name="maps/ax_map/21/359596/1259696.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359596\1259696.png" />
+            <file
+                name="maps/ax_map/21/359596/1259697.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359596\1259697.png" />
+            <file
+                name="maps/ax_map/21/359597/1259682.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359597\1259682.png" />
+            <file
+                name="maps/ax_map/21/359597/1259683.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359597\1259683.png" />
+            <file
+                name="maps/ax_map/21/359597/1259684.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359597\1259684.png" />
+            <file
+                name="maps/ax_map/21/359597/1259685.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359597\1259685.png" />
+            <file
+                name="maps/ax_map/21/359597/1259686.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359597\1259686.png" />
+            <file
+                name="maps/ax_map/21/359597/1259687.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359597\1259687.png" />
+            <file
+                name="maps/ax_map/21/359597/1259688.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359597\1259688.png" />
+            <file
+                name="maps/ax_map/21/359597/1259689.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359597\1259689.png" />
+            <file
+                name="maps/ax_map/21/359597/1259690.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359597\1259690.png" />
+            <file
+                name="maps/ax_map/21/359597/1259691.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359597\1259691.png" />
+            <file
+                name="maps/ax_map/21/359597/1259692.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359597\1259692.png" />
+            <file
+                name="maps/ax_map/21/359597/1259693.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359597\1259693.png" />
+            <file
+                name="maps/ax_map/21/359597/1259694.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359597\1259694.png" />
+            <file
+                name="maps/ax_map/21/359597/1259695.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359597\1259695.png" />
+            <file
+                name="maps/ax_map/21/359597/1259696.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359597\1259696.png" />
+            <file
+                name="maps/ax_map/21/359597/1259697.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359597\1259697.png" />
+            <file
+                name="maps/ax_map/21/359598/1259682.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359598\1259682.png" />
+            <file
+                name="maps/ax_map/21/359598/1259683.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359598\1259683.png" />
+            <file
+                name="maps/ax_map/21/359598/1259684.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359598\1259684.png" />
+            <file
+                name="maps/ax_map/21/359598/1259685.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359598\1259685.png" />
+            <file
+                name="maps/ax_map/21/359598/1259686.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359598\1259686.png" />
+            <file
+                name="maps/ax_map/21/359598/1259687.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359598\1259687.png" />
+            <file
+                name="maps/ax_map/21/359598/1259688.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359598\1259688.png" />
+            <file
+                name="maps/ax_map/21/359598/1259689.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359598\1259689.png" />
+            <file
+                name="maps/ax_map/21/359598/1259690.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359598\1259690.png" />
+            <file
+                name="maps/ax_map/21/359598/1259691.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359598\1259691.png" />
+            <file
+                name="maps/ax_map/21/359598/1259692.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359598\1259692.png" />
+            <file
+                name="maps/ax_map/21/359598/1259693.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359598\1259693.png" />
+            <file
+                name="maps/ax_map/21/359598/1259694.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359598\1259694.png" />
+            <file
+                name="maps/ax_map/21/359598/1259695.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359598\1259695.png" />
+            <file
+                name="maps/ax_map/21/359598/1259696.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359598\1259696.png" />
+            <file
+                name="maps/ax_map/21/359598/1259697.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359598\1259697.png" />
+            <file
+                name="maps/ax_map/21/359599/1259682.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359599\1259682.png" />
+            <file
+                name="maps/ax_map/21/359599/1259683.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359599\1259683.png" />
+            <file
+                name="maps/ax_map/21/359599/1259684.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359599\1259684.png" />
+            <file
+                name="maps/ax_map/21/359599/1259685.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359599\1259685.png" />
+            <file
+                name="maps/ax_map/21/359599/1259686.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359599\1259686.png" />
+            <file
+                name="maps/ax_map/21/359599/1259687.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359599\1259687.png" />
+            <file
+                name="maps/ax_map/21/359599/1259688.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359599\1259688.png" />
+            <file
+                name="maps/ax_map/21/359599/1259689.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359599\1259689.png" />
+            <file
+                name="maps/ax_map/21/359599/1259690.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359599\1259690.png" />
+            <file
+                name="maps/ax_map/21/359599/1259691.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359599\1259691.png" />
+            <file
+                name="maps/ax_map/21/359599/1259692.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359599\1259692.png" />
+            <file
+                name="maps/ax_map/21/359599/1259693.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359599\1259693.png" />
+            <file
+                name="maps/ax_map/21/359599/1259694.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359599\1259694.png" />
+            <file
+                name="maps/ax_map/21/359599/1259695.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359599\1259695.png" />
+            <file
+                name="maps/ax_map/21/359599/1259696.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359599\1259696.png" />
+            <file
+                name="maps/ax_map/21/359599/1259697.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359599\1259697.png" />
+            <file
+                name="maps/ax_map/21/359600/1259682.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359600\1259682.png" />
+            <file
+                name="maps/ax_map/21/359600/1259683.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359600\1259683.png" />
+            <file
+                name="maps/ax_map/21/359600/1259684.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359600\1259684.png" />
+            <file
+                name="maps/ax_map/21/359600/1259685.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359600\1259685.png" />
+            <file
+                name="maps/ax_map/21/359600/1259686.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359600\1259686.png" />
+            <file
+                name="maps/ax_map/21/359600/1259687.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359600\1259687.png" />
+            <file
+                name="maps/ax_map/21/359600/1259688.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359600\1259688.png" />
+            <file
+                name="maps/ax_map/21/359600/1259689.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359600\1259689.png" />
+            <file
+                name="maps/ax_map/21/359600/1259690.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359600\1259690.png" />
+            <file
+                name="maps/ax_map/21/359600/1259691.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359600\1259691.png" />
+            <file
+                name="maps/ax_map/21/359600/1259692.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359600\1259692.png" />
+            <file
+                name="maps/ax_map/21/359600/1259693.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359600\1259693.png" />
+            <file
+                name="maps/ax_map/21/359600/1259694.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359600\1259694.png" />
+            <file
+                name="maps/ax_map/21/359600/1259695.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359600\1259695.png" />
+            <file
+                name="maps/ax_map/21/359600/1259696.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359600\1259696.png" />
+            <file
+                name="maps/ax_map/21/359600/1259697.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359600\1259697.png" />
+            <file
+                name="maps/ax_map/21/359601/1259682.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359601\1259682.png" />
+            <file
+                name="maps/ax_map/21/359601/1259683.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359601\1259683.png" />
+            <file
+                name="maps/ax_map/21/359601/1259684.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359601\1259684.png" />
+            <file
+                name="maps/ax_map/21/359601/1259685.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359601\1259685.png" />
+            <file
+                name="maps/ax_map/21/359601/1259686.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359601\1259686.png" />
+            <file
+                name="maps/ax_map/21/359601/1259687.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359601\1259687.png" />
+            <file
+                name="maps/ax_map/21/359601/1259688.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359601\1259688.png" />
+            <file
+                name="maps/ax_map/21/359601/1259689.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359601\1259689.png" />
+            <file
+                name="maps/ax_map/21/359601/1259690.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359601\1259690.png" />
+            <file
+                name="maps/ax_map/21/359601/1259691.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359601\1259691.png" />
+            <file
+                name="maps/ax_map/21/359601/1259692.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359601\1259692.png" />
+            <file
+                name="maps/ax_map/21/359601/1259693.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359601\1259693.png" />
+            <file
+                name="maps/ax_map/21/359601/1259694.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359601\1259694.png" />
+            <file
+                name="maps/ax_map/21/359601/1259695.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359601\1259695.png" />
+            <file
+                name="maps/ax_map/21/359601/1259696.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359601\1259696.png" />
+            <file
+                name="maps/ax_map/21/359601/1259697.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359601\1259697.png" />
+            <file
+                name="maps/ax_map/21/359602/1259682.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359602\1259682.png" />
+            <file
+                name="maps/ax_map/21/359602/1259683.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359602\1259683.png" />
+            <file
+                name="maps/ax_map/21/359602/1259684.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359602\1259684.png" />
+            <file
+                name="maps/ax_map/21/359602/1259685.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359602\1259685.png" />
+            <file
+                name="maps/ax_map/21/359602/1259686.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359602\1259686.png" />
+            <file
+                name="maps/ax_map/21/359602/1259687.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359602\1259687.png" />
+            <file
+                name="maps/ax_map/21/359602/1259688.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359602\1259688.png" />
+            <file
+                name="maps/ax_map/21/359602/1259689.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359602\1259689.png" />
+            <file
+                name="maps/ax_map/21/359602/1259690.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359602\1259690.png" />
+            <file
+                name="maps/ax_map/21/359602/1259691.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359602\1259691.png" />
+            <file
+                name="maps/ax_map/21/359602/1259692.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359602\1259692.png" />
+            <file
+                name="maps/ax_map/21/359602/1259693.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359602\1259693.png" />
+            <file
+                name="maps/ax_map/21/359602/1259694.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359602\1259694.png" />
+            <file
+                name="maps/ax_map/21/359602/1259695.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359602\1259695.png" />
+            <file
+                name="maps/ax_map/21/359602/1259696.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359602\1259696.png" />
+            <file
+                name="maps/ax_map/21/359602/1259697.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359602\1259697.png" />
+            <file
+                name="maps/ax_map/21/359603/1259682.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359603\1259682.png" />
+            <file
+                name="maps/ax_map/21/359603/1259683.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359603\1259683.png" />
+            <file
+                name="maps/ax_map/21/359603/1259684.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359603\1259684.png" />
+            <file
+                name="maps/ax_map/21/359603/1259685.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359603\1259685.png" />
+            <file
+                name="maps/ax_map/21/359603/1259686.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359603\1259686.png" />
+            <file
+                name="maps/ax_map/21/359603/1259687.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359603\1259687.png" />
+            <file
+                name="maps/ax_map/21/359603/1259688.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359603\1259688.png" />
+            <file
+                name="maps/ax_map/21/359603/1259689.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359603\1259689.png" />
+            <file
+                name="maps/ax_map/21/359603/1259690.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359603\1259690.png" />
+            <file
+                name="maps/ax_map/21/359603/1259691.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359603\1259691.png" />
+            <file
+                name="maps/ax_map/21/359603/1259692.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359603\1259692.png" />
+            <file
+                name="maps/ax_map/21/359603/1259693.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359603\1259693.png" />
+            <file
+                name="maps/ax_map/21/359603/1259694.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359603\1259694.png" />
+            <file
+                name="maps/ax_map/21/359603/1259695.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359603\1259695.png" />
+            <file
+                name="maps/ax_map/21/359603/1259696.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359603\1259696.png" />
+            <file
+                name="maps/ax_map/21/359603/1259697.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359603\1259697.png" />
+            <file
+                name="maps/ax_map/21/359604/1259682.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359604\1259682.png" />
+            <file
+                name="maps/ax_map/21/359604/1259683.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359604\1259683.png" />
+            <file
+                name="maps/ax_map/21/359604/1259684.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359604\1259684.png" />
+            <file
+                name="maps/ax_map/21/359604/1259685.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359604\1259685.png" />
+            <file
+                name="maps/ax_map/21/359604/1259686.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359604\1259686.png" />
+            <file
+                name="maps/ax_map/21/359604/1259687.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359604\1259687.png" />
+            <file
+                name="maps/ax_map/21/359604/1259688.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359604\1259688.png" />
+            <file
+                name="maps/ax_map/21/359604/1259689.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359604\1259689.png" />
+            <file
+                name="maps/ax_map/21/359604/1259690.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359604\1259690.png" />
+            <file
+                name="maps/ax_map/21/359604/1259691.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359604\1259691.png" />
+            <file
+                name="maps/ax_map/21/359604/1259692.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359604\1259692.png" />
+            <file
+                name="maps/ax_map/21/359604/1259693.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359604\1259693.png" />
+            <file
+                name="maps/ax_map/21/359604/1259694.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359604\1259694.png" />
+            <file
+                name="maps/ax_map/21/359604/1259695.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359604\1259695.png" />
+            <file
+                name="maps/ax_map/21/359604/1259696.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359604\1259696.png" />
+            <file
+                name="maps/ax_map/21/359604/1259697.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359604\1259697.png" />
+            <file
+                name="maps/ax_map/21/359605/1259682.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359605\1259682.png" />
+            <file
+                name="maps/ax_map/21/359605/1259683.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359605\1259683.png" />
+            <file
+                name="maps/ax_map/21/359605/1259684.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359605\1259684.png" />
+            <file
+                name="maps/ax_map/21/359605/1259685.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359605\1259685.png" />
+            <file
+                name="maps/ax_map/21/359605/1259686.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359605\1259686.png" />
+            <file
+                name="maps/ax_map/21/359605/1259687.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359605\1259687.png" />
+            <file
+                name="maps/ax_map/21/359605/1259688.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359605\1259688.png" />
+            <file
+                name="maps/ax_map/21/359605/1259689.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359605\1259689.png" />
+            <file
+                name="maps/ax_map/21/359605/1259690.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359605\1259690.png" />
+            <file
+                name="maps/ax_map/21/359605/1259691.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359605\1259691.png" />
+            <file
+                name="maps/ax_map/21/359605/1259692.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359605\1259692.png" />
+            <file
+                name="maps/ax_map/21/359605/1259693.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359605\1259693.png" />
+            <file
+                name="maps/ax_map/21/359605/1259694.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359605\1259694.png" />
+            <file
+                name="maps/ax_map/21/359605/1259695.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359605\1259695.png" />
+            <file
+                name="maps/ax_map/21/359605/1259696.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359605\1259696.png" />
+            <file
+                name="maps/ax_map/21/359605/1259697.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359605\1259697.png" />
+            <file
+                name="maps/ax_map/21/359606/1259682.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359606\1259682.png" />
+            <file
+                name="maps/ax_map/21/359606/1259683.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359606\1259683.png" />
+            <file
+                name="maps/ax_map/21/359606/1259684.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359606\1259684.png" />
+            <file
+                name="maps/ax_map/21/359606/1259685.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359606\1259685.png" />
+            <file
+                name="maps/ax_map/21/359606/1259686.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359606\1259686.png" />
+            <file
+                name="maps/ax_map/21/359606/1259687.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359606\1259687.png" />
+            <file
+                name="maps/ax_map/21/359606/1259688.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359606\1259688.png" />
+            <file
+                name="maps/ax_map/21/359606/1259689.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359606\1259689.png" />
+            <file
+                name="maps/ax_map/21/359606/1259690.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359606\1259690.png" />
+            <file
+                name="maps/ax_map/21/359606/1259691.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359606\1259691.png" />
+            <file
+                name="maps/ax_map/21/359606/1259692.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359606\1259692.png" />
+            <file
+                name="maps/ax_map/21/359606/1259693.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359606\1259693.png" />
+            <file
+                name="maps/ax_map/21/359606/1259694.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359606\1259694.png" />
+            <file
+                name="maps/ax_map/21/359606/1259695.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359606\1259695.png" />
+            <file
+                name="maps/ax_map/21/359606/1259696.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359606\1259696.png" />
+            <file
+                name="maps/ax_map/21/359606/1259697.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\21\359606\1259697.png" />
+            <file
+                name="maps/ax_map/googlemaps.html"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\googlemaps.html" />
+            <file
+                name="maps/ax_map/openlayers.html"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\openlayers.html" />
+            <file
+                name="maps/ax_map/tilemapresource.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\ax_map\tilemapresource.xml" />
+            <file
+                name="maps/mapone/15/5618/19682.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\15\5618\19682.png" />
+            <file
+                name="maps/mapone/15/5618/19683.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\15\5618\19683.png" />
+            <file
+                name="maps/mapone/16/11237/39364.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\16\11237\39364.png" />
+            <file
+                name="maps/mapone/16/11237/39365.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\16\11237\39365.png" />
+            <file
+                name="maps/mapone/16/11237/39366.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\16\11237\39366.png" />
+            <file
+                name="maps/mapone/17/22474/78729.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\17\22474\78729.png" />
+            <file
+                name="maps/mapone/17/22474/78730.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\17\22474\78730.png" />
+            <file
+                name="maps/mapone/17/22474/78731.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\17\22474\78731.png" />
+            <file
+                name="maps/mapone/17/22474/78732.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\17\22474\78732.png" />
+            <file
+                name="maps/mapone/17/22475/78729.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\17\22475\78729.png" />
+            <file
+                name="maps/mapone/17/22475/78730.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\17\22475\78730.png" />
+            <file
+                name="maps/mapone/17/22475/78731.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\17\22475\78731.png" />
+            <file
+                name="maps/mapone/17/22475/78732.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\17\22475\78732.png" />
+            <file
+                name="maps/mapone/18/44949/157459.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44949\157459.png" />
+            <file
+                name="maps/mapone/18/44949/157460.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44949\157460.png" />
+            <file
+                name="maps/mapone/18/44949/157461.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44949\157461.png" />
+            <file
+                name="maps/mapone/18/44949/157462.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44949\157462.png" />
+            <file
+                name="maps/mapone/18/44949/157463.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44949\157463.png" />
+            <file
+                name="maps/mapone/18/44949/157464.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44949\157464.png" />
+            <file
+                name="maps/mapone/18/44949/157465.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44949\157465.png" />
+            <file
+                name="maps/mapone/18/44950/157459.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44950\157459.png" />
+            <file
+                name="maps/mapone/18/44950/157460.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44950\157460.png" />
+            <file
+                name="maps/mapone/18/44950/157461.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44950\157461.png" />
+            <file
+                name="maps/mapone/18/44950/157462.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44950\157462.png" />
+            <file
+                name="maps/mapone/18/44950/157463.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44950\157463.png" />
+            <file
+                name="maps/mapone/18/44950/157464.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44950\157464.png" />
+            <file
+                name="maps/mapone/18/44950/157465.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44950\157465.png" />
+            <file
+                name="maps/mapone/18/44951/157459.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44951\157459.png" />
+            <file
+                name="maps/mapone/18/44951/157460.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44951\157460.png" />
+            <file
+                name="maps/mapone/18/44951/157461.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44951\157461.png" />
+            <file
+                name="maps/mapone/18/44951/157462.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44951\157462.png" />
+            <file
+                name="maps/mapone/18/44951/157463.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44951\157463.png" />
+            <file
+                name="maps/mapone/18/44951/157464.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44951\157464.png" />
+            <file
+                name="maps/mapone/18/44951/157465.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\18\44951\157465.png" />
+            <file
+                name="maps/mapone/19/89898/314918.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89898\314918.png" />
+            <file
+                name="maps/mapone/19/89898/314919.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89898\314919.png" />
+            <file
+                name="maps/mapone/19/89898/314920.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89898\314920.png" />
+            <file
+                name="maps/mapone/19/89898/314921.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89898\314921.png" />
+            <file
+                name="maps/mapone/19/89898/314922.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89898\314922.png" />
+            <file
+                name="maps/mapone/19/89898/314923.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89898\314923.png" />
+            <file
+                name="maps/mapone/19/89898/314924.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89898\314924.png" />
+            <file
+                name="maps/mapone/19/89898/314925.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89898\314925.png" />
+            <file
+                name="maps/mapone/19/89898/314926.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89898\314926.png" />
+            <file
+                name="maps/mapone/19/89898/314927.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89898\314927.png" />
+            <file
+                name="maps/mapone/19/89898/314928.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89898\314928.png" />
+            <file
+                name="maps/mapone/19/89898/314929.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89898\314929.png" />
+            <file
+                name="maps/mapone/19/89898/314930.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89898\314930.png" />
+            <file
+                name="maps/mapone/19/89899/314918.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89899\314918.png" />
+            <file
+                name="maps/mapone/19/89899/314919.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89899\314919.png" />
+            <file
+                name="maps/mapone/19/89899/314920.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89899\314920.png" />
+            <file
+                name="maps/mapone/19/89899/314921.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89899\314921.png" />
+            <file
+                name="maps/mapone/19/89899/314922.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89899\314922.png" />
+            <file
+                name="maps/mapone/19/89899/314923.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89899\314923.png" />
+            <file
+                name="maps/mapone/19/89899/314924.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89899\314924.png" />
+            <file
+                name="maps/mapone/19/89899/314925.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89899\314925.png" />
+            <file
+                name="maps/mapone/19/89899/314926.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89899\314926.png" />
+            <file
+                name="maps/mapone/19/89899/314927.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89899\314927.png" />
+            <file
+                name="maps/mapone/19/89899/314928.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89899\314928.png" />
+            <file
+                name="maps/mapone/19/89899/314929.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89899\314929.png" />
+            <file
+                name="maps/mapone/19/89899/314930.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89899\314930.png" />
+            <file
+                name="maps/mapone/19/89900/314918.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89900\314918.png" />
+            <file
+                name="maps/mapone/19/89900/314919.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89900\314919.png" />
+            <file
+                name="maps/mapone/19/89900/314920.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89900\314920.png" />
+            <file
+                name="maps/mapone/19/89900/314921.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89900\314921.png" />
+            <file
+                name="maps/mapone/19/89900/314922.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89900\314922.png" />
+            <file
+                name="maps/mapone/19/89900/314923.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89900\314923.png" />
+            <file
+                name="maps/mapone/19/89900/314924.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89900\314924.png" />
+            <file
+                name="maps/mapone/19/89900/314925.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89900\314925.png" />
+            <file
+                name="maps/mapone/19/89900/314926.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89900\314926.png" />
+            <file
+                name="maps/mapone/19/89900/314927.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89900\314927.png" />
+            <file
+                name="maps/mapone/19/89900/314928.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89900\314928.png" />
+            <file
+                name="maps/mapone/19/89900/314929.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89900\314929.png" />
+            <file
+                name="maps/mapone/19/89900/314930.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89900\314930.png" />
+            <file
+                name="maps/mapone/19/89901/314918.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89901\314918.png" />
+            <file
+                name="maps/mapone/19/89901/314919.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89901\314919.png" />
+            <file
+                name="maps/mapone/19/89901/314920.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89901\314920.png" />
+            <file
+                name="maps/mapone/19/89901/314921.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89901\314921.png" />
+            <file
+                name="maps/mapone/19/89901/314922.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89901\314922.png" />
+            <file
+                name="maps/mapone/19/89901/314923.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89901\314923.png" />
+            <file
+                name="maps/mapone/19/89901/314924.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89901\314924.png" />
+            <file
+                name="maps/mapone/19/89901/314925.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89901\314925.png" />
+            <file
+                name="maps/mapone/19/89901/314926.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89901\314926.png" />
+            <file
+                name="maps/mapone/19/89901/314927.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89901\314927.png" />
+            <file
+                name="maps/mapone/19/89901/314928.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89901\314928.png" />
+            <file
+                name="maps/mapone/19/89901/314929.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89901\314929.png" />
+            <file
+                name="maps/mapone/19/89901/314930.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89901\314930.png" />
+            <file
+                name="maps/mapone/19/89902/314918.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89902\314918.png" />
+            <file
+                name="maps/mapone/19/89902/314919.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89902\314919.png" />
+            <file
+                name="maps/mapone/19/89902/314920.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89902\314920.png" />
+            <file
+                name="maps/mapone/19/89902/314921.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89902\314921.png" />
+            <file
+                name="maps/mapone/19/89902/314922.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89902\314922.png" />
+            <file
+                name="maps/mapone/19/89902/314923.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89902\314923.png" />
+            <file
+                name="maps/mapone/19/89902/314924.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89902\314924.png" />
+            <file
+                name="maps/mapone/19/89902/314925.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89902\314925.png" />
+            <file
+                name="maps/mapone/19/89902/314926.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89902\314926.png" />
+            <file
+                name="maps/mapone/19/89902/314927.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89902\314927.png" />
+            <file
+                name="maps/mapone/19/89902/314928.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89902\314928.png" />
+            <file
+                name="maps/mapone/19/89902/314929.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89902\314929.png" />
+            <file
+                name="maps/mapone/19/89902/314930.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89902\314930.png" />
+            <file
+                name="maps/mapone/19/89903/314918.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89903\314918.png" />
+            <file
+                name="maps/mapone/19/89903/314919.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89903\314919.png" />
+            <file
+                name="maps/mapone/19/89903/314920.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89903\314920.png" />
+            <file
+                name="maps/mapone/19/89903/314921.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89903\314921.png" />
+            <file
+                name="maps/mapone/19/89903/314922.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89903\314922.png" />
+            <file
+                name="maps/mapone/19/89903/314923.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89903\314923.png" />
+            <file
+                name="maps/mapone/19/89903/314924.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89903\314924.png" />
+            <file
+                name="maps/mapone/19/89903/314925.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89903\314925.png" />
+            <file
+                name="maps/mapone/19/89903/314926.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89903\314926.png" />
+            <file
+                name="maps/mapone/19/89903/314927.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89903\314927.png" />
+            <file
+                name="maps/mapone/19/89903/314928.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89903\314928.png" />
+            <file
+                name="maps/mapone/19/89903/314929.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89903\314929.png" />
+            <file
+                name="maps/mapone/19/89903/314930.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\19\89903\314930.png" />
+            <file
+                name="maps/mapone/googlemaps.html"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\googlemaps.html" />
+            <file
+                name="maps/mapone/tilemapresource.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\mapone\tilemapresource.xml" />
+            <file
+                name="maps/maptwo/15/5618/19682.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\15\5618\19682.png" />
+            <file
+                name="maps/maptwo/15/5618/19683.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\15\5618\19683.png" />
+            <file
+                name="maps/maptwo/16/11237/39364.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\16\11237\39364.png" />
+            <file
+                name="maps/maptwo/16/11237/39365.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\16\11237\39365.png" />
+            <file
+                name="maps/maptwo/16/11237/39366.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\16\11237\39366.png" />
+            <file
+                name="maps/maptwo/17/22474/78729.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\17\22474\78729.png" />
+            <file
+                name="maps/maptwo/17/22474/78730.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\17\22474\78730.png" />
+            <file
+                name="maps/maptwo/17/22474/78731.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\17\22474\78731.png" />
+            <file
+                name="maps/maptwo/17/22474/78732.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\17\22474\78732.png" />
+            <file
+                name="maps/maptwo/17/22475/78729.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\17\22475\78729.png" />
+            <file
+                name="maps/maptwo/17/22475/78730.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\17\22475\78730.png" />
+            <file
+                name="maps/maptwo/17/22475/78731.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\17\22475\78731.png" />
+            <file
+                name="maps/maptwo/17/22475/78732.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\17\22475\78732.png" />
+            <file
+                name="maps/maptwo/18/44949/157459.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\18\44949\157459.png" />
+            <file
+                name="maps/maptwo/18/44949/157460.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\18\44949\157460.png" />
+            <file
+                name="maps/maptwo/18/44949/157461.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\18\44949\157461.png" />
+            <file
+                name="maps/maptwo/18/44949/157462.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\18\44949\157462.png" />
+            <file
+                name="maps/maptwo/18/44949/157463.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\18\44949\157463.png" />
+            <file
+                name="maps/maptwo/18/44949/157464.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\18\44949\157464.png" />
+            <file
+                name="maps/maptwo/18/44950/157459.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\18\44950\157459.png" />
+            <file
+                name="maps/maptwo/18/44950/157460.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\18\44950\157460.png" />
+            <file
+                name="maps/maptwo/18/44950/157461.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\18\44950\157461.png" />
+            <file
+                name="maps/maptwo/18/44950/157462.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\18\44950\157462.png" />
+            <file
+                name="maps/maptwo/18/44950/157463.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\18\44950\157463.png" />
+            <file
+                name="maps/maptwo/18/44950/157464.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\18\44950\157464.png" />
+            <file
+                name="maps/maptwo/18/44951/157459.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\18\44951\157459.png" />
+            <file
+                name="maps/maptwo/18/44951/157460.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\18\44951\157460.png" />
+            <file
+                name="maps/maptwo/18/44951/157461.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\18\44951\157461.png" />
+            <file
+                name="maps/maptwo/18/44951/157462.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\18\44951\157462.png" />
+            <file
+                name="maps/maptwo/18/44951/157463.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\18\44951\157463.png" />
+            <file
+                name="maps/maptwo/18/44951/157464.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\18\44951\157464.png" />
+            <file
+                name="maps/maptwo/19/89898/314919.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89898\314919.png" />
+            <file
+                name="maps/maptwo/19/89898/314920.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89898\314920.png" />
+            <file
+                name="maps/maptwo/19/89898/314921.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89898\314921.png" />
+            <file
+                name="maps/maptwo/19/89898/314922.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89898\314922.png" />
+            <file
+                name="maps/maptwo/19/89898/314923.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89898\314923.png" />
+            <file
+                name="maps/maptwo/19/89898/314924.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89898\314924.png" />
+            <file
+                name="maps/maptwo/19/89898/314925.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89898\314925.png" />
+            <file
+                name="maps/maptwo/19/89898/314926.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89898\314926.png" />
+            <file
+                name="maps/maptwo/19/89898/314927.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89898\314927.png" />
+            <file
+                name="maps/maptwo/19/89898/314928.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89898\314928.png" />
+            <file
+                name="maps/maptwo/19/89898/314929.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89898\314929.png" />
+            <file
+                name="maps/maptwo/19/89899/314919.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89899\314919.png" />
+            <file
+                name="maps/maptwo/19/89899/314920.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89899\314920.png" />
+            <file
+                name="maps/maptwo/19/89899/314921.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89899\314921.png" />
+            <file
+                name="maps/maptwo/19/89899/314922.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89899\314922.png" />
+            <file
+                name="maps/maptwo/19/89899/314923.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89899\314923.png" />
+            <file
+                name="maps/maptwo/19/89899/314924.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89899\314924.png" />
+            <file
+                name="maps/maptwo/19/89899/314925.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89899\314925.png" />
+            <file
+                name="maps/maptwo/19/89899/314926.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89899\314926.png" />
+            <file
+                name="maps/maptwo/19/89899/314927.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89899\314927.png" />
+            <file
+                name="maps/maptwo/19/89899/314928.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89899\314928.png" />
+            <file
+                name="maps/maptwo/19/89899/314929.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89899\314929.png" />
+            <file
+                name="maps/maptwo/19/89900/314919.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89900\314919.png" />
+            <file
+                name="maps/maptwo/19/89900/314920.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89900\314920.png" />
+            <file
+                name="maps/maptwo/19/89900/314921.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89900\314921.png" />
+            <file
+                name="maps/maptwo/19/89900/314922.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89900\314922.png" />
+            <file
+                name="maps/maptwo/19/89900/314923.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89900\314923.png" />
+            <file
+                name="maps/maptwo/19/89900/314924.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89900\314924.png" />
+            <file
+                name="maps/maptwo/19/89900/314925.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89900\314925.png" />
+            <file
+                name="maps/maptwo/19/89900/314926.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89900\314926.png" />
+            <file
+                name="maps/maptwo/19/89900/314927.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89900\314927.png" />
+            <file
+                name="maps/maptwo/19/89900/314928.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89900\314928.png" />
+            <file
+                name="maps/maptwo/19/89900/314929.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89900\314929.png" />
+            <file
+                name="maps/maptwo/19/89901/314919.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89901\314919.png" />
+            <file
+                name="maps/maptwo/19/89901/314920.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89901\314920.png" />
+            <file
+                name="maps/maptwo/19/89901/314921.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89901\314921.png" />
+            <file
+                name="maps/maptwo/19/89901/314922.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89901\314922.png" />
+            <file
+                name="maps/maptwo/19/89901/314923.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89901\314923.png" />
+            <file
+                name="maps/maptwo/19/89901/314924.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89901\314924.png" />
+            <file
+                name="maps/maptwo/19/89901/314925.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89901\314925.png" />
+            <file
+                name="maps/maptwo/19/89901/314926.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89901\314926.png" />
+            <file
+                name="maps/maptwo/19/89901/314927.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89901\314927.png" />
+            <file
+                name="maps/maptwo/19/89901/314928.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89901\314928.png" />
+            <file
+                name="maps/maptwo/19/89901/314929.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89901\314929.png" />
+            <file
+                name="maps/maptwo/19/89902/314919.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89902\314919.png" />
+            <file
+                name="maps/maptwo/19/89902/314920.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89902\314920.png" />
+            <file
+                name="maps/maptwo/19/89902/314921.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89902\314921.png" />
+            <file
+                name="maps/maptwo/19/89902/314922.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89902\314922.png" />
+            <file
+                name="maps/maptwo/19/89902/314923.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89902\314923.png" />
+            <file
+                name="maps/maptwo/19/89902/314924.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89902\314924.png" />
+            <file
+                name="maps/maptwo/19/89902/314925.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89902\314925.png" />
+            <file
+                name="maps/maptwo/19/89902/314926.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89902\314926.png" />
+            <file
+                name="maps/maptwo/19/89902/314927.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89902\314927.png" />
+            <file
+                name="maps/maptwo/19/89902/314928.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89902\314928.png" />
+            <file
+                name="maps/maptwo/19/89902/314929.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89902\314929.png" />
+            <file
+                name="maps/maptwo/19/89903/314919.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89903\314919.png" />
+            <file
+                name="maps/maptwo/19/89903/314920.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89903\314920.png" />
+            <file
+                name="maps/maptwo/19/89903/314921.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89903\314921.png" />
+            <file
+                name="maps/maptwo/19/89903/314922.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89903\314922.png" />
+            <file
+                name="maps/maptwo/19/89903/314923.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89903\314923.png" />
+            <file
+                name="maps/maptwo/19/89903/314924.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89903\314924.png" />
+            <file
+                name="maps/maptwo/19/89903/314925.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89903\314925.png" />
+            <file
+                name="maps/maptwo/19/89903/314926.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89903\314926.png" />
+            <file
+                name="maps/maptwo/19/89903/314927.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89903\314927.png" />
+            <file
+                name="maps/maptwo/19/89903/314928.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89903\314928.png" />
+            <file
+                name="maps/maptwo/19/89903/314929.png"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\19\89903\314929.png" />
+            <file
+                name="maps/maptwo/googlemaps.html"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\googlemaps.html" />
+            <file
+                name="maps/maptwo/tilemapresource.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\maps\maptwo\tilemapresource.xml" />
+            <file
+                name="markers/levelOne.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\markers\levelOne.xml" />
+            <file
+                name="markers/levelTwo.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\markers\levelTwo.xml" />
+            <file
+                name="markers/shuttle.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\markers\shuttle.xml" />
+            <file
+                name="XML/Day1/AMV.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\AMV.xml" />
+            <file
+                name="XML/Day1/films.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\films.xml" />
+            <file
+                name="XML/Day1/guest_of_honor.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\guest_of_honor.xml" />
+            <file
+                name="XML/Day1/mature_content.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\mature_content.xml" />
+            <file
+                name="XML/Day1/miscellaneous.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\miscellaneous.xml" />
+            <file
+                name="XML/Day1/non_ticketed_event.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\non_ticketed_event.xml" />
+            <file
+                name="XML/Day1/panels.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\panels.xml" />
+            <file
+                name="XML/Day1/ticketed_event.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\ticketed_event.xml" />
+            <file
+                name="XML/Day1/workshop.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day1\workshop.xml" />
+            <file
+                name="XML/Day2/AMV.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\AMV.xml" />
+            <file
+                name="XML/Day2/films.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\films.xml" />
+            <file
+                name="XML/Day2/guest_of_honor.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\guest_of_honor.xml" />
+            <file
+                name="XML/Day2/mature_content.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\mature_content.xml" />
+            <file
+                name="XML/Day2/miscellaneous.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\miscellaneous.xml" />
+            <file
+                name="XML/Day2/non_ticketed_event.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\non_ticketed_event.xml" />
+            <file
+                name="XML/Day2/panels.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\panels.xml" />
+            <file
+                name="XML/Day2/ticketed_event.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\ticketed_event.xml" />
+            <file
+                name="XML/Day2/workshop.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day2\workshop.xml" />
+            <file
+                name="XML/Day3/AMV.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\AMV.xml" />
+            <file
+                name="XML/Day3/films.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\films.xml" />
+            <file
+                name="XML/Day3/guest_of_honor.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\guest_of_honor.xml" />
+            <file
+                name="XML/Day3/mature_content.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\mature_content.xml" />
+            <file
+                name="XML/Day3/miscellaneous.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\miscellaneous.xml" />
+            <file
+                name="XML/Day3/non_ticketed_event.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\non_ticketed_event.xml" />
+            <file
+                name="XML/Day3/panels.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\panels.xml" />
+            <file
+                name="XML/Day3/ticketed_event.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\ticketed_event.xml" />
+            <file
+                name="XML/Day3/workshop.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day3\workshop.xml" />
+            <file
+                name="XML/Day4/AMV.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\AMV.xml" />
+            <file
+                name="XML/Day4/films.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\films.xml" />
+            <file
+                name="XML/Day4/guest_of_honor.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\guest_of_honor.xml" />
+            <file
+                name="XML/Day4/mature_content.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\mature_content.xml" />
+            <file
+                name="XML/Day4/miscellaneous.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\miscellaneous.xml" />
+            <file
+                name="XML/Day4/non_ticketed_event.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\non_ticketed_event.xml" />
+            <file
+                name="XML/Day4/panels.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\panels.xml" />
+            <file
+                name="XML/Day4/ticketed_event.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\ticketed_event.xml" />
+            <file
+                name="XML/Day4/workshop.xml"
+                path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\main\assets\XML\Day4\workshop.xml" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="D:\AndroidStudioProjects\AX2013Project\AnimeExpo2013\src\debug\assets" />
+    </dataSet>
+
+</merger>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:gravity="left">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Panel Title"
+                android:id="@+id/panel_title"
+                android:layout_gravity="center_vertical|left|top"
+                android:linksClickable="false"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:maxLines="3"
+                android:minLines="2"
+                android:textStyle="bold|italic"
+                android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/panel_location"
+                    android:layout_gravity="center_horizontal|left|top"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="Panel Location"
+                    />
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Panel Time"
+                    android:id="@+id/panel_time"
+                    android:layout_gravity="center_horizontal|right|top"
+                    android:singleLine="false"
+                    android:textStyle="italic"
+                    android:gravity="right"
+                    android:layout_weight="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+

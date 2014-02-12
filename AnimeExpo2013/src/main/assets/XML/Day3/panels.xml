@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+    <panel>
+        <day>3</day>
+        <title>Bandai Namco Games Presents : DBZ</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>00</minuteend>
+        <location>LP1 : Petree Hall</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Blue Exorcist Planet: Meet and Play with the English Cast</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>45</minuteend>
+        <location>LP1 : Petree Hall</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Vocaloid Panel: Mirai no Neiro &quot;The Sound of the Future&quot; part 1</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>30</minuteend>
+        <location>LP2 : 502AB</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>SUNRISE Official Panel</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>15</minuteend>
+        <location>LP2 : 502AB</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>NIS America: It&apos;s about games, dood!</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>30</minuteend>
+        <location>LP2 : 502AB</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>CultureXJapan + FAKKU Meet-Up</title>
+        <hourbegin>17</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>18</hourend>
+        <minuteend>00</minuteend>
+        <location>LP2 : 502AB</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Super Art Fight!</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>30</minuteend>
+        <location>LP2 : 502AB</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Dark Horse: Celebrating 25 Years of Manga</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>15</minuteend>
+        <location>LP3 : 515A</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Vocaloid Panel: Mirai no Neiro &quot;The Sound of the Future&quot; Part 2</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>30</minuteend>
+        <location>LP3 : 515A</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Aksys Games Panel</title>
+        <hourbegin>14</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>15</hourend>
+        <minuteend>00</minuteend>
+        <location>LP3 : 515A</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Crunchyroll Industry Panel</title>
+        <hourbegin>15</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>15</minuteend>
+        <location>LP3 : 515A</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>This is A-1 Pictures -JUST DO IT-</title>
+        <hourbegin>16</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>17</hourend>
+        <minuteend>30</minuteend>
+        <location>LP3 : 515A</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Kodansha Comics</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>00</minuteend>
+        <location>LP3 : 515A</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Words, Pictures,and Language in Japanese Comics</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>00</minuteend>
+        <location>LP4 : 411</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Words, Pictures,and Language in Japanese Comics</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>00</minuteend>
+        <location>LP4 : 411</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>The History of Anime and Manga Studies in Japan</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>15</minuteend>
+        <location>LP4 : 411</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>FUNimation Panel - AX Channel Panel</title>
+        <hourbegin>12</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>13</hourend>
+        <minuteend>30</minuteend>
+        <location>LP4 : 411</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Borrow and Changing: What and How Anime Takes form the West</title>
+        <hourbegin>13</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>14</hourend>
+        <minuteend>45</minuteend>
+        <location>LP4 : 411</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Anime Sols - Crowdfunding and Classic Anime</title>
+        <hourbegin>15</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>16</hourend>
+        <minuteend>00</minuteend>
+        <location>LP4 : 411</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>GAIA Feedback Social</title>
+        <hourbegin>19</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>15</minuteend>
+        <location>LP4 : 411</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Cosplay on a Budget</title>
+        <hourbegin>11</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>12</hourend>
+        <minuteend>30</minuteend>
+        <location>WS1 : 515</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Surviving a Mecha Attack</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>45</minutebegin>
+        <hourend>19</hourend>
+        <minuteend>45</minuteend>
+        <location>WS1 : 515</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Anime Expo Scavenger Hunt!</title>
+        <hourbegin>10</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>11</hourend>
+        <minuteend>00</minuteend>
+        <location>WS2 : 501</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>3</day>
+        <title>Garden of Words Reception</title>
+        <hourbegin>16</hourbegin>
+        <minutebegin>15</minutebegin>
+        <hourend>17</hourend>
+        <minuteend>15</minuteend>
+        <location>Lounge 21 : 151</location>
+        <description></description>
+    </panel>
+</events>

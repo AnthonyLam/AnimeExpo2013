@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+	<panel>
+        <day>2</day>
+        <title>Visual Kei Night Featuring: Kaya x Moon Stream x CELL Concert</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>00</minutebegin>
+        <hourend>21</hourend>
+        <minuteend>45</minuteend>
+        <location>Main Events : Hall B</location>
+        <description></description>
+    </panel>
+    <panel>
+        <day>2</day>
+        <title>Dungeon Master: The Interactive Adventure</title>
+        <hourbegin>18</hourbegin>
+        <minutebegin>30</minutebegin>
+        <hourend>20</hourend>
+        <minuteend>15</minuteend>
+        <location>LP4 : 411</location>
+        <description></description>
+    </panel>
+</events>
